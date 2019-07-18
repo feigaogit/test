@@ -1,0 +1,56 @@
+INFO  2019-07-18 09:16:34,856 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:21021/Account/Login?ReturnUrl=%2Fconnect%2Fauthorize%2Fcallback%3Fclient_id%3Dclient%26redirect_uri%3Dhttp%253A%252F%252Flocalhost%253A52103%252Fsignin-oidc%26response_type%3Dcode%2520id_token%26scope%3Dopenid%2520profile%26response_mode%3Dform_post%26nonce%3D636990093796744864.MzM2YWM5YzAtZTliYS00Mzg1LThhYzItMzc3MWNkY2JkZmExZDNiZTlmMmItMjZiYi00ZmMzLWJlNGMtNjY1MTc0ZTNjOTQz%26state%3DCfDJ8ILGMZ762M9Mhr5iLffrhABuMiKDQKGCK4LTfhRzUIoNZdEFIFsdd0zdLCbIYmCJAy2yaPpbiN5KnvGBtTzsgN4MI51tFQpqoTGIZzkMrw5DJvWSjzMUm6B9twG9TSuDOvdzOGny-1vnebHQH-J6LImvyQxwW1oVuUfPH3y95oDv58Uoi0nSM4t7UOWlQ_x1dcmsnUmAHBtvkeykuHkKXSgzhzmDWYhV4_JGZnZxVlbyz9FJQOfwpGqDHxhYv2HRvMeZiPd4SJvCmhhaT79VLprvo5YTEYVqq_D0RPrqt303gwKxvMLxf8I1gUHv8N-QOw%26x-client-SKU%3DID_NETSTANDARD2_0%26x-client-ver%3D5.3.0.0 application/x-www-form-urlencoded 999
+INFO  2019-07-18 09:16:34,868 [6    ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution failed.
+INFO  2019-07-18 09:16:34,868 [6    ] pNetCore.Cors.Infrastructure.CorsService - Request origin null does not have permission to access the resource.
+WARN  2019-07-18 09:16:34,879 [6    ] calization.RequestLocalizationMiddleware - AcceptLanguageHeaderRequestCultureProvider returned the following unsupported cultures 'zh-CN, zh'.
+WARN  2019-07-18 09:16:34,879 [6    ] calization.RequestLocalizationMiddleware - AcceptLanguageHeaderRequestCultureProvider returned the following unsupported UI Cultures 'zh-CN, zh'.
+INFO  2019-07-18 09:16:34,900 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "Login", controller = "Account", area = ""}. Executing action IdentityServer4.Quickstart.UI.AccountController.Login (MyCompany.IdentityServer.Web.Host)
+INFO  2019-07-18 09:16:34,900 [6    ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution failed.
+INFO  2019-07-18 09:16:34,900 [6    ] pNetCore.Cors.Infrastructure.CorsService - Request origin null does not have permission to access the resource.
+INFO  2019-07-18 09:16:35,010 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method IdentityServer4.Quickstart.UI.AccountController.Login (MyCompany.IdentityServer.Web.Host) with arguments (IdentityServer4.Quickstart.UI.LoginInputModel, login) - Validation state: Valid
+INFO  2019-07-18 09:16:35,167 [6    ] tion.Cookies.CookieAuthenticationHandler - AuthenticationScheme: Identity.Application signed in.
+INFO  2019-07-18 09:16:35,169 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method IdentityServer4.Quickstart.UI.AccountController.Login (MyCompany.IdentityServer.Web.Host), returned result Microsoft.AspNetCore.Mvc.RedirectResult in 158.8831ms.
+INFO  2019-07-18 09:16:35,175 [13   ] vc.Infrastructure.RedirectResultExecutor - Executing RedirectResult, redirecting to /connect/authorize/callback?client_id=client&redirect_uri=http%3A%2F%2Flocalhost%3A52103%2Fsignin-oidc&response_type=code%20id_token&scope=openid%20profile&response_mode=form_post&nonce=636990093796744864.MzM2YWM5YzAtZTliYS00Mzg1LThhYzItMzc3MWNkY2JkZmExZDNiZTlmMmItMjZiYi00ZmMzLWJlNGMtNjY1MTc0ZTNjOTQz&state=CfDJ8ILGMZ762M9Mhr5iLffrhABuMiKDQKGCK4LTfhRzUIoNZdEFIFsdd0zdLCbIYmCJAy2yaPpbiN5KnvGBtTzsgN4MI51tFQpqoTGIZzkMrw5DJvWSjzMUm6B9twG9TSuDOvdzOGny-1vnebHQH-J6LImvyQxwW1oVuUfPH3y95oDv58Uoi0nSM4t7UOWlQ_x1dcmsnUmAHBtvkeykuHkKXSgzhzmDWYhV4_JGZnZxVlbyz9FJQOfwpGqDHxhYv2HRvMeZiPd4SJvCmhhaT79VLprvo5YTEYVqq_D0RPrqt303gwKxvMLxf8I1gUHv8N-QOw&x-client-SKU=ID_NETSTANDARD2_0&x-client-ver=5.3.0.0.
+INFO  2019-07-18 09:16:35,175 [13   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action IdentityServer4.Quickstart.UI.AccountController.Login (MyCompany.IdentityServer.Web.Host) in 275.5828ms
+INFO  2019-07-18 09:16:35,177 [13   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 320.6343ms 302 
+INFO  2019-07-18 09:16:35,181 [12   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/connect/authorize/callback?client_id=client&redirect_uri=http%3A%2F%2Flocalhost%3A52103%2Fsignin-oidc&response_type=code%20id_token&scope=openid%20profile&response_mode=form_post&nonce=636990093796744864.MzM2YWM5YzAtZTliYS00Mzg1LThhYzItMzc3MWNkY2JkZmExZDNiZTlmMmItMjZiYi00ZmMzLWJlNGMtNjY1MTc0ZTNjOTQz&state=CfDJ8ILGMZ762M9Mhr5iLffrhABuMiKDQKGCK4LTfhRzUIoNZdEFIFsdd0zdLCbIYmCJAy2yaPpbiN5KnvGBtTzsgN4MI51tFQpqoTGIZzkMrw5DJvWSjzMUm6B9twG9TSuDOvdzOGny-1vnebHQH-J6LImvyQxwW1oVuUfPH3y95oDv58Uoi0nSM4t7UOWlQ_x1dcmsnUmAHBtvkeykuHkKXSgzhzmDWYhV4_JGZnZxVlbyz9FJQOfwpGqDHxhYv2HRvMeZiPd4SJvCmhhaT79VLprvo5YTEYVqq_D0RPrqt303gwKxvMLxf8I1gUHv8N-QOw&x-client-SKU=ID_NETSTANDARD2_0&x-client-ver=5.3.0.0  
+INFO  2019-07-18 09:16:35,185 [12   ] Server4.Hosting.IdentityServerMiddleware - Invoking IdentityServer endpoint: IdentityServer4.Endpoints.AuthorizeCallbackEndpoint for /connect/authorize/callback
+INFO  2019-07-18 09:16:35,192 [12   ] ver4.Endpoints.AuthorizeCallbackEndpoint - ValidatedAuthorizeRequest
+{
+  "ClientId": "client",
+  "ClientName": "MVC Client",
+  "RedirectUri": "http://localhost:52103/signin-oidc",
+  "AllowedRedirectUris": [
+    "http://localhost:52103/signin-oidc"
+  ],
+  "SubjectId": "2",
+  "ResponseType": "code id_token",
+  "ResponseMode": "form_post",
+  "GrantType": "hybrid",
+  "RequestedScopes": "openid profile",
+  "State": "CfDJ8ILGMZ762M9Mhr5iLffrhABuMiKDQKGCK4LTfhRzUIoNZdEFIFsdd0zdLCbIYmCJAy2yaPpbiN5KnvGBtTzsgN4MI51tFQpqoTGIZzkMrw5DJvWSjzMUm6B9twG9TSuDOvdzOGny-1vnebHQH-J6LImvyQxwW1oVuUfPH3y95oDv58Uoi0nSM4t7UOWlQ_x1dcmsnUmAHBtvkeykuHkKXSgzhzmDWYhV4_JGZnZxVlbyz9FJQOfwpGqDHxhYv2HRvMeZiPd4SJvCmhhaT79VLprvo5YTEYVqq_D0RPrqt303gwKxvMLxf8I1gUHv8N-QOw",
+  "Nonce": "636990093796744864.MzM2YWM5YzAtZTliYS00Mzg1LThhYzItMzc3MWNkY2JkZmExZDNiZTlmMmItMjZiYi00ZmMzLWJlNGMtNjY1MTc0ZTNjOTQz",
+  "SessionId": "ae537e604cbb4a0c3fabae41d7042b64",
+  "Raw": {
+    "client_id": "client",
+    "redirect_uri": "http://localhost:52103/signin-oidc",
+    "response_type": "code id_token",
+    "scope": "openid profile",
+    "response_mode": "form_post",
+    "nonce": "636990093796744864.MzM2YWM5YzAtZTliYS00Mzg1LThhYzItMzc3MWNkY2JkZmExZDNiZTlmMmItMjZiYi00ZmMzLWJlNGMtNjY1MTc0ZTNjOTQz",
+    "state": "CfDJ8ILGMZ762M9Mhr5iLffrhABuMiKDQKGCK4LTfhRzUIoNZdEFIFsdd0zdLCbIYmCJAy2yaPpbiN5KnvGBtTzsgN4MI51tFQpqoTGIZzkMrw5DJvWSjzMUm6B9twG9TSuDOvdzOGny-1vnebHQH-J6LImvyQxwW1oVuUfPH3y95oDv58Uoi0nSM4t7UOWlQ_x1dcmsnUmAHBtvkeykuHkKXSgzhzmDWYhV4_JGZnZxVlbyz9FJQOfwpGqDHxhYv2HRvMeZiPd4SJvCmhhaT79VLprvo5YTEYVqq_D0RPrqt303gwKxvMLxf8I1gUHv8N-QOw",
+    "x-client-SKU": "ID_NETSTANDARD2_0",
+    "x-client-ver": "5.3.0.0"
+  }
+}
+INFO  2019-07-18 09:16:35,226 [13   ] ng.AuthorizeInteractionResponseGenerator - Showing login: User is not active
+INFO  2019-07-18 09:16:35,231 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 49.6774ms 302 
+INFO  2019-07-18 09:16:35,237 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/Account/Login?ReturnUrl=%2Fconnect%2Fauthorize%2Fcallback%3Fclient_id%3Dclient%26redirect_uri%3Dhttp%253A%252F%252Flocalhost%253A52103%252Fsignin-oidc%26response_type%3Dcode%2520id_token%26scope%3Dopenid%2520profile%26response_mode%3Dform_post%26nonce%3D636990093796744864.MzM2YWM5YzAtZTliYS00Mzg1LThhYzItMzc3MWNkY2JkZmExZDNiZTlmMmItMjZiYi00ZmMzLWJlNGMtNjY1MTc0ZTNjOTQz%26state%3DCfDJ8ILGMZ762M9Mhr5iLffrhABuMiKDQKGCK4LTfhRzUIoNZdEFIFsdd0zdLCbIYmCJAy2yaPpbiN5KnvGBtTzsgN4MI51tFQpqoTGIZzkMrw5DJvWSjzMUm6B9twG9TSuDOvdzOGny-1vnebHQH-J6LImvyQxwW1oVuUfPH3y95oDv58Uoi0nSM4t7UOWlQ_x1dcmsnUmAHBtvkeykuHkKXSgzhzmDWYhV4_JGZnZxVlbyz9FJQOfwpGqDHxhYv2HRvMeZiPd4SJvCmhhaT79VLprvo5YTEYVqq_D0RPrqt303gwKxvMLxf8I1gUHv8N-QOw%26x-client-SKU%3DID_NETSTANDARD2_0%26x-client-ver%3D5.3.0.0  
+WARN  2019-07-18 09:16:35,243 [12   ] calization.RequestLocalizationMiddleware - AcceptLanguageHeaderRequestCultureProvider returned the following unsupported cultures 'zh-CN, zh'.
+WARN  2019-07-18 09:16:35,243 [12   ] calization.RequestLocalizationMiddleware - AcceptLanguageHeaderRequestCultureProvider returned the following unsupported UI Cultures 'zh-CN, zh'.
+INFO  2019-07-18 09:16:35,244 [12   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "Login", controller = "Account", area = ""}. Executing action IdentityServer4.Quickstart.UI.AccountController.Login (MyCompany.IdentityServer.Web.Host)
+INFO  2019-07-18 09:16:35,245 [12   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method IdentityServer4.Quickstart.UI.AccountController.Login (MyCompany.IdentityServer.Web.Host) with arguments (/connect/authorize/callback?client_id=client&redirect_uri=http%3A%2F%2Flocalhost%3A52103%2Fsignin-oidc&response_type=code%20id_token&scope=openid%20profile&response_mode=form_post&nonce=636990093796744864.MzM2YWM5YzAtZTliYS00Mzg1LThhYzItMzc3MWNkY2JkZmExZDNiZTlmMmItMjZiYi00ZmMzLWJlNGMtNjY1MTc0ZTNjOTQz&state=CfDJ8ILGMZ762M9Mhr5iLffrhABuMiKDQKGCK4LTfhRzUIoNZdEFIFsdd0zdLCbIYmCJAy2yaPpbiN5KnvGBtTzsgN4MI51tFQpqoTGIZzkMrw5DJvWSjzMUm6B9twG9TSuDOvdzOGny-1vnebHQH-J6LImvyQxwW1oVuUfPH3y95oDv58Uoi0nSM4t7UOWlQ_x1dcmsnUmAHBtvkeykuHkKXSgzhzmDWYhV4_JGZnZxVlbyz9FJQOfwpGqDHxhYv2HRvMeZiPd4SJvCmhhaT79VLprvo5YTEYVqq_D0RPrqt303gwKxvMLxf8I1gUHv8N-QOw&x-client-SKU=ID_NETSTANDARD2_0&x-client-ver=5.3.0.0) - Validation state: Valid
+INFO  2019-07-18 09:16:35,245 [12   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method IdentityServer4.Quickstart.UI.AccountController.Login (MyCompany.IdentityServer.Web.Host), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.1934ms.
+INFO  2019-07-18 09:16:35,249 [12   ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executing ViewResult, running view Login.
+INFO  2019-07-18 09:16:35,255 [12   ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executed ViewResult - view Login executed in 7.0705ms.
+INFO  2019-07-18 09:16:35,255 [12   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action IdentityServer4.Quickstart.UI.AccountController.Login (MyCompany.IdentityServer.Web.Host) in 10.5703ms
+INFO  2019-07-18 09:16:35,255 [12   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 17.7358ms 200 text/html; charset=utf-8

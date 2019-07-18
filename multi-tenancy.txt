@@ -1,0 +1,128 @@
+INFO  2019-07-18 09:14:03,505 [12   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:21021/Account/Login?ReturnUrl=%2Fconnect%2Fauthorize%2Fcallback%3Fclient_id%3Dclient%26redirect_uri%3Dhttp%253A%252F%252Flocalhost%253A52103%252Fsignin-oidc%26response_type%3Dcode%2520id_token%26scope%3Dopenid%2520profile%26response_mode%3Dform_post%26nonce%3D636990092230280704.NDU2YjI4ZjctYzhiMS00NjgxLThlYTEtOThmOGFkOTc3YzMzNjY5MzI5MDctM2M5Zi00YzA2LWFkMWEtZDAyYTUyMGFiYTZh%26state%3DCfDJ8ILGMZ762M9Mhr5iLffrhAB-CGtVnXE_0fFfiaHo_J9Xv_-0s73Y7mhPg5-cLHh9kIgm--Nk43Yepe-sKlZriWzU--TlnQxzHIykoG-QBzbW1Jucuq1jbWBe5LRu8M6nQsT2T_SWzZsn4sci3dWw1wai1EimbZ4MCFS97VM3MoX2TaZPE9rZ-NZrbjSrVqb9lvdmVJGv2WVt-L5qsIBkwqiHOJ9D7gaChQZNkiaD6EK4xMaZxayxrC_ZelBMdylEmBLi32Bai5dHjoiBcA6RiKb6YxSFxYYjy6TgvUse6toomjfp-0n9HnuYFEn1ZLJc5Q%26x-client-SKU%3DID_NETSTANDARD2_0%26x-client-ver%3D5.3.0.0 application/x-www-form-urlencoded 999
+INFO  2019-07-18 09:14:03,520 [12   ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution failed.
+INFO  2019-07-18 09:14:03,521 [12   ] pNetCore.Cors.Infrastructure.CorsService - Request origin null does not have permission to access the resource.
+INFO  2019-07-18 09:14:03,568 [12   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "Login", controller = "Account", area = ""}. Executing action IdentityServer4.Quickstart.UI.AccountController.Login (MyCompany.IdentityServer.Web.Host)
+INFO  2019-07-18 09:14:03,569 [12   ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution failed.
+INFO  2019-07-18 09:14:03,569 [12   ] pNetCore.Cors.Infrastructure.CorsService - Request origin null does not have permission to access the resource.
+INFO  2019-07-18 09:14:03,692 [12   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method IdentityServer4.Quickstart.UI.AccountController.Login (MyCompany.IdentityServer.Web.Host) with arguments (IdentityServer4.Quickstart.UI.LoginInputModel, login) - Validation state: Valid
+INFO  2019-07-18 09:14:03,858 [6    ] tion.Cookies.CookieAuthenticationHandler - AuthenticationScheme: Identity.Application signed in.
+INFO  2019-07-18 09:14:03,862 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method IdentityServer4.Quickstart.UI.AccountController.Login (MyCompany.IdentityServer.Web.Host), returned result Microsoft.AspNetCore.Mvc.RedirectResult in 170.2941ms.
+INFO  2019-07-18 09:14:03,875 [9    ] vc.Infrastructure.RedirectResultExecutor - Executing RedirectResult, redirecting to /connect/authorize/callback?client_id=client&redirect_uri=http%3A%2F%2Flocalhost%3A52103%2Fsignin-oidc&response_type=code%20id_token&scope=openid%20profile&response_mode=form_post&nonce=636990092230280704.NDU2YjI4ZjctYzhiMS00NjgxLThlYTEtOThmOGFkOTc3YzMzNjY5MzI5MDctM2M5Zi00YzA2LWFkMWEtZDAyYTUyMGFiYTZh&state=CfDJ8ILGMZ762M9Mhr5iLffrhAB-CGtVnXE_0fFfiaHo_J9Xv_-0s73Y7mhPg5-cLHh9kIgm--Nk43Yepe-sKlZriWzU--TlnQxzHIykoG-QBzbW1Jucuq1jbWBe5LRu8M6nQsT2T_SWzZsn4sci3dWw1wai1EimbZ4MCFS97VM3MoX2TaZPE9rZ-NZrbjSrVqb9lvdmVJGv2WVt-L5qsIBkwqiHOJ9D7gaChQZNkiaD6EK4xMaZxayxrC_ZelBMdylEmBLi32Bai5dHjoiBcA6RiKb6YxSFxYYjy6TgvUse6toomjfp-0n9HnuYFEn1ZLJc5Q&x-client-SKU=ID_NETSTANDARD2_0&x-client-ver=5.3.0.0.
+INFO  2019-07-18 09:14:03,876 [9    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action IdentityServer4.Quickstart.UI.AccountController.Login (MyCompany.IdentityServer.Web.Host) in 307.1708ms
+INFO  2019-07-18 09:14:03,879 [9    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 374.1662ms 302 
+INFO  2019-07-18 09:14:03,886 [16   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/connect/authorize/callback?client_id=client&redirect_uri=http%3A%2F%2Flocalhost%3A52103%2Fsignin-oidc&response_type=code%20id_token&scope=openid%20profile&response_mode=form_post&nonce=636990092230280704.NDU2YjI4ZjctYzhiMS00NjgxLThlYTEtOThmOGFkOTc3YzMzNjY5MzI5MDctM2M5Zi00YzA2LWFkMWEtZDAyYTUyMGFiYTZh&state=CfDJ8ILGMZ762M9Mhr5iLffrhAB-CGtVnXE_0fFfiaHo_J9Xv_-0s73Y7mhPg5-cLHh9kIgm--Nk43Yepe-sKlZriWzU--TlnQxzHIykoG-QBzbW1Jucuq1jbWBe5LRu8M6nQsT2T_SWzZsn4sci3dWw1wai1EimbZ4MCFS97VM3MoX2TaZPE9rZ-NZrbjSrVqb9lvdmVJGv2WVt-L5qsIBkwqiHOJ9D7gaChQZNkiaD6EK4xMaZxayxrC_ZelBMdylEmBLi32Bai5dHjoiBcA6RiKb6YxSFxYYjy6TgvUse6toomjfp-0n9HnuYFEn1ZLJc5Q&x-client-SKU=ID_NETSTANDARD2_0&x-client-ver=5.3.0.0  
+INFO  2019-07-18 09:14:03,915 [16   ] Server4.Hosting.IdentityServerMiddleware - Invoking IdentityServer endpoint: IdentityServer4.Endpoints.AuthorizeCallbackEndpoint for /connect/authorize/callback
+INFO  2019-07-18 09:14:03,923 [16   ] ver4.Endpoints.AuthorizeCallbackEndpoint - ValidatedAuthorizeRequest
+{
+  "ClientId": "client",
+  "ClientName": "MVC Client",
+  "RedirectUri": "http://localhost:52103/signin-oidc",
+  "AllowedRedirectUris": [
+    "http://localhost:52103/signin-oidc"
+  ],
+  "SubjectId": "1",
+  "ResponseType": "code id_token",
+  "ResponseMode": "form_post",
+  "GrantType": "hybrid",
+  "RequestedScopes": "openid profile",
+  "State": "CfDJ8ILGMZ762M9Mhr5iLffrhAB-CGtVnXE_0fFfiaHo_J9Xv_-0s73Y7mhPg5-cLHh9kIgm--Nk43Yepe-sKlZriWzU--TlnQxzHIykoG-QBzbW1Jucuq1jbWBe5LRu8M6nQsT2T_SWzZsn4sci3dWw1wai1EimbZ4MCFS97VM3MoX2TaZPE9rZ-NZrbjSrVqb9lvdmVJGv2WVt-L5qsIBkwqiHOJ9D7gaChQZNkiaD6EK4xMaZxayxrC_ZelBMdylEmBLi32Bai5dHjoiBcA6RiKb6YxSFxYYjy6TgvUse6toomjfp-0n9HnuYFEn1ZLJc5Q",
+  "Nonce": "636990092230280704.NDU2YjI4ZjctYzhiMS00NjgxLThlYTEtOThmOGFkOTc3YzMzNjY5MzI5MDctM2M5Zi00YzA2LWFkMWEtZDAyYTUyMGFiYTZh",
+  "SessionId": "f468803ed70f12d0395a67809379c8c1",
+  "Raw": {
+    "client_id": "client",
+    "redirect_uri": "http://localhost:52103/signin-oidc",
+    "response_type": "code id_token",
+    "scope": "openid profile",
+    "response_mode": "form_post",
+    "nonce": "636990092230280704.NDU2YjI4ZjctYzhiMS00NjgxLThlYTEtOThmOGFkOTc3YzMzNjY5MzI5MDctM2M5Zi00YzA2LWFkMWEtZDAyYTUyMGFiYTZh",
+    "state": "CfDJ8ILGMZ762M9Mhr5iLffrhAB-CGtVnXE_0fFfiaHo_J9Xv_-0s73Y7mhPg5-cLHh9kIgm--Nk43Yepe-sKlZriWzU--TlnQxzHIykoG-QBzbW1Jucuq1jbWBe5LRu8M6nQsT2T_SWzZsn4sci3dWw1wai1EimbZ4MCFS97VM3MoX2TaZPE9rZ-NZrbjSrVqb9lvdmVJGv2WVt-L5qsIBkwqiHOJ9D7gaChQZNkiaD6EK4xMaZxayxrC_ZelBMdylEmBLi32Bai5dHjoiBcA6RiKb6YxSFxYYjy6TgvUse6toomjfp-0n9HnuYFEn1ZLJc5Q",
+    "x-client-SKU": "ID_NETSTANDARD2_0",
+    "x-client-ver": "5.3.0.0"
+  }
+}
+INFO  2019-07-18 09:14:04,002 [12   ] ng.AuthorizeInteractionResponseGenerator - Showing consent: User has not yet consented
+INFO  2019-07-18 09:14:04,005 [12   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 118.5801ms 302 
+INFO  2019-07-18 09:14:04,010 [12   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/consent?returnUrl=%2Fconnect%2Fauthorize%2Fcallback%3Fclient_id%3Dclient%26redirect_uri%3Dhttp%253A%252F%252Flocalhost%253A52103%252Fsignin-oidc%26response_type%3Dcode%2520id_token%26scope%3Dopenid%2520profile%26response_mode%3Dform_post%26nonce%3D636990092230280704.NDU2YjI4ZjctYzhiMS00NjgxLThlYTEtOThmOGFkOTc3YzMzNjY5MzI5MDctM2M5Zi00YzA2LWFkMWEtZDAyYTUyMGFiYTZh%26state%3DCfDJ8ILGMZ762M9Mhr5iLffrhAB-CGtVnXE_0fFfiaHo_J9Xv_-0s73Y7mhPg5-cLHh9kIgm--Nk43Yepe-sKlZriWzU--TlnQxzHIykoG-QBzbW1Jucuq1jbWBe5LRu8M6nQsT2T_SWzZsn4sci3dWw1wai1EimbZ4MCFS97VM3MoX2TaZPE9rZ-NZrbjSrVqb9lvdmVJGv2WVt-L5qsIBkwqiHOJ9D7gaChQZNkiaD6EK4xMaZxayxrC_ZelBMdylEmBLi32Bai5dHjoiBcA6RiKb6YxSFxYYjy6TgvUse6toomjfp-0n9HnuYFEn1ZLJc5Q%26x-client-SKU%3DID_NETSTANDARD2_0%26x-client-ver%3D5.3.0.0  
+INFO  2019-07-18 09:14:04,038 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "Index", controller = "Consent", area = ""}. Executing action IdentityServer4.Quickstart.UI.ConsentController.Index (MyCompany.IdentityServer.Web.Host)
+INFO  2019-07-18 09:14:04,068 [6    ] uthorization.DefaultAuthorizationService - Authorization was successful.
+INFO  2019-07-18 09:14:04,069 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method IdentityServer4.Quickstart.UI.ConsentController.Index (MyCompany.IdentityServer.Web.Host) with arguments (/connect/authorize/callback?client_id=client&redirect_uri=http%3A%2F%2Flocalhost%3A52103%2Fsignin-oidc&response_type=code%20id_token&scope=openid%20profile&response_mode=form_post&nonce=636990092230280704.NDU2YjI4ZjctYzhiMS00NjgxLThlYTEtOThmOGFkOTc3YzMzNjY5MzI5MDctM2M5Zi00YzA2LWFkMWEtZDAyYTUyMGFiYTZh&state=CfDJ8ILGMZ762M9Mhr5iLffrhAB-CGtVnXE_0fFfiaHo_J9Xv_-0s73Y7mhPg5-cLHh9kIgm--Nk43Yepe-sKlZriWzU--TlnQxzHIykoG-QBzbW1Jucuq1jbWBe5LRu8M6nQsT2T_SWzZsn4sci3dWw1wai1EimbZ4MCFS97VM3MoX2TaZPE9rZ-NZrbjSrVqb9lvdmVJGv2WVt-L5qsIBkwqiHOJ9D7gaChQZNkiaD6EK4xMaZxayxrC_ZelBMdylEmBLi32Bai5dHjoiBcA6RiKb6YxSFxYYjy6TgvUse6toomjfp-0n9HnuYFEn1ZLJc5Q&x-client-SKU=ID_NETSTANDARD2_0&x-client-ver=5.3.0.0) - Validation state: Valid
+INFO  2019-07-18 09:14:04,075 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method IdentityServer4.Quickstart.UI.ConsentController.Index (MyCompany.IdentityServer.Web.Host), returned result Microsoft.AspNetCore.Mvc.ViewResult in 5.7491ms.
+INFO  2019-07-18 09:14:04,080 [6    ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executing ViewResult, running view Index.
+INFO  2019-07-18 09:14:04,136 [6    ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executed ViewResult - view Index executed in 58.2212ms.
+INFO  2019-07-18 09:14:04,136 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action IdentityServer4.Quickstart.UI.ConsentController.Index (MyCompany.IdentityServer.Web.Host) in 97.7651ms
+INFO  2019-07-18 09:14:04,136 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 126.1841ms 200 text/html; charset=utf-8
+INFO  2019-07-18 09:14:04,174 [12   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/lib/bootstrap/fonts/glyphicons-halflings-regular.woff2  
+INFO  2019-07-18 09:14:04,174 [12   ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution failed.
+INFO  2019-07-18 09:14:04,174 [12   ] pNetCore.Cors.Infrastructure.CorsService - Request origin http://localhost:21021 does not have permission to access the resource.
+INFO  2019-07-18 09:14:04,207 [6    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/bootstrap/fonts/glyphicons-halflings-regular.woff2'. Physical path: 'E:\desktop\aspnet-core\src\MyCompany.IdentityServer.Web.Host\wwwroot\lib\bootstrap\fonts\glyphicons-halflings-regular.woff2'
+INFO  2019-07-18 09:14:04,207 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 33.6235ms 200 font/woff2
+INFO  2019-07-18 09:14:05,679 [12   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:21021/consent application/x-www-form-urlencoded 1079
+INFO  2019-07-18 09:14:05,679 [12   ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution failed.
+INFO  2019-07-18 09:14:05,679 [12   ] pNetCore.Cors.Infrastructure.CorsService - Request origin null does not have permission to access the resource.
+INFO  2019-07-18 09:14:05,691 [12   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "Index", controller = "Consent", area = ""}. Executing action IdentityServer4.Quickstart.UI.ConsentController.Index (MyCompany.IdentityServer.Web.Host)
+INFO  2019-07-18 09:14:05,691 [12   ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution failed.
+INFO  2019-07-18 09:14:05,691 [12   ] pNetCore.Cors.Infrastructure.CorsService - Request origin null does not have permission to access the resource.
+INFO  2019-07-18 09:14:05,692 [12   ] uthorization.DefaultAuthorizationService - Authorization was successful.
+INFO  2019-07-18 09:14:05,717 [12   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method IdentityServer4.Quickstart.UI.ConsentController.Index (MyCompany.IdentityServer.Web.Host) with arguments (IdentityServer4.Quickstart.UI.ConsentInputModel) - Validation state: Valid
+INFO  2019-07-18 09:14:05,745 [12   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method IdentityServer4.Quickstart.UI.ConsentController.Index (MyCompany.IdentityServer.Web.Host), returned result Microsoft.AspNetCore.Mvc.RedirectResult in 27.9354ms.
+INFO  2019-07-18 09:14:05,758 [12   ] vc.Infrastructure.RedirectResultExecutor - Executing RedirectResult, redirecting to /connect/authorize/callback?client_id=client&redirect_uri=http%3A%2F%2Flocalhost%3A52103%2Fsignin-oidc&response_type=code%20id_token&scope=openid%20profile&response_mode=form_post&nonce=636990092230280704.NDU2YjI4ZjctYzhiMS00NjgxLThlYTEtOThmOGFkOTc3YzMzNjY5MzI5MDctM2M5Zi00YzA2LWFkMWEtZDAyYTUyMGFiYTZh&state=CfDJ8ILGMZ762M9Mhr5iLffrhAB-CGtVnXE_0fFfiaHo_J9Xv_-0s73Y7mhPg5-cLHh9kIgm--Nk43Yepe-sKlZriWzU--TlnQxzHIykoG-QBzbW1Jucuq1jbWBe5LRu8M6nQsT2T_SWzZsn4sci3dWw1wai1EimbZ4MCFS97VM3MoX2TaZPE9rZ-NZrbjSrVqb9lvdmVJGv2WVt-L5qsIBkwqiHOJ9D7gaChQZNkiaD6EK4xMaZxayxrC_ZelBMdylEmBLi32Bai5dHjoiBcA6RiKb6YxSFxYYjy6TgvUse6toomjfp-0n9HnuYFEn1ZLJc5Q&x-client-SKU=ID_NETSTANDARD2_0&x-client-ver=5.3.0.0.
+INFO  2019-07-18 09:14:05,758 [12   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action IdentityServer4.Quickstart.UI.ConsentController.Index (MyCompany.IdentityServer.Web.Host) in 67.0405ms
+INFO  2019-07-18 09:14:05,758 [12   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 79.2203ms 302 
+INFO  2019-07-18 09:14:05,763 [9    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/connect/authorize/callback?client_id=client&redirect_uri=http%3A%2F%2Flocalhost%3A52103%2Fsignin-oidc&response_type=code%20id_token&scope=openid%20profile&response_mode=form_post&nonce=636990092230280704.NDU2YjI4ZjctYzhiMS00NjgxLThlYTEtOThmOGFkOTc3YzMzNjY5MzI5MDctM2M5Zi00YzA2LWFkMWEtZDAyYTUyMGFiYTZh&state=CfDJ8ILGMZ762M9Mhr5iLffrhAB-CGtVnXE_0fFfiaHo_J9Xv_-0s73Y7mhPg5-cLHh9kIgm--Nk43Yepe-sKlZriWzU--TlnQxzHIykoG-QBzbW1Jucuq1jbWBe5LRu8M6nQsT2T_SWzZsn4sci3dWw1wai1EimbZ4MCFS97VM3MoX2TaZPE9rZ-NZrbjSrVqb9lvdmVJGv2WVt-L5qsIBkwqiHOJ9D7gaChQZNkiaD6EK4xMaZxayxrC_ZelBMdylEmBLi32Bai5dHjoiBcA6RiKb6YxSFxYYjy6TgvUse6toomjfp-0n9HnuYFEn1ZLJc5Q&x-client-SKU=ID_NETSTANDARD2_0&x-client-ver=5.3.0.0  
+INFO  2019-07-18 09:14:05,769 [9    ] Server4.Hosting.IdentityServerMiddleware - Invoking IdentityServer endpoint: IdentityServer4.Endpoints.AuthorizeCallbackEndpoint for /connect/authorize/callback
+INFO  2019-07-18 09:14:05,803 [9    ] ver4.Endpoints.AuthorizeCallbackEndpoint - ValidatedAuthorizeRequest
+{
+  "ClientId": "client",
+  "ClientName": "MVC Client",
+  "RedirectUri": "http://localhost:52103/signin-oidc",
+  "AllowedRedirectUris": [
+    "http://localhost:52103/signin-oidc"
+  ],
+  "SubjectId": "1",
+  "ResponseType": "code id_token",
+  "ResponseMode": "form_post",
+  "GrantType": "hybrid",
+  "RequestedScopes": "openid profile",
+  "State": "CfDJ8ILGMZ762M9Mhr5iLffrhAB-CGtVnXE_0fFfiaHo_J9Xv_-0s73Y7mhPg5-cLHh9kIgm--Nk43Yepe-sKlZriWzU--TlnQxzHIykoG-QBzbW1Jucuq1jbWBe5LRu8M6nQsT2T_SWzZsn4sci3dWw1wai1EimbZ4MCFS97VM3MoX2TaZPE9rZ-NZrbjSrVqb9lvdmVJGv2WVt-L5qsIBkwqiHOJ9D7gaChQZNkiaD6EK4xMaZxayxrC_ZelBMdylEmBLi32Bai5dHjoiBcA6RiKb6YxSFxYYjy6TgvUse6toomjfp-0n9HnuYFEn1ZLJc5Q",
+  "Nonce": "636990092230280704.NDU2YjI4ZjctYzhiMS00NjgxLThlYTEtOThmOGFkOTc3YzMzNjY5MzI5MDctM2M5Zi00YzA2LWFkMWEtZDAyYTUyMGFiYTZh",
+  "SessionId": "f468803ed70f12d0395a67809379c8c1",
+  "Raw": {
+    "client_id": "client",
+    "redirect_uri": "http://localhost:52103/signin-oidc",
+    "response_type": "code id_token",
+    "scope": "openid profile",
+    "response_mode": "form_post",
+    "nonce": "636990092230280704.NDU2YjI4ZjctYzhiMS00NjgxLThlYTEtOThmOGFkOTc3YzMzNjY5MzI5MDctM2M5Zi00YzA2LWFkMWEtZDAyYTUyMGFiYTZh",
+    "state": "CfDJ8ILGMZ762M9Mhr5iLffrhAB-CGtVnXE_0fFfiaHo_J9Xv_-0s73Y7mhPg5-cLHh9kIgm--Nk43Yepe-sKlZriWzU--TlnQxzHIykoG-QBzbW1Jucuq1jbWBe5LRu8M6nQsT2T_SWzZsn4sci3dWw1wai1EimbZ4MCFS97VM3MoX2TaZPE9rZ-NZrbjSrVqb9lvdmVJGv2WVt-L5qsIBkwqiHOJ9D7gaChQZNkiaD6EK4xMaZxayxrC_ZelBMdylEmBLi32Bai5dHjoiBcA6RiKb6YxSFxYYjy6TgvUse6toomjfp-0n9HnuYFEn1ZLJc5Q",
+    "x-client-SKU": "ID_NETSTANDARD2_0",
+    "x-client-ver": "5.3.0.0"
+  }
+}
+INFO  2019-07-18 09:14:05,818 [9    ] ng.AuthorizeInteractionResponseGenerator - User consented to scopes: openid, profile
+INFO  2019-07-18 09:14:06,003 [6    ] ver4.Endpoints.AuthorizeCallbackEndpoint - Authorize endpoint response
+{
+  "SubjectId": "1",
+  "ClientId": "client",
+  "RedirectUri": "http://localhost:52103/signin-oidc",
+  "State": "CfDJ8ILGMZ762M9Mhr5iLffrhAB-CGtVnXE_0fFfiaHo_J9Xv_-0s73Y7mhPg5-cLHh9kIgm--Nk43Yepe-sKlZriWzU--TlnQxzHIykoG-QBzbW1Jucuq1jbWBe5LRu8M6nQsT2T_SWzZsn4sci3dWw1wai1EimbZ4MCFS97VM3MoX2TaZPE9rZ-NZrbjSrVqb9lvdmVJGv2WVt-L5qsIBkwqiHOJ9D7gaChQZNkiaD6EK4xMaZxayxrC_ZelBMdylEmBLi32Bai5dHjoiBcA6RiKb6YxSFxYYjy6TgvUse6toomjfp-0n9HnuYFEn1ZLJc5Q",
+  "Scope": "openid profile"
+}
+INFO  2019-07-18 09:14:06,018 [6    ] tion.Cookies.CookieAuthenticationHandler - AuthenticationScheme: Identity.Application signed in.
+INFO  2019-07-18 09:14:06,025 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 261.8487ms 200 text/html; charset=UTF-8
+INFO  2019-07-18 09:14:06,276 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:21021/connect/token application/x-www-form-urlencoded 195
+INFO  2019-07-18 09:14:06,286 [7    ] Server4.Hosting.IdentityServerMiddleware - Invoking IdentityServer endpoint: IdentityServer4.Endpoints.TokenEndpoint for /connect/token
+INFO  2019-07-18 09:14:06,408 [7    ] Server4.Validation.TokenRequestValidator - Token request validation success
+{
+  "ClientId": "client",
+  "ClientName": "MVC Client",
+  "GrantType": "authorization_code",
+  "AuthorizationCode": "1b5c2294bfd7ad8da686c2a89be620b57fba61e9d0d5f4d29c8ad642d4c33371",
+  "Raw": {
+    "client_id": "client",
+    "client_secret": "***REDACTED***",
+    "code": "1b5c2294bfd7ad8da686c2a89be620b57fba61e9d0d5f4d29c8ad642d4c33371",
+    "grant_type": "authorization_code",
+    "redirect_uri": "http://localhost:52103/signin-oidc"
+  }
+}
+INFO  2019-07-18 09:14:06,744 [12   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 467.8085ms 200 application/json; charset=UTF-8
