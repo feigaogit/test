@@ -1,0 +1,1039 @@
+DEBUG 2019-07-18 09:16:01,529 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2019-07-18 09:16:01,557 [1    ] Abp.Modules.AbpModuleManager             - Found 17 ABP modules in total.
+DEBUG 2019-07-18 09:16:01,580 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: MyCompany.IdentityServer.Web.Host.Startup.IdentityServerWebHostModule, MyCompany.IdentityServer.Web.Host, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-07-18 09:16:01,583 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: MyCompany.IdentityServer.IdentityServerWebCoreModule, MyCompany.IdentityServer.Web.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-07-18 09:16:01,583 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: MyCompany.IdentityServer.IdentityServerApplicationModule, MyCompany.IdentityServer.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-07-18 09:16:01,583 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: MyCompany.IdentityServer.IdentityServerCoreModule, MyCompany.IdentityServer.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-07-18 09:16:01,584 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.ZeroCore, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-07-18 09:16:01,584 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-07-18 09:16:01,584 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-07-18 09:16:01,584 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-07-18 09:16:01,585 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: MyCompany.IdentityServer.EntityFrameworkCore.IdentityServerEntityFrameworkModule, MyCompany.IdentityServer.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-07-18 09:16:01,585 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFrameworkCore.AbpZeroCoreEntityFrameworkCoreModule, Abp.ZeroCore.EntityFrameworkCore, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-07-18 09:16:01,585 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-07-18 09:16:01,585 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-07-18 09:16:01,585 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.IdentityServer4.AbpZeroCoreIdentityServerEntityFrameworkCoreModule, Abp.ZeroCore.IdentityServer4.EntityFrameworkCore, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-07-18 09:16:01,586 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.IdentityServer4.AbpZeroCoreIdentityServerModule, Abp.ZeroCore.IdentityServer4, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-07-18 09:16:01,586 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-07-18 09:16:01,586 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-07-18 09:16:01,586 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.SignalR.AbpAspNetCoreSignalRModule, Abp.AspNetCore.SignalR, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-07-18 09:16:01,589 [1    ] Abp.Modules.AbpModuleManager             - 17 modules loaded.
+DEBUG 2019-07-18 09:16:01,668 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-07-18 09:16:01,668 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-07-18 09:16:01,668 [1    ] o.Configuration.LanguageManagementConfig - Converted IdentityServer (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-07-18 09:16:01,668 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-07-18 09:16:01,983 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: MyCompany.IdentityServer.EntityFrameworkCore.IdentityServerDbContext, MyCompany.IdentityServer.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-07-18 09:16:02,402 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2019-07-18 09:16:02,504 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2019-07-18 09:16:02,538 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2019-07-18 09:16:02,562 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: IdentityServer
+DEBUG 2019-07-18 09:16:02,586 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2019-07-18 09:16:02,617 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2019-07-18 09:16:02,667 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 10 classes define auto mapping attributes
+DEBUG 2019-07-18 09:16:02,667 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyCompany.IdentityServer.Models.TokenAuth.ExternalLoginProviderInfoModel
+DEBUG 2019-07-18 09:16:02,673 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyCompany.IdentityServer.Users.Dto.CreateUserDto
+DEBUG 2019-07-18 09:16:02,674 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyCompany.IdentityServer.Users.Dto.UserDto
+DEBUG 2019-07-18 09:16:02,675 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyCompany.IdentityServer.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2019-07-18 09:16:02,675 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyCompany.IdentityServer.Sessions.Dto.UserLoginInfoDto
+DEBUG 2019-07-18 09:16:02,675 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyCompany.IdentityServer.Roles.Dto.CreateRoleDto
+DEBUG 2019-07-18 09:16:02,675 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyCompany.IdentityServer.Roles.Dto.PermissionDto
+DEBUG 2019-07-18 09:16:02,676 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyCompany.IdentityServer.Roles.Dto.RoleDto
+DEBUG 2019-07-18 09:16:02,676 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyCompany.IdentityServer.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2019-07-18 09:16:02,676 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyCompany.IdentityServer.MultiTenancy.Dto.TenantDto
+INFO  2019-07-18 09:16:05,077 [1    ] IdentityServer4.Startup                  - Starting IdentityServer4 version 2.3.2.0
+INFO  2019-07-18 09:16:05,132 [1    ] IdentityServer4.Startup                  - Using the default authentication scheme Identity.Application for IdentityServer
+INFO  2019-07-18 09:16:06,121 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/  
+WARN  2019-07-18 09:16:07,066 [12   ] calization.RequestLocalizationMiddleware - AcceptLanguageHeaderRequestCultureProvider returned the following unsupported cultures 'zh-CN, zh'.
+WARN  2019-07-18 09:16:07,066 [12   ] calization.RequestLocalizationMiddleware - AcceptLanguageHeaderRequestCultureProvider returned the following unsupported UI Cultures 'zh-CN, zh'.
+INFO  2019-07-18 09:16:07,418 [12   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "Index", controller = "Home", area = ""}. Executing action IdentityServer4.Quickstart.UI.HomeController.Index (MyCompany.IdentityServer.Web.Host)
+INFO  2019-07-18 09:16:07,483 [12   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method IdentityServer4.Quickstart.UI.HomeController.Index (MyCompany.IdentityServer.Web.Host) - Validation state: Valid
+INFO  2019-07-18 09:16:07,489 [12   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method IdentityServer4.Quickstart.UI.HomeController.Index (MyCompany.IdentityServer.Web.Host), returned result Microsoft.AspNetCore.Mvc.ViewResult in 3.8741ms.
+INFO  2019-07-18 09:16:07,735 [7    ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executing ViewResult, running view Index.
+INFO  2019-07-18 09:16:07,976 [7    ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executed ViewResult - view Index executed in 279.566ms.
+INFO  2019-07-18 09:16:07,983 [7    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action IdentityServer4.Quickstart.UI.HomeController.Index (MyCompany.IdentityServer.Web.Host) in 563.0122ms
+INFO  2019-07-18 09:16:07,999 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/lib/bootstrap/css/bootstrap.css  
+INFO  2019-07-18 09:16:08,001 [13   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/css/site.css  
+INFO  2019-07-18 09:16:08,002 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/icon.jpg  
+INFO  2019-07-18 09:16:08,011 [15   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/icon.png  
+INFO  2019-07-18 09:16:08,050 [10   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/css/site.css'. Physical path: 'E:\desktop\aspnet-core\src\MyCompany.IdentityServer.Web.Host\wwwroot\css\site.css'
+INFO  2019-07-18 09:16:08,050 [15   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/icon.jpg'. Physical path: 'E:\desktop\aspnet-core\src\MyCompany.IdentityServer.Web.Host\wwwroot\icon.jpg'
+INFO  2019-07-18 09:16:08,050 [12   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/icon.png'. Physical path: 'E:\desktop\aspnet-core\src\MyCompany.IdentityServer.Web.Host\wwwroot\icon.png'
+INFO  2019-07-18 09:16:08,051 [12   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 39.1836ms 200 image/png
+INFO  2019-07-18 09:16:08,051 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 49.3263ms 200 text/css
+INFO  2019-07-18 09:16:08,051 [15   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 48.3454ms 200 image/jpeg
+INFO  2019-07-18 09:16:08,052 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 1930.7636ms 200 text/html; charset=utf-8
+INFO  2019-07-18 09:16:08,071 [11   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/bootstrap/css/bootstrap.css'. Physical path: 'E:\desktop\aspnet-core\src\MyCompany.IdentityServer.Web.Host\wwwroot\lib\bootstrap\css\bootstrap.css'
+INFO  2019-07-18 09:16:08,071 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 72.0405ms 200 text/css
+INFO  2019-07-18 09:16:08,076 [15   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/lib/bootstrap/js/bootstrap.js  
+INFO  2019-07-18 09:16:08,081 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/lib/jquery/jquery.js  
+INFO  2019-07-18 09:16:08,081 [11   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/bootstrap/js/bootstrap.js'. Physical path: 'E:\desktop\aspnet-core\src\MyCompany.IdentityServer.Web.Host\wwwroot\lib\bootstrap\js\bootstrap.js'
+INFO  2019-07-18 09:16:08,081 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 5.083ms 200 application/javascript
+INFO  2019-07-18 09:16:08,098 [12   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/jquery/jquery.js'. Physical path: 'E:\desktop\aspnet-core\src\MyCompany.IdentityServer.Web.Host\wwwroot\lib\jquery\jquery.js'
+INFO  2019-07-18 09:16:08,098 [12   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 17.4884ms 200 application/javascript
+INFO  2019-07-18 09:16:19,321 [12   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/.well-known/openid-configuration  
+INFO  2019-07-18 09:16:19,341 [12   ] Server4.Hosting.IdentityServerMiddleware - Invoking IdentityServer endpoint: IdentityServer4.Endpoints.DiscoveryEndpoint for /.well-known/openid-configuration
+INFO  2019-07-18 09:16:19,438 [12   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 117.0276ms 200 application/json; charset=UTF-8
+INFO  2019-07-18 09:16:19,618 [12   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/.well-known/openid-configuration/jwks  
+INFO  2019-07-18 09:16:19,622 [12   ] Server4.Hosting.IdentityServerMiddleware - Invoking IdentityServer endpoint: IdentityServer4.Endpoints.DiscoveryKeyEndpoint for /.well-known/openid-configuration/jwks
+INFO  2019-07-18 09:16:19,646 [12   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 27.2492ms 200 application/jwk-set+json; charset=UTF-8
+INFO  2019-07-18 09:16:19,722 [12   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/connect/authorize?client_id=client&redirect_uri=http%3A%2F%2Flocalhost%3A52103%2Fsignin-oidc&response_type=code%20id_token&scope=openid%20profile&response_mode=form_post&nonce=636990093796744864.MzM2YWM5YzAtZTliYS00Mzg1LThhYzItMzc3MWNkY2JkZmExZDNiZTlmMmItMjZiYi00ZmMzLWJlNGMtNjY1MTc0ZTNjOTQz&state=CfDJ8ILGMZ762M9Mhr5iLffrhABuMiKDQKGCK4LTfhRzUIoNZdEFIFsdd0zdLCbIYmCJAy2yaPpbiN5KnvGBtTzsgN4MI51tFQpqoTGIZzkMrw5DJvWSjzMUm6B9twG9TSuDOvdzOGny-1vnebHQH-J6LImvyQxwW1oVuUfPH3y95oDv58Uoi0nSM4t7UOWlQ_x1dcmsnUmAHBtvkeykuHkKXSgzhzmDWYhV4_JGZnZxVlbyz9FJQOfwpGqDHxhYv2HRvMeZiPd4SJvCmhhaT79VLprvo5YTEYVqq_D0RPrqt303gwKxvMLxf8I1gUHv8N-QOw&x-client-SKU=ID_NETSTANDARD2_0&x-client-ver=5.3.0.0  
+INFO  2019-07-18 09:16:19,734 [12   ] Server4.Hosting.IdentityServerMiddleware - Invoking IdentityServer endpoint: IdentityServer4.Endpoints.AuthorizeEndpoint for /connect/authorize
+INFO  2019-07-18 09:16:19,807 [12   ] ntityServer4.Endpoints.AuthorizeEndpoint - ValidatedAuthorizeRequest
+{
+  "ClientId": "client",
+  "ClientName": "MVC Client",
+  "RedirectUri": "http://localhost:52103/signin-oidc",
+  "AllowedRedirectUris": [
+    "http://localhost:52103/signin-oidc"
+  ],
+  "SubjectId": "anonymous",
+  "ResponseType": "code id_token",
+  "ResponseMode": "form_post",
+  "GrantType": "hybrid",
+  "RequestedScopes": "openid profile",
+  "State": "CfDJ8ILGMZ762M9Mhr5iLffrhABuMiKDQKGCK4LTfhRzUIoNZdEFIFsdd0zdLCbIYmCJAy2yaPpbiN5KnvGBtTzsgN4MI51tFQpqoTGIZzkMrw5DJvWSjzMUm6B9twG9TSuDOvdzOGny-1vnebHQH-J6LImvyQxwW1oVuUfPH3y95oDv58Uoi0nSM4t7UOWlQ_x1dcmsnUmAHBtvkeykuHkKXSgzhzmDWYhV4_JGZnZxVlbyz9FJQOfwpGqDHxhYv2HRvMeZiPd4SJvCmhhaT79VLprvo5YTEYVqq_D0RPrqt303gwKxvMLxf8I1gUHv8N-QOw",
+  "Nonce": "636990093796744864.MzM2YWM5YzAtZTliYS00Mzg1LThhYzItMzc3MWNkY2JkZmExZDNiZTlmMmItMjZiYi00ZmMzLWJlNGMtNjY1MTc0ZTNjOTQz",
+  "Raw": {
+    "client_id": "client",
+    "redirect_uri": "http://localhost:52103/signin-oidc",
+    "response_type": "code id_token",
+    "scope": "openid profile",
+    "response_mode": "form_post",
+    "nonce": "636990093796744864.MzM2YWM5YzAtZTliYS00Mzg1LThhYzItMzc3MWNkY2JkZmExZDNiZTlmMmItMjZiYi00ZmMzLWJlNGMtNjY1MTc0ZTNjOTQz",
+    "state": "CfDJ8ILGMZ762M9Mhr5iLffrhABuMiKDQKGCK4LTfhRzUIoNZdEFIFsdd0zdLCbIYmCJAy2yaPpbiN5KnvGBtTzsgN4MI51tFQpqoTGIZzkMrw5DJvWSjzMUm6B9twG9TSuDOvdzOGny-1vnebHQH-J6LImvyQxwW1oVuUfPH3y95oDv58Uoi0nSM4t7UOWlQ_x1dcmsnUmAHBtvkeykuHkKXSgzhzmDWYhV4_JGZnZxVlbyz9FJQOfwpGqDHxhYv2HRvMeZiPd4SJvCmhhaT79VLprvo5YTEYVqq_D0RPrqt303gwKxvMLxf8I1gUHv8N-QOw",
+    "x-client-SKU": "ID_NETSTANDARD2_0",
+    "x-client-ver": "5.3.0.0"
+  }
+}
+INFO  2019-07-18 09:16:19,815 [12   ] ng.AuthorizeInteractionResponseGenerator - Showing login: User is not authenticated
+INFO  2019-07-18 09:16:19,823 [12   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 100.6201ms 302 
+INFO  2019-07-18 09:16:19,829 [12   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/Account/Login?ReturnUrl=%2Fconnect%2Fauthorize%2Fcallback%3Fclient_id%3Dclient%26redirect_uri%3Dhttp%253A%252F%252Flocalhost%253A52103%252Fsignin-oidc%26response_type%3Dcode%2520id_token%26scope%3Dopenid%2520profile%26response_mode%3Dform_post%26nonce%3D636990093796744864.MzM2YWM5YzAtZTliYS00Mzg1LThhYzItMzc3MWNkY2JkZmExZDNiZTlmMmItMjZiYi00ZmMzLWJlNGMtNjY1MTc0ZTNjOTQz%26state%3DCfDJ8ILGMZ762M9Mhr5iLffrhABuMiKDQKGCK4LTfhRzUIoNZdEFIFsdd0zdLCbIYmCJAy2yaPpbiN5KnvGBtTzsgN4MI51tFQpqoTGIZzkMrw5DJvWSjzMUm6B9twG9TSuDOvdzOGny-1vnebHQH-J6LImvyQxwW1oVuUfPH3y95oDv58Uoi0nSM4t7UOWlQ_x1dcmsnUmAHBtvkeykuHkKXSgzhzmDWYhV4_JGZnZxVlbyz9FJQOfwpGqDHxhYv2HRvMeZiPd4SJvCmhhaT79VLprvo5YTEYVqq_D0RPrqt303gwKxvMLxf8I1gUHv8N-QOw%26x-client-SKU%3DID_NETSTANDARD2_0%26x-client-ver%3D5.3.0.0  
+WARN  2019-07-18 09:16:19,832 [12   ] calization.RequestLocalizationMiddleware - AcceptLanguageHeaderRequestCultureProvider returned the following unsupported cultures 'zh-CN, zh'.
+WARN  2019-07-18 09:16:19,832 [12   ] calization.RequestLocalizationMiddleware - AcceptLanguageHeaderRequestCultureProvider returned the following unsupported UI Cultures 'zh-CN, zh'.
+INFO  2019-07-18 09:16:19,869 [12   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "Login", controller = "Account", area = ""}. Executing action IdentityServer4.Quickstart.UI.AccountController.Login (MyCompany.IdentityServer.Web.Host)
+INFO  2019-07-18 09:16:19,948 [12   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method IdentityServer4.Quickstart.UI.AccountController.Login (MyCompany.IdentityServer.Web.Host) with arguments (/connect/authorize/callback?client_id=client&redirect_uri=http%3A%2F%2Flocalhost%3A52103%2Fsignin-oidc&response_type=code%20id_token&scope=openid%20profile&response_mode=form_post&nonce=636990093796744864.MzM2YWM5YzAtZTliYS00Mzg1LThhYzItMzc3MWNkY2JkZmExZDNiZTlmMmItMjZiYi00ZmMzLWJlNGMtNjY1MTc0ZTNjOTQz&state=CfDJ8ILGMZ762M9Mhr5iLffrhABuMiKDQKGCK4LTfhRzUIoNZdEFIFsdd0zdLCbIYmCJAy2yaPpbiN5KnvGBtTzsgN4MI51tFQpqoTGIZzkMrw5DJvWSjzMUm6B9twG9TSuDOvdzOGny-1vnebHQH-J6LImvyQxwW1oVuUfPH3y95oDv58Uoi0nSM4t7UOWlQ_x1dcmsnUmAHBtvkeykuHkKXSgzhzmDWYhV4_JGZnZxVlbyz9FJQOfwpGqDHxhYv2HRvMeZiPd4SJvCmhhaT79VLprvo5YTEYVqq_D0RPrqt303gwKxvMLxf8I1gUHv8N-QOw&x-client-SKU=ID_NETSTANDARD2_0&x-client-ver=5.3.0.0) - Validation state: Valid
+INFO  2019-07-18 09:16:19,965 [12   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method IdentityServer4.Quickstart.UI.AccountController.Login (MyCompany.IdentityServer.Web.Host), returned result Microsoft.AspNetCore.Mvc.ViewResult in 16.5767ms.
+INFO  2019-07-18 09:16:19,973 [12   ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executing ViewResult, running view Login.
+INFO  2019-07-18 09:16:20,118 [12   ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executed ViewResult - view Login executed in 146.8576ms.
+INFO  2019-07-18 09:16:20,118 [12   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action IdentityServer4.Quickstart.UI.AccountController.Login (MyCompany.IdentityServer.Web.Host) in 249.0453ms
+INFO  2019-07-18 09:16:20,118 [12   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 289.7554ms 200 text/html; charset=utf-8
+INFO  2019-07-18 09:16:20,312 [13   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/favicon.ico  
+INFO  2019-07-18 09:16:20,313 [13   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/favicon.ico'. Physical path: 'E:\desktop\aspnet-core\src\MyCompany.IdentityServer.Web.Host\wwwroot\favicon.ico'
+INFO  2019-07-18 09:16:20,313 [13   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 1.0801ms 200 image/x-icon
+INFO  2019-07-18 09:16:34,856 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:21021/Account/Login?ReturnUrl=%2Fconnect%2Fauthorize%2Fcallback%3Fclient_id%3Dclient%26redirect_uri%3Dhttp%253A%252F%252Flocalhost%253A52103%252Fsignin-oidc%26response_type%3Dcode%2520id_token%26scope%3Dopenid%2520profile%26response_mode%3Dform_post%26nonce%3D636990093796744864.MzM2YWM5YzAtZTliYS00Mzg1LThhYzItMzc3MWNkY2JkZmExZDNiZTlmMmItMjZiYi00ZmMzLWJlNGMtNjY1MTc0ZTNjOTQz%26state%3DCfDJ8ILGMZ762M9Mhr5iLffrhABuMiKDQKGCK4LTfhRzUIoNZdEFIFsdd0zdLCbIYmCJAy2yaPpbiN5KnvGBtTzsgN4MI51tFQpqoTGIZzkMrw5DJvWSjzMUm6B9twG9TSuDOvdzOGny-1vnebHQH-J6LImvyQxwW1oVuUfPH3y95oDv58Uoi0nSM4t7UOWlQ_x1dcmsnUmAHBtvkeykuHkKXSgzhzmDWYhV4_JGZnZxVlbyz9FJQOfwpGqDHxhYv2HRvMeZiPd4SJvCmhhaT79VLprvo5YTEYVqq_D0RPrqt303gwKxvMLxf8I1gUHv8N-QOw%26x-client-SKU%3DID_NETSTANDARD2_0%26x-client-ver%3D5.3.0.0 application/x-www-form-urlencoded 999
+INFO  2019-07-18 09:16:34,868 [6    ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution failed.
+INFO  2019-07-18 09:16:34,868 [6    ] pNetCore.Cors.Infrastructure.CorsService - Request origin null does not have permission to access the resource.
+WARN  2019-07-18 09:16:34,879 [6    ] calization.RequestLocalizationMiddleware - AcceptLanguageHeaderRequestCultureProvider returned the following unsupported cultures 'zh-CN, zh'.
+WARN  2019-07-18 09:16:34,879 [6    ] calization.RequestLocalizationMiddleware - AcceptLanguageHeaderRequestCultureProvider returned the following unsupported UI Cultures 'zh-CN, zh'.
+INFO  2019-07-18 09:16:34,900 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "Login", controller = "Account", area = ""}. Executing action IdentityServer4.Quickstart.UI.AccountController.Login (MyCompany.IdentityServer.Web.Host)
+INFO  2019-07-18 09:16:34,900 [6    ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution failed.
+INFO  2019-07-18 09:16:34,900 [6    ] pNetCore.Cors.Infrastructure.CorsService - Request origin null does not have permission to access the resource.
+INFO  2019-07-18 09:16:35,010 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method IdentityServer4.Quickstart.UI.AccountController.Login (MyCompany.IdentityServer.Web.Host) with arguments (IdentityServer4.Quickstart.UI.LoginInputModel, login) - Validation state: Valid
+INFO  2019-07-18 09:16:35,167 [6    ] tion.Cookies.CookieAuthenticationHandler - AuthenticationScheme: Identity.Application signed in.
+INFO  2019-07-18 09:16:35,169 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method IdentityServer4.Quickstart.UI.AccountController.Login (MyCompany.IdentityServer.Web.Host), returned result Microsoft.AspNetCore.Mvc.RedirectResult in 158.8831ms.
+INFO  2019-07-18 09:16:35,175 [13   ] vc.Infrastructure.RedirectResultExecutor - Executing RedirectResult, redirecting to /connect/authorize/callback?client_id=client&redirect_uri=http%3A%2F%2Flocalhost%3A52103%2Fsignin-oidc&response_type=code%20id_token&scope=openid%20profile&response_mode=form_post&nonce=636990093796744864.MzM2YWM5YzAtZTliYS00Mzg1LThhYzItMzc3MWNkY2JkZmExZDNiZTlmMmItMjZiYi00ZmMzLWJlNGMtNjY1MTc0ZTNjOTQz&state=CfDJ8ILGMZ762M9Mhr5iLffrhABuMiKDQKGCK4LTfhRzUIoNZdEFIFsdd0zdLCbIYmCJAy2yaPpbiN5KnvGBtTzsgN4MI51tFQpqoTGIZzkMrw5DJvWSjzMUm6B9twG9TSuDOvdzOGny-1vnebHQH-J6LImvyQxwW1oVuUfPH3y95oDv58Uoi0nSM4t7UOWlQ_x1dcmsnUmAHBtvkeykuHkKXSgzhzmDWYhV4_JGZnZxVlbyz9FJQOfwpGqDHxhYv2HRvMeZiPd4SJvCmhhaT79VLprvo5YTEYVqq_D0RPrqt303gwKxvMLxf8I1gUHv8N-QOw&x-client-SKU=ID_NETSTANDARD2_0&x-client-ver=5.3.0.0.
+INFO  2019-07-18 09:16:35,175 [13   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action IdentityServer4.Quickstart.UI.AccountController.Login (MyCompany.IdentityServer.Web.Host) in 275.5828ms
+INFO  2019-07-18 09:16:35,177 [13   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 320.6343ms 302 
+INFO  2019-07-18 09:16:35,181 [12   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/connect/authorize/callback?client_id=client&redirect_uri=http%3A%2F%2Flocalhost%3A52103%2Fsignin-oidc&response_type=code%20id_token&scope=openid%20profile&response_mode=form_post&nonce=636990093796744864.MzM2YWM5YzAtZTliYS00Mzg1LThhYzItMzc3MWNkY2JkZmExZDNiZTlmMmItMjZiYi00ZmMzLWJlNGMtNjY1MTc0ZTNjOTQz&state=CfDJ8ILGMZ762M9Mhr5iLffrhABuMiKDQKGCK4LTfhRzUIoNZdEFIFsdd0zdLCbIYmCJAy2yaPpbiN5KnvGBtTzsgN4MI51tFQpqoTGIZzkMrw5DJvWSjzMUm6B9twG9TSuDOvdzOGny-1vnebHQH-J6LImvyQxwW1oVuUfPH3y95oDv58Uoi0nSM4t7UOWlQ_x1dcmsnUmAHBtvkeykuHkKXSgzhzmDWYhV4_JGZnZxVlbyz9FJQOfwpGqDHxhYv2HRvMeZiPd4SJvCmhhaT79VLprvo5YTEYVqq_D0RPrqt303gwKxvMLxf8I1gUHv8N-QOw&x-client-SKU=ID_NETSTANDARD2_0&x-client-ver=5.3.0.0  
+INFO  2019-07-18 09:16:35,185 [12   ] Server4.Hosting.IdentityServerMiddleware - Invoking IdentityServer endpoint: IdentityServer4.Endpoints.AuthorizeCallbackEndpoint for /connect/authorize/callback
+INFO  2019-07-18 09:16:35,192 [12   ] ver4.Endpoints.AuthorizeCallbackEndpoint - ValidatedAuthorizeRequest
+{
+  "ClientId": "client",
+  "ClientName": "MVC Client",
+  "RedirectUri": "http://localhost:52103/signin-oidc",
+  "AllowedRedirectUris": [
+    "http://localhost:52103/signin-oidc"
+  ],
+  "SubjectId": "2",
+  "ResponseType": "code id_token",
+  "ResponseMode": "form_post",
+  "GrantType": "hybrid",
+  "RequestedScopes": "openid profile",
+  "State": "CfDJ8ILGMZ762M9Mhr5iLffrhABuMiKDQKGCK4LTfhRzUIoNZdEFIFsdd0zdLCbIYmCJAy2yaPpbiN5KnvGBtTzsgN4MI51tFQpqoTGIZzkMrw5DJvWSjzMUm6B9twG9TSuDOvdzOGny-1vnebHQH-J6LImvyQxwW1oVuUfPH3y95oDv58Uoi0nSM4t7UOWlQ_x1dcmsnUmAHBtvkeykuHkKXSgzhzmDWYhV4_JGZnZxVlbyz9FJQOfwpGqDHxhYv2HRvMeZiPd4SJvCmhhaT79VLprvo5YTEYVqq_D0RPrqt303gwKxvMLxf8I1gUHv8N-QOw",
+  "Nonce": "636990093796744864.MzM2YWM5YzAtZTliYS00Mzg1LThhYzItMzc3MWNkY2JkZmExZDNiZTlmMmItMjZiYi00ZmMzLWJlNGMtNjY1MTc0ZTNjOTQz",
+  "SessionId": "ae537e604cbb4a0c3fabae41d7042b64",
+  "Raw": {
+    "client_id": "client",
+    "redirect_uri": "http://localhost:52103/signin-oidc",
+    "response_type": "code id_token",
+    "scope": "openid profile",
+    "response_mode": "form_post",
+    "nonce": "636990093796744864.MzM2YWM5YzAtZTliYS00Mzg1LThhYzItMzc3MWNkY2JkZmExZDNiZTlmMmItMjZiYi00ZmMzLWJlNGMtNjY1MTc0ZTNjOTQz",
+    "state": "CfDJ8ILGMZ762M9Mhr5iLffrhABuMiKDQKGCK4LTfhRzUIoNZdEFIFsdd0zdLCbIYmCJAy2yaPpbiN5KnvGBtTzsgN4MI51tFQpqoTGIZzkMrw5DJvWSjzMUm6B9twG9TSuDOvdzOGny-1vnebHQH-J6LImvyQxwW1oVuUfPH3y95oDv58Uoi0nSM4t7UOWlQ_x1dcmsnUmAHBtvkeykuHkKXSgzhzmDWYhV4_JGZnZxVlbyz9FJQOfwpGqDHxhYv2HRvMeZiPd4SJvCmhhaT79VLprvo5YTEYVqq_D0RPrqt303gwKxvMLxf8I1gUHv8N-QOw",
+    "x-client-SKU": "ID_NETSTANDARD2_0",
+    "x-client-ver": "5.3.0.0"
+  }
+}
+INFO  2019-07-18 09:16:35,226 [13   ] ng.AuthorizeInteractionResponseGenerator - Showing login: User is not active
+INFO  2019-07-18 09:16:35,231 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 49.6774ms 302 
+INFO  2019-07-18 09:16:35,237 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/Account/Login?ReturnUrl=%2Fconnect%2Fauthorize%2Fcallback%3Fclient_id%3Dclient%26redirect_uri%3Dhttp%253A%252F%252Flocalhost%253A52103%252Fsignin-oidc%26response_type%3Dcode%2520id_token%26scope%3Dopenid%2520profile%26response_mode%3Dform_post%26nonce%3D636990093796744864.MzM2YWM5YzAtZTliYS00Mzg1LThhYzItMzc3MWNkY2JkZmExZDNiZTlmMmItMjZiYi00ZmMzLWJlNGMtNjY1MTc0ZTNjOTQz%26state%3DCfDJ8ILGMZ762M9Mhr5iLffrhABuMiKDQKGCK4LTfhRzUIoNZdEFIFsdd0zdLCbIYmCJAy2yaPpbiN5KnvGBtTzsgN4MI51tFQpqoTGIZzkMrw5DJvWSjzMUm6B9twG9TSuDOvdzOGny-1vnebHQH-J6LImvyQxwW1oVuUfPH3y95oDv58Uoi0nSM4t7UOWlQ_x1dcmsnUmAHBtvkeykuHkKXSgzhzmDWYhV4_JGZnZxVlbyz9FJQOfwpGqDHxhYv2HRvMeZiPd4SJvCmhhaT79VLprvo5YTEYVqq_D0RPrqt303gwKxvMLxf8I1gUHv8N-QOw%26x-client-SKU%3DID_NETSTANDARD2_0%26x-client-ver%3D5.3.0.0  
+WARN  2019-07-18 09:16:35,243 [12   ] calization.RequestLocalizationMiddleware - AcceptLanguageHeaderRequestCultureProvider returned the following unsupported cultures 'zh-CN, zh'.
+WARN  2019-07-18 09:16:35,243 [12   ] calization.RequestLocalizationMiddleware - AcceptLanguageHeaderRequestCultureProvider returned the following unsupported UI Cultures 'zh-CN, zh'.
+INFO  2019-07-18 09:16:35,244 [12   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "Login", controller = "Account", area = ""}. Executing action IdentityServer4.Quickstart.UI.AccountController.Login (MyCompany.IdentityServer.Web.Host)
+INFO  2019-07-18 09:16:35,245 [12   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method IdentityServer4.Quickstart.UI.AccountController.Login (MyCompany.IdentityServer.Web.Host) with arguments (/connect/authorize/callback?client_id=client&redirect_uri=http%3A%2F%2Flocalhost%3A52103%2Fsignin-oidc&response_type=code%20id_token&scope=openid%20profile&response_mode=form_post&nonce=636990093796744864.MzM2YWM5YzAtZTliYS00Mzg1LThhYzItMzc3MWNkY2JkZmExZDNiZTlmMmItMjZiYi00ZmMzLWJlNGMtNjY1MTc0ZTNjOTQz&state=CfDJ8ILGMZ762M9Mhr5iLffrhABuMiKDQKGCK4LTfhRzUIoNZdEFIFsdd0zdLCbIYmCJAy2yaPpbiN5KnvGBtTzsgN4MI51tFQpqoTGIZzkMrw5DJvWSjzMUm6B9twG9TSuDOvdzOGny-1vnebHQH-J6LImvyQxwW1oVuUfPH3y95oDv58Uoi0nSM4t7UOWlQ_x1dcmsnUmAHBtvkeykuHkKXSgzhzmDWYhV4_JGZnZxVlbyz9FJQOfwpGqDHxhYv2HRvMeZiPd4SJvCmhhaT79VLprvo5YTEYVqq_D0RPrqt303gwKxvMLxf8I1gUHv8N-QOw&x-client-SKU=ID_NETSTANDARD2_0&x-client-ver=5.3.0.0) - Validation state: Valid
+INFO  2019-07-18 09:16:35,245 [12   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method IdentityServer4.Quickstart.UI.AccountController.Login (MyCompany.IdentityServer.Web.Host), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.1934ms.
+INFO  2019-07-18 09:16:35,249 [12   ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executing ViewResult, running view Login.
+INFO  2019-07-18 09:16:35,255 [12   ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executed ViewResult - view Login executed in 7.0705ms.
+INFO  2019-07-18 09:16:35,255 [12   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action IdentityServer4.Quickstart.UI.AccountController.Login (MyCompany.IdentityServer.Web.Host) in 10.5703ms
+INFO  2019-07-18 09:16:35,255 [12   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 17.7358ms 200 text/html; charset=utf-8
+INFO  2019-07-18 09:42:54,647 [45   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/home/GetInfo  
+INFO  2019-07-18 09:42:54,748 [45   ] uthentication.JwtBearer.JwtBearerHandler - Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenSignatureKeyNotFoundException: IDX10501: Signature validation failed. Unable to match keys: 
+kid: '37fd397987c1759df726d3507991dc2d', 
+token: '{"alg":"RS256","kid":"37fd397987c1759df726d3507991dc2d","typ":"JWT"}.{"nbf":1563414117,"exp":1563417717,"iss":"http://localhost:65093","aud":"http://localhost:65093/resources","client_id":"mvc","sub":"1","auth_time":1563414116,"idp":"local","scope":["openid","profile"],"amr":["pwd"]}'.
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateSignature(String token, TokenValidationParameters validationParameters) in C:\agent2\_work\56\s\src\System.IdentityModel.Tokens.Jwt\JwtSecurityTokenHandler.cs:line 968
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateToken(String token, TokenValidationParameters validationParameters, SecurityToken& validatedToken) in C:\agent2\_work\56\s\src\System.IdentityModel.Tokens.Jwt\JwtSecurityTokenHandler.cs:line 718
+   at Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler.HandleAuthenticateAsync()
+INFO  2019-07-18 09:42:54,749 [45   ] uthentication.JwtBearer.JwtBearerHandler - IdentityBearerIdentityServerAuthenticationJwt was not authenticated. Failure message: IDX10501: Signature validation failed. Unable to match keys: 
+kid: '37fd397987c1759df726d3507991dc2d', 
+token: '{"alg":"RS256","kid":"37fd397987c1759df726d3507991dc2d","typ":"JWT"}.{"nbf":1563414117,"exp":1563417717,"iss":"http://localhost:65093","aud":"http://localhost:65093/resources","client_id":"mvc","sub":"1","auth_time":1563414116,"idp":"local","scope":["openid","profile"],"amr":["pwd"]}'.
+INFO  2019-07-18 09:42:54,749 [45   ] tion.IdentityServerAuthenticationHandler - IdentityBearer was not authenticated. Failure message: IDX10501: Signature validation failed. Unable to match keys: 
+kid: '37fd397987c1759df726d3507991dc2d', 
+token: '{"alg":"RS256","kid":"37fd397987c1759df726d3507991dc2d","typ":"JWT"}.{"nbf":1563414117,"exp":1563417717,"iss":"http://localhost:65093","aud":"http://localhost:65093/resources","client_id":"mvc","sub":"1","auth_time":1563414116,"idp":"local","scope":["openid","profile"],"amr":["pwd"]}'.
+INFO  2019-07-18 09:42:54,750 [45   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 103.3554ms 404 
+INFO  2019-07-18 09:43:43,356 [41   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://127.0.0.1:46529/iisintegration  0
+INFO  2019-07-18 09:43:43,357 [41   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 0.1816ms 202 
+DEBUG 2019-07-18 09:43:43,361 [42   ] Abp.Modules.AbpModuleManager             - Shutting down has been started
+DEBUG 2019-07-18 09:43:43,362 [42   ] Abp.BackgroundJobs.BackgroundJobManager  - Stop background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2019-07-18 09:43:43,363 [42   ] Abp.BackgroundJobs.BackgroundJobManager  - WaitToStop background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2019-07-18 09:43:43,363 [42   ] Abp.Modules.AbpModuleManager             - Shutting down completed.
+DEBUG 2019-07-18 09:59:46,445 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2019-07-18 09:59:46,495 [1    ] Abp.Modules.AbpModuleManager             - Found 17 ABP modules in total.
+DEBUG 2019-07-18 09:59:46,581 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: MyCompany.IdentityServer.Web.Host.Startup.IdentityServerWebHostModule, MyCompany.IdentityServer.Web.Host, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-07-18 09:59:46,586 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: MyCompany.IdentityServer.IdentityServerWebCoreModule, MyCompany.IdentityServer.Web.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-07-18 09:59:46,587 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: MyCompany.IdentityServer.IdentityServerApplicationModule, MyCompany.IdentityServer.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-07-18 09:59:46,587 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: MyCompany.IdentityServer.IdentityServerCoreModule, MyCompany.IdentityServer.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-07-18 09:59:46,587 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.ZeroCore, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-07-18 09:59:46,588 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-07-18 09:59:46,590 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-07-18 09:59:46,591 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-07-18 09:59:46,591 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: MyCompany.IdentityServer.EntityFrameworkCore.IdentityServerEntityFrameworkModule, MyCompany.IdentityServer.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-07-18 09:59:46,591 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFrameworkCore.AbpZeroCoreEntityFrameworkCoreModule, Abp.ZeroCore.EntityFrameworkCore, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-07-18 09:59:46,591 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-07-18 09:59:46,592 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-07-18 09:59:46,592 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.IdentityServer4.AbpZeroCoreIdentityServerEntityFrameworkCoreModule, Abp.ZeroCore.IdentityServer4.EntityFrameworkCore, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-07-18 09:59:46,592 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.IdentityServer4.AbpZeroCoreIdentityServerModule, Abp.ZeroCore.IdentityServer4, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-07-18 09:59:46,592 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-07-18 09:59:46,592 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-07-18 09:59:46,593 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.SignalR.AbpAspNetCoreSignalRModule, Abp.AspNetCore.SignalR, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-07-18 09:59:46,596 [1    ] Abp.Modules.AbpModuleManager             - 17 modules loaded.
+DEBUG 2019-07-18 09:59:46,665 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-07-18 09:59:46,665 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-07-18 09:59:46,665 [1    ] o.Configuration.LanguageManagementConfig - Converted IdentityServer (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-07-18 09:59:46,665 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-07-18 09:59:46,917 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: MyCompany.IdentityServer.EntityFrameworkCore.IdentityServerDbContext, MyCompany.IdentityServer.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-07-18 09:59:47,298 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2019-07-18 09:59:47,397 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2019-07-18 09:59:47,429 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2019-07-18 09:59:47,452 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: IdentityServer
+DEBUG 2019-07-18 09:59:47,476 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2019-07-18 09:59:47,502 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2019-07-18 09:59:47,542 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 10 classes define auto mapping attributes
+DEBUG 2019-07-18 09:59:47,542 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyCompany.IdentityServer.Models.TokenAuth.ExternalLoginProviderInfoModel
+DEBUG 2019-07-18 09:59:47,549 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyCompany.IdentityServer.Users.Dto.CreateUserDto
+DEBUG 2019-07-18 09:59:47,549 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyCompany.IdentityServer.Users.Dto.UserDto
+DEBUG 2019-07-18 09:59:47,550 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyCompany.IdentityServer.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2019-07-18 09:59:47,550 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyCompany.IdentityServer.Sessions.Dto.UserLoginInfoDto
+DEBUG 2019-07-18 09:59:47,550 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyCompany.IdentityServer.Roles.Dto.CreateRoleDto
+DEBUG 2019-07-18 09:59:47,550 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyCompany.IdentityServer.Roles.Dto.PermissionDto
+DEBUG 2019-07-18 09:59:47,550 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyCompany.IdentityServer.Roles.Dto.RoleDto
+DEBUG 2019-07-18 09:59:47,551 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyCompany.IdentityServer.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2019-07-18 09:59:47,551 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyCompany.IdentityServer.MultiTenancy.Dto.TenantDto
+INFO  2019-07-18 09:59:50,080 [1    ] IdentityServer4.Startup                  - Starting IdentityServer4 version 2.3.2.0
+INFO  2019-07-18 09:59:50,132 [1    ] IdentityServer4.Startup                  - Using the default authentication scheme Identity.Application for IdentityServer
+INFO  2019-07-18 09:59:51,566 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/  
+INFO  2019-07-18 09:59:51,567 [9    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://127.0.0.1:35817/iisintegration  0
+DEBUG 2019-07-18 09:59:51,666 [12   ] Abp.Modules.AbpModuleManager             - Shutting down has been started
+DEBUG 2019-07-18 09:59:51,675 [12   ] Abp.BackgroundJobs.BackgroundJobManager  - Stop background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2019-07-18 09:59:51,682 [12   ] Abp.BackgroundJobs.BackgroundJobManager  - WaitToStop background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2019-07-18 09:59:51,682 [12   ] Abp.Modules.AbpModuleManager             - Shutting down completed.
+INFO  2019-07-18 09:59:51,782 [9    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 212.9149ms 202 
+INFO  2019-07-18 09:59:51,859 [11   ] tion.Cookies.CookieAuthenticationHandler - Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+INFO  2019-07-18 09:59:51,875 [11   ] tion.Cookies.CookieAuthenticationHandler - Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+INFO  2019-07-18 09:59:51,888 [11   ] tion.Cookies.CookieAuthenticationHandler - Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+WARN  2019-07-18 09:59:51,923 [11   ] calization.RequestLocalizationMiddleware - AcceptLanguageHeaderRequestCultureProvider returned the following unsupported cultures 'zh-CN, zh'.
+WARN  2019-07-18 09:59:51,923 [11   ] calization.RequestLocalizationMiddleware - AcceptLanguageHeaderRequestCultureProvider returned the following unsupported UI Cultures 'zh-CN, zh'.
+INFO  2019-07-18 09:59:53,045 [11   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "Index", controller = "Home", area = ""}. Executing action IdentityServer4.Quickstart.UI.HomeController.Index (MyCompany.IdentityServer.Web.Host)
+INFO  2019-07-18 09:59:53,115 [11   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method IdentityServer4.Quickstart.UI.HomeController.Index (MyCompany.IdentityServer.Web.Host) - Validation state: Valid
+INFO  2019-07-18 09:59:53,121 [11   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method IdentityServer4.Quickstart.UI.HomeController.Index (MyCompany.IdentityServer.Web.Host), returned result Microsoft.AspNetCore.Mvc.ViewResult in 4.1271ms.
+INFO  2019-07-18 09:59:53,832 [14   ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executing ViewResult, running view Index.
+INFO  2019-07-18 09:59:53,988 [14   ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executed ViewResult - view Index executed in 196.5019ms.
+INFO  2019-07-18 09:59:53,995 [14   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action IdentityServer4.Quickstart.UI.HomeController.Index (MyCompany.IdentityServer.Web.Host) in 946.8939ms
+INFO  2019-07-18 09:59:54,025 [14   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 2464.429ms 200 text/html; charset=utf-8
+DEBUG 2019-07-18 10:02:13,017 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2019-07-18 10:02:13,039 [1    ] Abp.Modules.AbpModuleManager             - Found 17 ABP modules in total.
+DEBUG 2019-07-18 10:02:13,061 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: MyCompany.IdentityServer.Web.Host.Startup.IdentityServerWebHostModule, MyCompany.IdentityServer.Web.Host, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-07-18 10:02:13,064 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: MyCompany.IdentityServer.IdentityServerWebCoreModule, MyCompany.IdentityServer.Web.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-07-18 10:02:13,064 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: MyCompany.IdentityServer.IdentityServerApplicationModule, MyCompany.IdentityServer.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-07-18 10:02:13,064 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: MyCompany.IdentityServer.IdentityServerCoreModule, MyCompany.IdentityServer.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-07-18 10:02:13,065 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.ZeroCore, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-07-18 10:02:13,065 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-07-18 10:02:13,065 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-07-18 10:02:13,066 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-07-18 10:02:13,066 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: MyCompany.IdentityServer.EntityFrameworkCore.IdentityServerEntityFrameworkModule, MyCompany.IdentityServer.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-07-18 10:02:13,067 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFrameworkCore.AbpZeroCoreEntityFrameworkCoreModule, Abp.ZeroCore.EntityFrameworkCore, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-07-18 10:02:13,067 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-07-18 10:02:13,067 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-07-18 10:02:13,067 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.IdentityServer4.AbpZeroCoreIdentityServerEntityFrameworkCoreModule, Abp.ZeroCore.IdentityServer4.EntityFrameworkCore, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-07-18 10:02:13,067 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.IdentityServer4.AbpZeroCoreIdentityServerModule, Abp.ZeroCore.IdentityServer4, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-07-18 10:02:13,067 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-07-18 10:02:13,068 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-07-18 10:02:13,068 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.SignalR.AbpAspNetCoreSignalRModule, Abp.AspNetCore.SignalR, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-07-18 10:02:13,070 [1    ] Abp.Modules.AbpModuleManager             - 17 modules loaded.
+DEBUG 2019-07-18 10:02:13,139 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-07-18 10:02:13,139 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-07-18 10:02:13,139 [1    ] o.Configuration.LanguageManagementConfig - Converted IdentityServer (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-07-18 10:02:13,139 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-07-18 10:02:13,402 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: MyCompany.IdentityServer.EntityFrameworkCore.IdentityServerDbContext, MyCompany.IdentityServer.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-07-18 10:02:13,784 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2019-07-18 10:02:13,884 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2019-07-18 10:02:13,920 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2019-07-18 10:02:13,943 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: IdentityServer
+DEBUG 2019-07-18 10:02:13,969 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2019-07-18 10:02:13,999 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2019-07-18 10:02:14,043 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 10 classes define auto mapping attributes
+DEBUG 2019-07-18 10:02:14,043 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyCompany.IdentityServer.Models.TokenAuth.ExternalLoginProviderInfoModel
+DEBUG 2019-07-18 10:02:14,050 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyCompany.IdentityServer.Users.Dto.CreateUserDto
+DEBUG 2019-07-18 10:02:14,051 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyCompany.IdentityServer.Users.Dto.UserDto
+DEBUG 2019-07-18 10:02:14,051 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyCompany.IdentityServer.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2019-07-18 10:02:14,051 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyCompany.IdentityServer.Sessions.Dto.UserLoginInfoDto
+DEBUG 2019-07-18 10:02:14,051 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyCompany.IdentityServer.Roles.Dto.CreateRoleDto
+DEBUG 2019-07-18 10:02:14,051 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyCompany.IdentityServer.Roles.Dto.PermissionDto
+DEBUG 2019-07-18 10:02:14,051 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyCompany.IdentityServer.Roles.Dto.RoleDto
+DEBUG 2019-07-18 10:02:14,052 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyCompany.IdentityServer.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2019-07-18 10:02:14,052 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyCompany.IdentityServer.MultiTenancy.Dto.TenantDto
+INFO  2019-07-18 10:02:16,643 [1    ] IdentityServer4.Startup                  - Starting IdentityServer4 version 2.3.2.0
+INFO  2019-07-18 10:02:16,696 [1    ] IdentityServer4.Startup                  - Using the default authentication scheme Identity.Application for IdentityServer
+INFO  2019-07-18 10:02:17,599 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21022/  
+WARN  2019-07-18 10:02:17,760 [11   ] calization.RequestLocalizationMiddleware - AcceptLanguageHeaderRequestCultureProvider returned the following unsupported cultures 'zh-CN, zh'.
+WARN  2019-07-18 10:02:17,760 [11   ] calization.RequestLocalizationMiddleware - AcceptLanguageHeaderRequestCultureProvider returned the following unsupported UI Cultures 'zh-CN, zh'.
+INFO  2019-07-18 10:02:18,769 [11   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "Index", controller = "Home", area = ""}. Executing action IdentityServer4.Quickstart.UI.HomeController.Index (MyCompany.IdentityServer.Web.Host)
+INFO  2019-07-18 10:02:18,838 [11   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method IdentityServer4.Quickstart.UI.HomeController.Index (MyCompany.IdentityServer.Web.Host) - Validation state: Valid
+INFO  2019-07-18 10:02:18,844 [11   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method IdentityServer4.Quickstart.UI.HomeController.Index (MyCompany.IdentityServer.Web.Host), returned result Microsoft.AspNetCore.Mvc.ViewResult in 4.8728ms.
+INFO  2019-07-18 10:02:19,101 [9    ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executing ViewResult, running view Index.
+INFO  2019-07-18 10:02:19,290 [9    ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executed ViewResult - view Index executed in 229.0203ms.
+INFO  2019-07-18 10:02:19,297 [9    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action IdentityServer4.Quickstart.UI.HomeController.Index (MyCompany.IdentityServer.Web.Host) in 526.3629ms
+INFO  2019-07-18 10:02:19,307 [14   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21022/icon.png  
+INFO  2019-07-18 10:02:19,312 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21022/icon.jpg  
+INFO  2019-07-18 10:02:19,315 [12   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21022/lib/bootstrap/css/bootstrap.css  
+INFO  2019-07-18 10:02:19,317 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21022/css/site.css  
+INFO  2019-07-18 10:02:19,335 [9    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 1737.674ms 200 text/html; charset=utf-8
+INFO  2019-07-18 10:02:19,349 [11   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/css/site.css'. Physical path: 'E:\desktop\aspnet-core\src\MyCompany.IdentityServer.Web.Host\wwwroot\css\site.css'
+INFO  2019-07-18 10:02:19,349 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 32.1002ms 200 text/css
+INFO  2019-07-18 10:02:19,350 [12   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/icon.png'. Physical path: 'E:\desktop\aspnet-core\src\MyCompany.IdentityServer.Web.Host\wwwroot\icon.png'
+INFO  2019-07-18 10:02:19,350 [14   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/icon.jpg'. Physical path: 'E:\desktop\aspnet-core\src\MyCompany.IdentityServer.Web.Host\wwwroot\icon.jpg'
+INFO  2019-07-18 10:02:19,350 [12   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 43.2674ms 200 image/png
+INFO  2019-07-18 10:02:19,350 [14   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 37.6573ms 200 image/jpeg
+INFO  2019-07-18 10:02:19,374 [14   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/bootstrap/css/bootstrap.css'. Physical path: 'E:\desktop\aspnet-core\src\MyCompany.IdentityServer.Web.Host\wwwroot\lib\bootstrap\css\bootstrap.css'
+INFO  2019-07-18 10:02:19,374 [14   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 58.5305ms 200 text/css
+INFO  2019-07-18 10:02:19,384 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21022/lib/jquery/jquery.js  
+INFO  2019-07-18 10:02:19,389 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21022/lib/bootstrap/js/bootstrap.js  
+INFO  2019-07-18 10:02:19,395 [6    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/bootstrap/js/bootstrap.js'. Physical path: 'E:\desktop\aspnet-core\src\MyCompany.IdentityServer.Web.Host\wwwroot\lib\bootstrap\js\bootstrap.js'
+INFO  2019-07-18 10:02:19,395 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 6.6696ms 200 application/javascript
+INFO  2019-07-18 10:02:19,401 [12   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/jquery/jquery.js'. Physical path: 'E:\desktop\aspnet-core\src\MyCompany.IdentityServer.Web.Host\wwwroot\lib\jquery\jquery.js'
+INFO  2019-07-18 10:02:19,401 [12   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 16.72ms 200 application/javascript
+INFO  2019-07-18 10:02:19,522 [12   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21022/favicon.ico  
+INFO  2019-07-18 10:02:19,523 [12   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/favicon.ico'. Physical path: 'E:\desktop\aspnet-core\src\MyCompany.IdentityServer.Web.Host\wwwroot\favicon.ico'
+INFO  2019-07-18 10:02:19,523 [12   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 1.0765ms 200 image/x-icon
+INFO  2019-07-18 10:02:28,139 [12   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21022/.well-known/openid-configuration  
+INFO  2019-07-18 10:02:28,203 [12   ] Server4.Hosting.IdentityServerMiddleware - Invoking IdentityServer endpoint: IdentityServer4.Endpoints.DiscoveryEndpoint for /.well-known/openid-configuration
+INFO  2019-07-18 10:02:28,283 [12   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 143.9072ms 200 application/json; charset=UTF-8
+INFO  2019-07-18 10:02:28,348 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21022/.well-known/openid-configuration/jwks  
+INFO  2019-07-18 10:02:28,351 [6    ] Server4.Hosting.IdentityServerMiddleware - Invoking IdentityServer endpoint: IdentityServer4.Endpoints.DiscoveryKeyEndpoint for /.well-known/openid-configuration/jwks
+INFO  2019-07-18 10:02:28,376 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 28.3672ms 200 application/jwk-set+json; charset=UTF-8
+INFO  2019-07-18 10:02:28,421 [12   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21022/connect/authorize?client_id=client&redirect_uri=http%3A%2F%2Flocalhost%3A52103%2Fsignin-oidc&response_type=code%20id_token&scope=openid%20profile&response_mode=form_post&nonce=636990121483938519.MDk2MGE1NWItOWZhMS00N2JiLTgwYjQtYzZkOTU2OWNiNjE1ODViMjUyZjMtMmNhYi00NzVkLWEzNjItZDg3NjI3YjYzZDlj&state=CfDJ8ILGMZ762M9Mhr5iLffrhADaFpSvOFdQR8GlruzN5FgqxqcEApnQ214JLD18qEqdNtzM-EQnMg9ZJmbMll1yEVLCiaFKRGtTRhTh6OZ4LIB0JvNS05ZU7nOBaGQ3QOmkRT95VF19ckuD6HjGVY37GBWZKvVghFj_uabIbQnp4YAJk46L0U9BprRja_gh3K_readq15aFOU04vIYYJOKzT3vSzHlkrP4hL00Tt8PfzippwagY2OHhks73mUdB2gcSgJ9B35O7-a-myZQMxPxc5XXSG_IaoS2M1wXf2yVBRnxrdFmgY3I5bo03AyI4XP9-dw&x-client-SKU=ID_NETSTANDARD2_0&x-client-ver=5.3.0.0  
+INFO  2019-07-18 10:02:28,430 [12   ] Server4.Hosting.IdentityServerMiddleware - Invoking IdentityServer endpoint: IdentityServer4.Endpoints.AuthorizeEndpoint for /connect/authorize
+INFO  2019-07-18 10:02:28,502 [12   ] ntityServer4.Endpoints.AuthorizeEndpoint - ValidatedAuthorizeRequest
+{
+  "ClientId": "client",
+  "ClientName": "MVC Client",
+  "RedirectUri": "http://localhost:52103/signin-oidc",
+  "AllowedRedirectUris": [
+    "http://localhost:52103/signin-oidc"
+  ],
+  "SubjectId": "anonymous",
+  "ResponseType": "code id_token",
+  "ResponseMode": "form_post",
+  "GrantType": "hybrid",
+  "RequestedScopes": "openid profile",
+  "State": "CfDJ8ILGMZ762M9Mhr5iLffrhADaFpSvOFdQR8GlruzN5FgqxqcEApnQ214JLD18qEqdNtzM-EQnMg9ZJmbMll1yEVLCiaFKRGtTRhTh6OZ4LIB0JvNS05ZU7nOBaGQ3QOmkRT95VF19ckuD6HjGVY37GBWZKvVghFj_uabIbQnp4YAJk46L0U9BprRja_gh3K_readq15aFOU04vIYYJOKzT3vSzHlkrP4hL00Tt8PfzippwagY2OHhks73mUdB2gcSgJ9B35O7-a-myZQMxPxc5XXSG_IaoS2M1wXf2yVBRnxrdFmgY3I5bo03AyI4XP9-dw",
+  "Nonce": "636990121483938519.MDk2MGE1NWItOWZhMS00N2JiLTgwYjQtYzZkOTU2OWNiNjE1ODViMjUyZjMtMmNhYi00NzVkLWEzNjItZDg3NjI3YjYzZDlj",
+  "Raw": {
+    "client_id": "client",
+    "redirect_uri": "http://localhost:52103/signin-oidc",
+    "response_type": "code id_token",
+    "scope": "openid profile",
+    "response_mode": "form_post",
+    "nonce": "636990121483938519.MDk2MGE1NWItOWZhMS00N2JiLTgwYjQtYzZkOTU2OWNiNjE1ODViMjUyZjMtMmNhYi00NzVkLWEzNjItZDg3NjI3YjYzZDlj",
+    "state": "CfDJ8ILGMZ762M9Mhr5iLffrhADaFpSvOFdQR8GlruzN5FgqxqcEApnQ214JLD18qEqdNtzM-EQnMg9ZJmbMll1yEVLCiaFKRGtTRhTh6OZ4LIB0JvNS05ZU7nOBaGQ3QOmkRT95VF19ckuD6HjGVY37GBWZKvVghFj_uabIbQnp4YAJk46L0U9BprRja_gh3K_readq15aFOU04vIYYJOKzT3vSzHlkrP4hL00Tt8PfzippwagY2OHhks73mUdB2gcSgJ9B35O7-a-myZQMxPxc5XXSG_IaoS2M1wXf2yVBRnxrdFmgY3I5bo03AyI4XP9-dw",
+    "x-client-SKU": "ID_NETSTANDARD2_0",
+    "x-client-ver": "5.3.0.0"
+  }
+}
+INFO  2019-07-18 10:02:28,509 [12   ] ng.AuthorizeInteractionResponseGenerator - Showing login: User is not authenticated
+INFO  2019-07-18 10:02:28,517 [12   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 95.9122ms 302 
+INFO  2019-07-18 10:02:28,523 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21022/Account/Login?ReturnUrl=%2Fconnect%2Fauthorize%2Fcallback%3Fclient_id%3Dclient%26redirect_uri%3Dhttp%253A%252F%252Flocalhost%253A52103%252Fsignin-oidc%26response_type%3Dcode%2520id_token%26scope%3Dopenid%2520profile%26response_mode%3Dform_post%26nonce%3D636990121483938519.MDk2MGE1NWItOWZhMS00N2JiLTgwYjQtYzZkOTU2OWNiNjE1ODViMjUyZjMtMmNhYi00NzVkLWEzNjItZDg3NjI3YjYzZDlj%26state%3DCfDJ8ILGMZ762M9Mhr5iLffrhADaFpSvOFdQR8GlruzN5FgqxqcEApnQ214JLD18qEqdNtzM-EQnMg9ZJmbMll1yEVLCiaFKRGtTRhTh6OZ4LIB0JvNS05ZU7nOBaGQ3QOmkRT95VF19ckuD6HjGVY37GBWZKvVghFj_uabIbQnp4YAJk46L0U9BprRja_gh3K_readq15aFOU04vIYYJOKzT3vSzHlkrP4hL00Tt8PfzippwagY2OHhks73mUdB2gcSgJ9B35O7-a-myZQMxPxc5XXSG_IaoS2M1wXf2yVBRnxrdFmgY3I5bo03AyI4XP9-dw%26x-client-SKU%3DID_NETSTANDARD2_0%26x-client-ver%3D5.3.0.0  
+WARN  2019-07-18 10:02:28,527 [6    ] calization.RequestLocalizationMiddleware - AcceptLanguageHeaderRequestCultureProvider returned the following unsupported cultures 'zh-CN, zh'.
+WARN  2019-07-18 10:02:28,527 [6    ] calization.RequestLocalizationMiddleware - AcceptLanguageHeaderRequestCultureProvider returned the following unsupported UI Cultures 'zh-CN, zh'.
+INFO  2019-07-18 10:02:28,560 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "Login", controller = "Account", area = ""}. Executing action IdentityServer4.Quickstart.UI.AccountController.Login (MyCompany.IdentityServer.Web.Host)
+INFO  2019-07-18 10:02:28,625 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method IdentityServer4.Quickstart.UI.AccountController.Login (MyCompany.IdentityServer.Web.Host) with arguments (/connect/authorize/callback?client_id=client&redirect_uri=http%3A%2F%2Flocalhost%3A52103%2Fsignin-oidc&response_type=code%20id_token&scope=openid%20profile&response_mode=form_post&nonce=636990121483938519.MDk2MGE1NWItOWZhMS00N2JiLTgwYjQtYzZkOTU2OWNiNjE1ODViMjUyZjMtMmNhYi00NzVkLWEzNjItZDg3NjI3YjYzZDlj&state=CfDJ8ILGMZ762M9Mhr5iLffrhADaFpSvOFdQR8GlruzN5FgqxqcEApnQ214JLD18qEqdNtzM-EQnMg9ZJmbMll1yEVLCiaFKRGtTRhTh6OZ4LIB0JvNS05ZU7nOBaGQ3QOmkRT95VF19ckuD6HjGVY37GBWZKvVghFj_uabIbQnp4YAJk46L0U9BprRja_gh3K_readq15aFOU04vIYYJOKzT3vSzHlkrP4hL00Tt8PfzippwagY2OHhks73mUdB2gcSgJ9B35O7-a-myZQMxPxc5XXSG_IaoS2M1wXf2yVBRnxrdFmgY3I5bo03AyI4XP9-dw&x-client-SKU=ID_NETSTANDARD2_0&x-client-ver=5.3.0.0) - Validation state: Valid
+INFO  2019-07-18 10:02:28,641 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method IdentityServer4.Quickstart.UI.AccountController.Login (MyCompany.IdentityServer.Web.Host), returned result Microsoft.AspNetCore.Mvc.ViewResult in 15.3582ms.
+INFO  2019-07-18 10:02:28,647 [12   ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executing ViewResult, running view Login.
+INFO  2019-07-18 10:02:28,803 [12   ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executed ViewResult - view Login executed in 158.787ms.
+INFO  2019-07-18 10:02:28,804 [12   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action IdentityServer4.Quickstart.UI.AccountController.Login (MyCompany.IdentityServer.Web.Host) in 243.3695ms
+INFO  2019-07-18 10:02:28,804 [12   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 280.8762ms 200 text/html; charset=utf-8
+INFO  2019-07-18 10:02:33,054 [9    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:21022/Account/Login?ReturnUrl=%2Fconnect%2Fauthorize%2Fcallback%3Fclient_id%3Dclient%26redirect_uri%3Dhttp%253A%252F%252Flocalhost%253A52103%252Fsignin-oidc%26response_type%3Dcode%2520id_token%26scope%3Dopenid%2520profile%26response_mode%3Dform_post%26nonce%3D636990121483938519.MDk2MGE1NWItOWZhMS00N2JiLTgwYjQtYzZkOTU2OWNiNjE1ODViMjUyZjMtMmNhYi00NzVkLWEzNjItZDg3NjI3YjYzZDlj%26state%3DCfDJ8ILGMZ762M9Mhr5iLffrhADaFpSvOFdQR8GlruzN5FgqxqcEApnQ214JLD18qEqdNtzM-EQnMg9ZJmbMll1yEVLCiaFKRGtTRhTh6OZ4LIB0JvNS05ZU7nOBaGQ3QOmkRT95VF19ckuD6HjGVY37GBWZKvVghFj_uabIbQnp4YAJk46L0U9BprRja_gh3K_readq15aFOU04vIYYJOKzT3vSzHlkrP4hL00Tt8PfzippwagY2OHhks73mUdB2gcSgJ9B35O7-a-myZQMxPxc5XXSG_IaoS2M1wXf2yVBRnxrdFmgY3I5bo03AyI4XP9-dw%26x-client-SKU%3DID_NETSTANDARD2_0%26x-client-ver%3D5.3.0.0 application/x-www-form-urlencoded 999
+INFO  2019-07-18 10:02:33,064 [9    ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution failed.
+INFO  2019-07-18 10:02:33,064 [9    ] pNetCore.Cors.Infrastructure.CorsService - Request origin null does not have permission to access the resource.
+WARN  2019-07-18 10:02:33,083 [9    ] calization.RequestLocalizationMiddleware - AcceptLanguageHeaderRequestCultureProvider returned the following unsupported cultures 'zh-CN, zh'.
+WARN  2019-07-18 10:02:33,084 [9    ] calization.RequestLocalizationMiddleware - AcceptLanguageHeaderRequestCultureProvider returned the following unsupported UI Cultures 'zh-CN, zh'.
+INFO  2019-07-18 10:02:33,103 [9    ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "Login", controller = "Account", area = ""}. Executing action IdentityServer4.Quickstart.UI.AccountController.Login (MyCompany.IdentityServer.Web.Host)
+INFO  2019-07-18 10:02:33,107 [9    ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution failed.
+INFO  2019-07-18 10:02:33,107 [9    ] pNetCore.Cors.Infrastructure.CorsService - Request origin null does not have permission to access the resource.
+INFO  2019-07-18 10:02:33,231 [9    ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method IdentityServer4.Quickstart.UI.AccountController.Login (MyCompany.IdentityServer.Web.Host) with arguments (IdentityServer4.Quickstart.UI.LoginInputModel, login) - Validation state: Valid
+INFO  2019-07-18 10:02:33,391 [9    ] tion.Cookies.CookieAuthenticationHandler - AuthenticationScheme: Identity.Application signed in.
+INFO  2019-07-18 10:02:33,393 [9    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method IdentityServer4.Quickstart.UI.AccountController.Login (MyCompany.IdentityServer.Web.Host), returned result Microsoft.AspNetCore.Mvc.RedirectResult in 161.3938ms.
+INFO  2019-07-18 10:02:33,399 [6    ] vc.Infrastructure.RedirectResultExecutor - Executing RedirectResult, redirecting to /connect/authorize/callback?client_id=client&redirect_uri=http%3A%2F%2Flocalhost%3A52103%2Fsignin-oidc&response_type=code%20id_token&scope=openid%20profile&response_mode=form_post&nonce=636990121483938519.MDk2MGE1NWItOWZhMS00N2JiLTgwYjQtYzZkOTU2OWNiNjE1ODViMjUyZjMtMmNhYi00NzVkLWEzNjItZDg3NjI3YjYzZDlj&state=CfDJ8ILGMZ762M9Mhr5iLffrhADaFpSvOFdQR8GlruzN5FgqxqcEApnQ214JLD18qEqdNtzM-EQnMg9ZJmbMll1yEVLCiaFKRGtTRhTh6OZ4LIB0JvNS05ZU7nOBaGQ3QOmkRT95VF19ckuD6HjGVY37GBWZKvVghFj_uabIbQnp4YAJk46L0U9BprRja_gh3K_readq15aFOU04vIYYJOKzT3vSzHlkrP4hL00Tt8PfzippwagY2OHhks73mUdB2gcSgJ9B35O7-a-myZQMxPxc5XXSG_IaoS2M1wXf2yVBRnxrdFmgY3I5bo03AyI4XP9-dw&x-client-SKU=ID_NETSTANDARD2_0&x-client-ver=5.3.0.0.
+INFO  2019-07-18 10:02:33,400 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action IdentityServer4.Quickstart.UI.AccountController.Login (MyCompany.IdentityServer.Web.Host) in 292.8879ms
+INFO  2019-07-18 10:02:33,401 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 347.1627ms 302 
+INFO  2019-07-18 10:02:33,408 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21022/connect/authorize/callback?client_id=client&redirect_uri=http%3A%2F%2Flocalhost%3A52103%2Fsignin-oidc&response_type=code%20id_token&scope=openid%20profile&response_mode=form_post&nonce=636990121483938519.MDk2MGE1NWItOWZhMS00N2JiLTgwYjQtYzZkOTU2OWNiNjE1ODViMjUyZjMtMmNhYi00NzVkLWEzNjItZDg3NjI3YjYzZDlj&state=CfDJ8ILGMZ762M9Mhr5iLffrhADaFpSvOFdQR8GlruzN5FgqxqcEApnQ214JLD18qEqdNtzM-EQnMg9ZJmbMll1yEVLCiaFKRGtTRhTh6OZ4LIB0JvNS05ZU7nOBaGQ3QOmkRT95VF19ckuD6HjGVY37GBWZKvVghFj_uabIbQnp4YAJk46L0U9BprRja_gh3K_readq15aFOU04vIYYJOKzT3vSzHlkrP4hL00Tt8PfzippwagY2OHhks73mUdB2gcSgJ9B35O7-a-myZQMxPxc5XXSG_IaoS2M1wXf2yVBRnxrdFmgY3I5bo03AyI4XP9-dw&x-client-SKU=ID_NETSTANDARD2_0&x-client-ver=5.3.0.0  
+INFO  2019-07-18 10:02:33,437 [7    ] Server4.Hosting.IdentityServerMiddleware - Invoking IdentityServer endpoint: IdentityServer4.Endpoints.AuthorizeCallbackEndpoint for /connect/authorize/callback
+INFO  2019-07-18 10:02:33,444 [7    ] ver4.Endpoints.AuthorizeCallbackEndpoint - ValidatedAuthorizeRequest
+{
+  "ClientId": "client",
+  "ClientName": "MVC Client",
+  "RedirectUri": "http://localhost:52103/signin-oidc",
+  "AllowedRedirectUris": [
+    "http://localhost:52103/signin-oidc"
+  ],
+  "SubjectId": "2",
+  "ResponseType": "code id_token",
+  "ResponseMode": "form_post",
+  "GrantType": "hybrid",
+  "RequestedScopes": "openid profile",
+  "State": "CfDJ8ILGMZ762M9Mhr5iLffrhADaFpSvOFdQR8GlruzN5FgqxqcEApnQ214JLD18qEqdNtzM-EQnMg9ZJmbMll1yEVLCiaFKRGtTRhTh6OZ4LIB0JvNS05ZU7nOBaGQ3QOmkRT95VF19ckuD6HjGVY37GBWZKvVghFj_uabIbQnp4YAJk46L0U9BprRja_gh3K_readq15aFOU04vIYYJOKzT3vSzHlkrP4hL00Tt8PfzippwagY2OHhks73mUdB2gcSgJ9B35O7-a-myZQMxPxc5XXSG_IaoS2M1wXf2yVBRnxrdFmgY3I5bo03AyI4XP9-dw",
+  "Nonce": "636990121483938519.MDk2MGE1NWItOWZhMS00N2JiLTgwYjQtYzZkOTU2OWNiNjE1ODViMjUyZjMtMmNhYi00NzVkLWEzNjItZDg3NjI3YjYzZDlj",
+  "SessionId": "2ed63a623b4b4a848bae5a7ca608f4ee",
+  "Raw": {
+    "client_id": "client",
+    "redirect_uri": "http://localhost:52103/signin-oidc",
+    "response_type": "code id_token",
+    "scope": "openid profile",
+    "response_mode": "form_post",
+    "nonce": "636990121483938519.MDk2MGE1NWItOWZhMS00N2JiLTgwYjQtYzZkOTU2OWNiNjE1ODViMjUyZjMtMmNhYi00NzVkLWEzNjItZDg3NjI3YjYzZDlj",
+    "state": "CfDJ8ILGMZ762M9Mhr5iLffrhADaFpSvOFdQR8GlruzN5FgqxqcEApnQ214JLD18qEqdNtzM-EQnMg9ZJmbMll1yEVLCiaFKRGtTRhTh6OZ4LIB0JvNS05ZU7nOBaGQ3QOmkRT95VF19ckuD6HjGVY37GBWZKvVghFj_uabIbQnp4YAJk46L0U9BprRja_gh3K_readq15aFOU04vIYYJOKzT3vSzHlkrP4hL00Tt8PfzippwagY2OHhks73mUdB2gcSgJ9B35O7-a-myZQMxPxc5XXSG_IaoS2M1wXf2yVBRnxrdFmgY3I5bo03AyI4XP9-dw",
+    "x-client-SKU": "ID_NETSTANDARD2_0",
+    "x-client-ver": "5.3.0.0"
+  }
+}
+INFO  2019-07-18 10:02:33,483 [11   ] ng.AuthorizeInteractionResponseGenerator - Showing login: User is not active
+INFO  2019-07-18 10:02:33,489 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 81.0461ms 302 
+INFO  2019-07-18 10:02:33,493 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21022/Account/Login?ReturnUrl=%2Fconnect%2Fauthorize%2Fcallback%3Fclient_id%3Dclient%26redirect_uri%3Dhttp%253A%252F%252Flocalhost%253A52103%252Fsignin-oidc%26response_type%3Dcode%2520id_token%26scope%3Dopenid%2520profile%26response_mode%3Dform_post%26nonce%3D636990121483938519.MDk2MGE1NWItOWZhMS00N2JiLTgwYjQtYzZkOTU2OWNiNjE1ODViMjUyZjMtMmNhYi00NzVkLWEzNjItZDg3NjI3YjYzZDlj%26state%3DCfDJ8ILGMZ762M9Mhr5iLffrhADaFpSvOFdQR8GlruzN5FgqxqcEApnQ214JLD18qEqdNtzM-EQnMg9ZJmbMll1yEVLCiaFKRGtTRhTh6OZ4LIB0JvNS05ZU7nOBaGQ3QOmkRT95VF19ckuD6HjGVY37GBWZKvVghFj_uabIbQnp4YAJk46L0U9BprRja_gh3K_readq15aFOU04vIYYJOKzT3vSzHlkrP4hL00Tt8PfzippwagY2OHhks73mUdB2gcSgJ9B35O7-a-myZQMxPxc5XXSG_IaoS2M1wXf2yVBRnxrdFmgY3I5bo03AyI4XP9-dw%26x-client-SKU%3DID_NETSTANDARD2_0%26x-client-ver%3D5.3.0.0  
+WARN  2019-07-18 10:02:33,527 [10   ] calization.RequestLocalizationMiddleware - AcceptLanguageHeaderRequestCultureProvider returned the following unsupported cultures 'zh-CN, zh'.
+WARN  2019-07-18 10:02:33,527 [10   ] calization.RequestLocalizationMiddleware - AcceptLanguageHeaderRequestCultureProvider returned the following unsupported UI Cultures 'zh-CN, zh'.
+INFO  2019-07-18 10:02:33,528 [10   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "Login", controller = "Account", area = ""}. Executing action IdentityServer4.Quickstart.UI.AccountController.Login (MyCompany.IdentityServer.Web.Host)
+INFO  2019-07-18 10:02:33,529 [10   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method IdentityServer4.Quickstart.UI.AccountController.Login (MyCompany.IdentityServer.Web.Host) with arguments (/connect/authorize/callback?client_id=client&redirect_uri=http%3A%2F%2Flocalhost%3A52103%2Fsignin-oidc&response_type=code%20id_token&scope=openid%20profile&response_mode=form_post&nonce=636990121483938519.MDk2MGE1NWItOWZhMS00N2JiLTgwYjQtYzZkOTU2OWNiNjE1ODViMjUyZjMtMmNhYi00NzVkLWEzNjItZDg3NjI3YjYzZDlj&state=CfDJ8ILGMZ762M9Mhr5iLffrhADaFpSvOFdQR8GlruzN5FgqxqcEApnQ214JLD18qEqdNtzM-EQnMg9ZJmbMll1yEVLCiaFKRGtTRhTh6OZ4LIB0JvNS05ZU7nOBaGQ3QOmkRT95VF19ckuD6HjGVY37GBWZKvVghFj_uabIbQnp4YAJk46L0U9BprRja_gh3K_readq15aFOU04vIYYJOKzT3vSzHlkrP4hL00Tt8PfzippwagY2OHhks73mUdB2gcSgJ9B35O7-a-myZQMxPxc5XXSG_IaoS2M1wXf2yVBRnxrdFmgY3I5bo03AyI4XP9-dw&x-client-SKU=ID_NETSTANDARD2_0&x-client-ver=5.3.0.0) - Validation state: Valid
+INFO  2019-07-18 10:02:33,529 [10   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method IdentityServer4.Quickstart.UI.AccountController.Login (MyCompany.IdentityServer.Web.Host), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.2159ms.
+INFO  2019-07-18 10:02:33,536 [10   ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executing ViewResult, running view Login.
+INFO  2019-07-18 10:02:33,566 [10   ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executed ViewResult - view Login executed in 31.7839ms.
+INFO  2019-07-18 10:02:33,566 [10   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action IdentityServer4.Quickstart.UI.AccountController.Login (MyCompany.IdentityServer.Web.Host) in 38.489ms
+INFO  2019-07-18 10:02:33,567 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 73.366ms 200 text/html; charset=utf-8
+DEBUG 2019-07-18 10:02:53,699 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2019-07-18 10:02:53,731 [1    ] Abp.Modules.AbpModuleManager             - Found 17 ABP modules in total.
+DEBUG 2019-07-18 10:02:53,754 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: MyCompany.IdentityServer.Web.Host.Startup.IdentityServerWebHostModule, MyCompany.IdentityServer.Web.Host, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-07-18 10:02:53,757 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: MyCompany.IdentityServer.IdentityServerWebCoreModule, MyCompany.IdentityServer.Web.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-07-18 10:02:53,759 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: MyCompany.IdentityServer.IdentityServerApplicationModule, MyCompany.IdentityServer.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-07-18 10:02:53,760 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: MyCompany.IdentityServer.IdentityServerCoreModule, MyCompany.IdentityServer.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-07-18 10:02:53,760 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.ZeroCore, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-07-18 10:02:53,761 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-07-18 10:02:53,761 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-07-18 10:02:53,761 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-07-18 10:02:53,762 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: MyCompany.IdentityServer.EntityFrameworkCore.IdentityServerEntityFrameworkModule, MyCompany.IdentityServer.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-07-18 10:02:53,762 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFrameworkCore.AbpZeroCoreEntityFrameworkCoreModule, Abp.ZeroCore.EntityFrameworkCore, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-07-18 10:02:53,762 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-07-18 10:02:53,762 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-07-18 10:02:53,762 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.IdentityServer4.AbpZeroCoreIdentityServerEntityFrameworkCoreModule, Abp.ZeroCore.IdentityServer4.EntityFrameworkCore, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-07-18 10:02:53,763 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.IdentityServer4.AbpZeroCoreIdentityServerModule, Abp.ZeroCore.IdentityServer4, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-07-18 10:02:53,764 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-07-18 10:02:53,764 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-07-18 10:02:53,764 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.SignalR.AbpAspNetCoreSignalRModule, Abp.AspNetCore.SignalR, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-07-18 10:02:53,769 [1    ] Abp.Modules.AbpModuleManager             - 17 modules loaded.
+DEBUG 2019-07-18 10:02:53,842 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-07-18 10:02:53,842 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-07-18 10:02:53,842 [1    ] o.Configuration.LanguageManagementConfig - Converted IdentityServer (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-07-18 10:02:53,842 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-07-18 10:02:54,114 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: MyCompany.IdentityServer.EntityFrameworkCore.IdentityServerDbContext, MyCompany.IdentityServer.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-07-18 10:02:54,757 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2019-07-18 10:02:54,856 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2019-07-18 10:02:54,890 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2019-07-18 10:02:54,912 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: IdentityServer
+DEBUG 2019-07-18 10:02:54,935 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2019-07-18 10:02:54,960 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2019-07-18 10:02:54,998 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 10 classes define auto mapping attributes
+DEBUG 2019-07-18 10:02:54,998 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyCompany.IdentityServer.Models.TokenAuth.ExternalLoginProviderInfoModel
+DEBUG 2019-07-18 10:02:55,003 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyCompany.IdentityServer.Users.Dto.CreateUserDto
+DEBUG 2019-07-18 10:02:55,004 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyCompany.IdentityServer.Users.Dto.UserDto
+DEBUG 2019-07-18 10:02:55,004 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyCompany.IdentityServer.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2019-07-18 10:02:55,004 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyCompany.IdentityServer.Sessions.Dto.UserLoginInfoDto
+DEBUG 2019-07-18 10:02:55,004 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyCompany.IdentityServer.Roles.Dto.CreateRoleDto
+DEBUG 2019-07-18 10:02:55,004 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyCompany.IdentityServer.Roles.Dto.PermissionDto
+DEBUG 2019-07-18 10:02:55,004 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyCompany.IdentityServer.Roles.Dto.RoleDto
+DEBUG 2019-07-18 10:02:55,005 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyCompany.IdentityServer.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2019-07-18 10:02:55,005 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyCompany.IdentityServer.MultiTenancy.Dto.TenantDto
+INFO  2019-07-18 10:02:57,557 [1    ] IdentityServer4.Startup                  - Starting IdentityServer4 version 2.3.2.0
+INFO  2019-07-18 10:02:57,607 [1    ] IdentityServer4.Startup                  - Using the default authentication scheme Identity.Application for IdentityServer
+INFO  2019-07-18 10:02:58,615 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21022/  
+INFO  2019-07-18 10:02:59,800 [10   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "Index", controller = "Home", area = ""}. Executing action IdentityServer4.Quickstart.UI.HomeController.Index (MyCompany.IdentityServer.Web.Host)
+INFO  2019-07-18 10:02:59,861 [10   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method IdentityServer4.Quickstart.UI.HomeController.Index (MyCompany.IdentityServer.Web.Host) - Validation state: Valid
+INFO  2019-07-18 10:02:59,867 [10   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method IdentityServer4.Quickstart.UI.HomeController.Index (MyCompany.IdentityServer.Web.Host), returned result Microsoft.AspNetCore.Mvc.ViewResult in 4.0098ms.
+INFO  2019-07-18 10:03:00,107 [12   ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executing ViewResult, running view Index.
+INFO  2019-07-18 10:03:00,322 [12   ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executed ViewResult - view Index executed in 251.8167ms.
+INFO  2019-07-18 10:03:00,327 [12   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action IdentityServer4.Quickstart.UI.HomeController.Index (MyCompany.IdentityServer.Web.Host) in 525.2997ms
+INFO  2019-07-18 10:03:00,340 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21022/css/site.css  
+INFO  2019-07-18 10:03:00,341 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21022/icon.jpg  
+INFO  2019-07-18 10:03:00,343 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21022/icon.png  
+INFO  2019-07-18 10:03:00,343 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21022/lib/bootstrap/css/bootstrap.css  
+INFO  2019-07-18 10:03:00,364 [12   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 1751.4034ms 200 text/html; charset=utf-8
+INFO  2019-07-18 10:03:00,376 [9    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/css/site.css'. Physical path: 'E:\desktop\aspnet-core\src\MyCompany.IdentityServer.Web.Host\wwwroot\css\site.css'
+INFO  2019-07-18 10:03:00,376 [9    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 36.2085ms 200 text/css
+INFO  2019-07-18 10:03:00,376 [14   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/icon.jpg'. Physical path: 'E:\desktop\aspnet-core\src\MyCompany.IdentityServer.Web.Host\wwwroot\icon.jpg'
+INFO  2019-07-18 10:03:00,376 [14   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 35.019ms 200 image/jpeg
+INFO  2019-07-18 10:03:00,376 [12   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/icon.png'. Physical path: 'E:\desktop\aspnet-core\src\MyCompany.IdentityServer.Web.Host\wwwroot\icon.png'
+INFO  2019-07-18 10:03:00,376 [12   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 32.7254ms 200 image/png
+INFO  2019-07-18 10:03:00,379 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21022/lib/jquery/jquery.js  
+INFO  2019-07-18 10:03:00,380 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21022/lib/bootstrap/js/bootstrap.js  
+INFO  2019-07-18 10:03:00,385 [6    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/bootstrap/js/bootstrap.js'. Physical path: 'E:\desktop\aspnet-core\src\MyCompany.IdentityServer.Web.Host\wwwroot\lib\bootstrap\js\bootstrap.js'
+INFO  2019-07-18 10:03:00,386 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 5.136ms 200 application/javascript
+INFO  2019-07-18 10:03:00,391 [12   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/bootstrap/css/bootstrap.css'. Physical path: 'E:\desktop\aspnet-core\src\MyCompany.IdentityServer.Web.Host\wwwroot\lib\bootstrap\css\bootstrap.css'
+INFO  2019-07-18 10:03:00,391 [12   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 47.2573ms 200 text/css
+INFO  2019-07-18 10:03:00,395 [6    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/jquery/jquery.js'. Physical path: 'E:\desktop\aspnet-core\src\MyCompany.IdentityServer.Web.Host\wwwroot\lib\jquery\jquery.js'
+INFO  2019-07-18 10:03:00,395 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 16.35ms 200 application/javascript
+INFO  2019-07-18 10:03:06,542 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21022/connect/authorize?client_id=client&redirect_uri=http%3A%2F%2Flocalhost%3A52103%2Fsignin-oidc&response_type=code%20id_token&scope=openid%20profile&response_mode=form_post&nonce=636990121864142880.YWFiZjdiODQtNjEwZS00YmZlLTk0NjctYzk0YzNiNWZjNjRhMmM1ZDliMTctMzgzMi00OTY3LTkyMjctZTRhOGE5NjU4NGJk&state=CfDJ8ILGMZ762M9Mhr5iLffrhADiB48_GBmuaI-Nq6vpRhKDYmtU7EVJ7-MIdhJvtdoAA_wL_KXjTOcAxpr-J5glkQMR9swOnkoeuAfZTpmXrTs5ufAJz_GjrTk0fOnNJGEaJA-XvDoaP17f8b5GPtY6ocLEW_Xo095ReUMZaAzs0H3rW7bPZ9L6TheUSSSV3B7RC6BC2fcbtAw4lxLb-i015e_YBFRf5ubi8n4nvp59Wtb-t6tcVHPFSOMlErYCQf-46g4Zj1tadzTsUqIw1o13jZVMw--4P443Klj7KODkYnTxu0SUS4hHfp5D8x4u3Y6Xfw&x-client-SKU=ID_NETSTANDARD2_0&x-client-ver=5.3.0.0  
+INFO  2019-07-18 10:03:06,596 [10   ] Server4.Hosting.IdentityServerMiddleware - Invoking IdentityServer endpoint: IdentityServer4.Endpoints.AuthorizeEndpoint for /connect/authorize
+INFO  2019-07-18 10:03:06,779 [10   ] ntityServer4.Endpoints.AuthorizeEndpoint - ValidatedAuthorizeRequest
+{
+  "ClientId": "client",
+  "ClientName": "MVC Client",
+  "RedirectUri": "http://localhost:52103/signin-oidc",
+  "AllowedRedirectUris": [
+    "http://localhost:52103/signin-oidc"
+  ],
+  "SubjectId": "anonymous",
+  "ResponseType": "code id_token",
+  "ResponseMode": "form_post",
+  "GrantType": "hybrid",
+  "RequestedScopes": "openid profile",
+  "State": "CfDJ8ILGMZ762M9Mhr5iLffrhADiB48_GBmuaI-Nq6vpRhKDYmtU7EVJ7-MIdhJvtdoAA_wL_KXjTOcAxpr-J5glkQMR9swOnkoeuAfZTpmXrTs5ufAJz_GjrTk0fOnNJGEaJA-XvDoaP17f8b5GPtY6ocLEW_Xo095ReUMZaAzs0H3rW7bPZ9L6TheUSSSV3B7RC6BC2fcbtAw4lxLb-i015e_YBFRf5ubi8n4nvp59Wtb-t6tcVHPFSOMlErYCQf-46g4Zj1tadzTsUqIw1o13jZVMw--4P443Klj7KODkYnTxu0SUS4hHfp5D8x4u3Y6Xfw",
+  "Nonce": "636990121864142880.YWFiZjdiODQtNjEwZS00YmZlLTk0NjctYzk0YzNiNWZjNjRhMmM1ZDliMTctMzgzMi00OTY3LTkyMjctZTRhOGE5NjU4NGJk",
+  "Raw": {
+    "client_id": "client",
+    "redirect_uri": "http://localhost:52103/signin-oidc",
+    "response_type": "code id_token",
+    "scope": "openid profile",
+    "response_mode": "form_post",
+    "nonce": "636990121864142880.YWFiZjdiODQtNjEwZS00YmZlLTk0NjctYzk0YzNiNWZjNjRhMmM1ZDliMTctMzgzMi00OTY3LTkyMjctZTRhOGE5NjU4NGJk",
+    "state": "CfDJ8ILGMZ762M9Mhr5iLffrhADiB48_GBmuaI-Nq6vpRhKDYmtU7EVJ7-MIdhJvtdoAA_wL_KXjTOcAxpr-J5glkQMR9swOnkoeuAfZTpmXrTs5ufAJz_GjrTk0fOnNJGEaJA-XvDoaP17f8b5GPtY6ocLEW_Xo095ReUMZaAzs0H3rW7bPZ9L6TheUSSSV3B7RC6BC2fcbtAw4lxLb-i015e_YBFRf5ubi8n4nvp59Wtb-t6tcVHPFSOMlErYCQf-46g4Zj1tadzTsUqIw1o13jZVMw--4P443Klj7KODkYnTxu0SUS4hHfp5D8x4u3Y6Xfw",
+    "x-client-SKU": "ID_NETSTANDARD2_0",
+    "x-client-ver": "5.3.0.0"
+  }
+}
+INFO  2019-07-18 10:03:06,793 [10   ] ng.AuthorizeInteractionResponseGenerator - Showing login: User is not authenticated
+INFO  2019-07-18 10:03:06,803 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 261.8084ms 302 
+INFO  2019-07-18 10:03:06,808 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21022/Account/Login?ReturnUrl=%2Fconnect%2Fauthorize%2Fcallback%3Fclient_id%3Dclient%26redirect_uri%3Dhttp%253A%252F%252Flocalhost%253A52103%252Fsignin-oidc%26response_type%3Dcode%2520id_token%26scope%3Dopenid%2520profile%26response_mode%3Dform_post%26nonce%3D636990121864142880.YWFiZjdiODQtNjEwZS00YmZlLTk0NjctYzk0YzNiNWZjNjRhMmM1ZDliMTctMzgzMi00OTY3LTkyMjctZTRhOGE5NjU4NGJk%26state%3DCfDJ8ILGMZ762M9Mhr5iLffrhADiB48_GBmuaI-Nq6vpRhKDYmtU7EVJ7-MIdhJvtdoAA_wL_KXjTOcAxpr-J5glkQMR9swOnkoeuAfZTpmXrTs5ufAJz_GjrTk0fOnNJGEaJA-XvDoaP17f8b5GPtY6ocLEW_Xo095ReUMZaAzs0H3rW7bPZ9L6TheUSSSV3B7RC6BC2fcbtAw4lxLb-i015e_YBFRf5ubi8n4nvp59Wtb-t6tcVHPFSOMlErYCQf-46g4Zj1tadzTsUqIw1o13jZVMw--4P443Klj7KODkYnTxu0SUS4hHfp5D8x4u3Y6Xfw%26x-client-SKU%3DID_NETSTANDARD2_0%26x-client-ver%3D5.3.0.0  
+INFO  2019-07-18 10:03:06,853 [10   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "Login", controller = "Account", area = ""}. Executing action IdentityServer4.Quickstart.UI.AccountController.Login (MyCompany.IdentityServer.Web.Host)
+INFO  2019-07-18 10:03:06,936 [10   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method IdentityServer4.Quickstart.UI.AccountController.Login (MyCompany.IdentityServer.Web.Host) with arguments (/connect/authorize/callback?client_id=client&redirect_uri=http%3A%2F%2Flocalhost%3A52103%2Fsignin-oidc&response_type=code%20id_token&scope=openid%20profile&response_mode=form_post&nonce=636990121864142880.YWFiZjdiODQtNjEwZS00YmZlLTk0NjctYzk0YzNiNWZjNjRhMmM1ZDliMTctMzgzMi00OTY3LTkyMjctZTRhOGE5NjU4NGJk&state=CfDJ8ILGMZ762M9Mhr5iLffrhADiB48_GBmuaI-Nq6vpRhKDYmtU7EVJ7-MIdhJvtdoAA_wL_KXjTOcAxpr-J5glkQMR9swOnkoeuAfZTpmXrTs5ufAJz_GjrTk0fOnNJGEaJA-XvDoaP17f8b5GPtY6ocLEW_Xo095ReUMZaAzs0H3rW7bPZ9L6TheUSSSV3B7RC6BC2fcbtAw4lxLb-i015e_YBFRf5ubi8n4nvp59Wtb-t6tcVHPFSOMlErYCQf-46g4Zj1tadzTsUqIw1o13jZVMw--4P443Klj7KODkYnTxu0SUS4hHfp5D8x4u3Y6Xfw&x-client-SKU=ID_NETSTANDARD2_0&x-client-ver=5.3.0.0) - Validation state: Valid
+INFO  2019-07-18 10:03:06,953 [10   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method IdentityServer4.Quickstart.UI.AccountController.Login (MyCompany.IdentityServer.Web.Host), returned result Microsoft.AspNetCore.Mvc.ViewResult in 16.451ms.
+INFO  2019-07-18 10:03:06,958 [9    ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executing ViewResult, running view Login.
+INFO  2019-07-18 10:03:07,111 [9    ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executed ViewResult - view Login executed in 154.5739ms.
+INFO  2019-07-18 10:03:07,111 [9    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action IdentityServer4.Quickstart.UI.AccountController.Login (MyCompany.IdentityServer.Web.Host) in 257.783ms
+INFO  2019-07-18 10:03:07,111 [9    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 302.985ms 200 text/html; charset=utf-8
+INFO  2019-07-18 10:03:07,334 [9    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21022/favicon.ico  
+INFO  2019-07-18 10:03:07,335 [9    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/favicon.ico'. Physical path: 'E:\desktop\aspnet-core\src\MyCompany.IdentityServer.Web.Host\wwwroot\favicon.ico'
+INFO  2019-07-18 10:03:07,335 [9    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 0.6915ms 200 image/x-icon
+INFO  2019-07-18 10:03:11,361 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:21022/Account/Login?ReturnUrl=%2Fconnect%2Fauthorize%2Fcallback%3Fclient_id%3Dclient%26redirect_uri%3Dhttp%253A%252F%252Flocalhost%253A52103%252Fsignin-oidc%26response_type%3Dcode%2520id_token%26scope%3Dopenid%2520profile%26response_mode%3Dform_post%26nonce%3D636990121864142880.YWFiZjdiODQtNjEwZS00YmZlLTk0NjctYzk0YzNiNWZjNjRhMmM1ZDliMTctMzgzMi00OTY3LTkyMjctZTRhOGE5NjU4NGJk%26state%3DCfDJ8ILGMZ762M9Mhr5iLffrhADiB48_GBmuaI-Nq6vpRhKDYmtU7EVJ7-MIdhJvtdoAA_wL_KXjTOcAxpr-J5glkQMR9swOnkoeuAfZTpmXrTs5ufAJz_GjrTk0fOnNJGEaJA-XvDoaP17f8b5GPtY6ocLEW_Xo095ReUMZaAzs0H3rW7bPZ9L6TheUSSSV3B7RC6BC2fcbtAw4lxLb-i015e_YBFRf5ubi8n4nvp59Wtb-t6tcVHPFSOMlErYCQf-46g4Zj1tadzTsUqIw1o13jZVMw--4P443Klj7KODkYnTxu0SUS4hHfp5D8x4u3Y6Xfw%26x-client-SKU%3DID_NETSTANDARD2_0%26x-client-ver%3D5.3.0.0 application/x-www-form-urlencoded 999
+INFO  2019-07-18 10:03:11,370 [6    ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution failed.
+INFO  2019-07-18 10:03:11,371 [6    ] pNetCore.Cors.Infrastructure.CorsService - Request origin null does not have permission to access the resource.
+INFO  2019-07-18 10:03:11,403 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "Login", controller = "Account", area = ""}. Executing action IdentityServer4.Quickstart.UI.AccountController.Login (MyCompany.IdentityServer.Web.Host)
+INFO  2019-07-18 10:03:11,403 [6    ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution failed.
+INFO  2019-07-18 10:03:11,403 [6    ] pNetCore.Cors.Infrastructure.CorsService - Request origin null does not have permission to access the resource.
+INFO  2019-07-18 10:03:11,521 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method IdentityServer4.Quickstart.UI.AccountController.Login (MyCompany.IdentityServer.Web.Host) with arguments (IdentityServer4.Quickstart.UI.LoginInputModel, login) - Validation state: Valid
+INFO  2019-07-18 10:03:11,670 [6    ] tion.Cookies.CookieAuthenticationHandler - AuthenticationScheme: Identity.Application signed in.
+INFO  2019-07-18 10:03:11,672 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method IdentityServer4.Quickstart.UI.AccountController.Login (MyCompany.IdentityServer.Web.Host), returned result Microsoft.AspNetCore.Mvc.RedirectResult in 150.1383ms.
+INFO  2019-07-18 10:03:11,677 [7    ] vc.Infrastructure.RedirectResultExecutor - Executing RedirectResult, redirecting to /connect/authorize/callback?client_id=client&redirect_uri=http%3A%2F%2Flocalhost%3A52103%2Fsignin-oidc&response_type=code%20id_token&scope=openid%20profile&response_mode=form_post&nonce=636990121864142880.YWFiZjdiODQtNjEwZS00YmZlLTk0NjctYzk0YzNiNWZjNjRhMmM1ZDliMTctMzgzMi00OTY3LTkyMjctZTRhOGE5NjU4NGJk&state=CfDJ8ILGMZ762M9Mhr5iLffrhADiB48_GBmuaI-Nq6vpRhKDYmtU7EVJ7-MIdhJvtdoAA_wL_KXjTOcAxpr-J5glkQMR9swOnkoeuAfZTpmXrTs5ufAJz_GjrTk0fOnNJGEaJA-XvDoaP17f8b5GPtY6ocLEW_Xo095ReUMZaAzs0H3rW7bPZ9L6TheUSSSV3B7RC6BC2fcbtAw4lxLb-i015e_YBFRf5ubi8n4nvp59Wtb-t6tcVHPFSOMlErYCQf-46g4Zj1tadzTsUqIw1o13jZVMw--4P443Klj7KODkYnTxu0SUS4hHfp5D8x4u3Y6Xfw&x-client-SKU=ID_NETSTANDARD2_0&x-client-ver=5.3.0.0.
+INFO  2019-07-18 10:03:11,678 [7    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action IdentityServer4.Quickstart.UI.AccountController.Login (MyCompany.IdentityServer.Web.Host) in 274.5513ms
+INFO  2019-07-18 10:03:11,679 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 318.4338ms 302 
+INFO  2019-07-18 10:03:11,684 [14   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21022/connect/authorize/callback?client_id=client&redirect_uri=http%3A%2F%2Flocalhost%3A52103%2Fsignin-oidc&response_type=code%20id_token&scope=openid%20profile&response_mode=form_post&nonce=636990121864142880.YWFiZjdiODQtNjEwZS00YmZlLTk0NjctYzk0YzNiNWZjNjRhMmM1ZDliMTctMzgzMi00OTY3LTkyMjctZTRhOGE5NjU4NGJk&state=CfDJ8ILGMZ762M9Mhr5iLffrhADiB48_GBmuaI-Nq6vpRhKDYmtU7EVJ7-MIdhJvtdoAA_wL_KXjTOcAxpr-J5glkQMR9swOnkoeuAfZTpmXrTs5ufAJz_GjrTk0fOnNJGEaJA-XvDoaP17f8b5GPtY6ocLEW_Xo095ReUMZaAzs0H3rW7bPZ9L6TheUSSSV3B7RC6BC2fcbtAw4lxLb-i015e_YBFRf5ubi8n4nvp59Wtb-t6tcVHPFSOMlErYCQf-46g4Zj1tadzTsUqIw1o13jZVMw--4P443Klj7KODkYnTxu0SUS4hHfp5D8x4u3Y6Xfw&x-client-SKU=ID_NETSTANDARD2_0&x-client-ver=5.3.0.0  
+INFO  2019-07-18 10:03:11,689 [14   ] Server4.Hosting.IdentityServerMiddleware - Invoking IdentityServer endpoint: IdentityServer4.Endpoints.AuthorizeCallbackEndpoint for /connect/authorize/callback
+INFO  2019-07-18 10:03:11,696 [14   ] ver4.Endpoints.AuthorizeCallbackEndpoint - ValidatedAuthorizeRequest
+{
+  "ClientId": "client",
+  "ClientName": "MVC Client",
+  "RedirectUri": "http://localhost:52103/signin-oidc",
+  "AllowedRedirectUris": [
+    "http://localhost:52103/signin-oidc"
+  ],
+  "SubjectId": "1",
+  "ResponseType": "code id_token",
+  "ResponseMode": "form_post",
+  "GrantType": "hybrid",
+  "RequestedScopes": "openid profile",
+  "State": "CfDJ8ILGMZ762M9Mhr5iLffrhADiB48_GBmuaI-Nq6vpRhKDYmtU7EVJ7-MIdhJvtdoAA_wL_KXjTOcAxpr-J5glkQMR9swOnkoeuAfZTpmXrTs5ufAJz_GjrTk0fOnNJGEaJA-XvDoaP17f8b5GPtY6ocLEW_Xo095ReUMZaAzs0H3rW7bPZ9L6TheUSSSV3B7RC6BC2fcbtAw4lxLb-i015e_YBFRf5ubi8n4nvp59Wtb-t6tcVHPFSOMlErYCQf-46g4Zj1tadzTsUqIw1o13jZVMw--4P443Klj7KODkYnTxu0SUS4hHfp5D8x4u3Y6Xfw",
+  "Nonce": "636990121864142880.YWFiZjdiODQtNjEwZS00YmZlLTk0NjctYzk0YzNiNWZjNjRhMmM1ZDliMTctMzgzMi00OTY3LTkyMjctZTRhOGE5NjU4NGJk",
+  "SessionId": "2f80287a5fd9beeaedfa99e9d335ae30",
+  "Raw": {
+    "client_id": "client",
+    "redirect_uri": "http://localhost:52103/signin-oidc",
+    "response_type": "code id_token",
+    "scope": "openid profile",
+    "response_mode": "form_post",
+    "nonce": "636990121864142880.YWFiZjdiODQtNjEwZS00YmZlLTk0NjctYzk0YzNiNWZjNjRhMmM1ZDliMTctMzgzMi00OTY3LTkyMjctZTRhOGE5NjU4NGJk",
+    "state": "CfDJ8ILGMZ762M9Mhr5iLffrhADiB48_GBmuaI-Nq6vpRhKDYmtU7EVJ7-MIdhJvtdoAA_wL_KXjTOcAxpr-J5glkQMR9swOnkoeuAfZTpmXrTs5ufAJz_GjrTk0fOnNJGEaJA-XvDoaP17f8b5GPtY6ocLEW_Xo095ReUMZaAzs0H3rW7bPZ9L6TheUSSSV3B7RC6BC2fcbtAw4lxLb-i015e_YBFRf5ubi8n4nvp59Wtb-t6tcVHPFSOMlErYCQf-46g4Zj1tadzTsUqIw1o13jZVMw--4P443Klj7KODkYnTxu0SUS4hHfp5D8x4u3Y6Xfw",
+    "x-client-SKU": "ID_NETSTANDARD2_0",
+    "x-client-ver": "5.3.0.0"
+  }
+}
+INFO  2019-07-18 10:03:11,953 [11   ] ver4.Endpoints.AuthorizeCallbackEndpoint - Authorize endpoint response
+{
+  "SubjectId": "1",
+  "ClientId": "client",
+  "RedirectUri": "http://localhost:52103/signin-oidc",
+  "State": "CfDJ8ILGMZ762M9Mhr5iLffrhADiB48_GBmuaI-Nq6vpRhKDYmtU7EVJ7-MIdhJvtdoAA_wL_KXjTOcAxpr-J5glkQMR9swOnkoeuAfZTpmXrTs5ufAJz_GjrTk0fOnNJGEaJA-XvDoaP17f8b5GPtY6ocLEW_Xo095ReUMZaAzs0H3rW7bPZ9L6TheUSSSV3B7RC6BC2fcbtAw4lxLb-i015e_YBFRf5ubi8n4nvp59Wtb-t6tcVHPFSOMlErYCQf-46g4Zj1tadzTsUqIw1o13jZVMw--4P443Klj7KODkYnTxu0SUS4hHfp5D8x4u3Y6Xfw",
+  "Scope": "openid profile"
+}
+INFO  2019-07-18 10:03:11,969 [11   ] tion.Cookies.CookieAuthenticationHandler - AuthenticationScheme: Identity.Application signed in.
+INFO  2019-07-18 10:03:11,975 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 291.2407ms 200 text/html; charset=UTF-8
+INFO  2019-07-18 10:03:12,075 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:21022/connect/token application/x-www-form-urlencoded 195
+INFO  2019-07-18 10:03:12,100 [10   ] Server4.Hosting.IdentityServerMiddleware - Invoking IdentityServer endpoint: IdentityServer4.Endpoints.TokenEndpoint for /connect/token
+INFO  2019-07-18 10:03:12,218 [6    ] Server4.Validation.TokenRequestValidator - Token request validation success
+{
+  "ClientId": "client",
+  "ClientName": "MVC Client",
+  "GrantType": "authorization_code",
+  "AuthorizationCode": "c28af599cfef3491f389cf75c8285b87d48b5df8f3518f01669e42ea4e34c54c",
+  "Raw": {
+    "client_id": "client",
+    "client_secret": "***REDACTED***",
+    "code": "c28af599cfef3491f389cf75c8285b87d48b5df8f3518f01669e42ea4e34c54c",
+    "grant_type": "authorization_code",
+    "redirect_uri": "http://localhost:52103/signin-oidc"
+  }
+}
+INFO  2019-07-18 10:03:12,558 [12   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 483.5038ms 200 application/json; charset=UTF-8
+INFO  2019-07-18 10:13:21,094 [4    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21022/.well-known/openid-configuration  
+INFO  2019-07-18 10:13:21,099 [4    ] Server4.Hosting.IdentityServerMiddleware - Invoking IdentityServer endpoint: IdentityServer4.Endpoints.DiscoveryEndpoint for /.well-known/openid-configuration
+INFO  2019-07-18 10:13:21,132 [4    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 38.3531ms 200 application/json; charset=UTF-8
+INFO  2019-07-18 10:13:21,333 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21022/.well-known/openid-configuration/jwks  
+INFO  2019-07-18 10:13:21,337 [5    ] Server4.Hosting.IdentityServerMiddleware - Invoking IdentityServer endpoint: IdentityServer4.Endpoints.DiscoveryKeyEndpoint for /.well-known/openid-configuration/jwks
+INFO  2019-07-18 10:13:21,349 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 15.3625ms 200 application/jwk-set+json; charset=UTF-8
+INFO  2019-07-18 10:14:09,663 [27   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21022/.well-known/openid-configuration  
+INFO  2019-07-18 10:14:09,672 [27   ] Server4.Hosting.IdentityServerMiddleware - Invoking IdentityServer endpoint: IdentityServer4.Endpoints.DiscoveryEndpoint for /.well-known/openid-configuration
+INFO  2019-07-18 10:14:09,673 [27   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 10.6027ms 200 application/json; charset=UTF-8
+INFO  2019-07-18 10:14:09,753 [27   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21022/.well-known/openid-configuration/jwks  
+INFO  2019-07-18 10:14:09,756 [27   ] Server4.Hosting.IdentityServerMiddleware - Invoking IdentityServer endpoint: IdentityServer4.Endpoints.DiscoveryKeyEndpoint for /.well-known/openid-configuration/jwks
+INFO  2019-07-18 10:14:09,756 [27   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 3.0595ms 200 application/jwk-set+json; charset=UTF-8
+INFO  2019-07-18 10:14:09,800 [27   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21022/connect/authorize?client_id=client&redirect_uri=http%3A%2F%2Flocalhost%3A52103%2Fsignin-oidc&response_type=code%20id_token&scope=openid%20profile&response_mode=form_post&nonce=636990128497833421.ZDYwYWE2M2MtMTZiMy00MzFmLWJkNWEtZDY1N2QyMGQ4ZjQ3YTA4MzNiMGQtNGJiMi00Y2Q1LWIwNzgtYjMxOTZlYmMwYTFm&state=CfDJ8ILGMZ762M9Mhr5iLffrhACAujQbnheuTkgNINDpb1ZGzEQ2cles0_jeeaO9UOv3CchBXW-tJzQ-uLFGmoHtyzq6E-P0TpqzUqj8rn8Jxm7rCsOgVpr293Lr9Yp_NcdiaIsRK_-nEDafZ27gDpXzmTB5rf-txNICIcW6OTNvBhebVEqWC-SOTSD53cjkD8lyXtoiHPhiljDhZowSX3ERq8qLi8ZaTBJ2USsXCqaZsgn2aK-WQAZQoaLTwn-JJfMH3OeS6GzWZEKr0tlecYIUiEIeRulOq4v7vz1iByVVVobpbuYeex8nUmxXfO4GWVmGQQ&x-client-SKU=ID_NETSTANDARD2_0&x-client-ver=5.3.0.0  
+INFO  2019-07-18 10:14:09,804 [27   ] Server4.Hosting.IdentityServerMiddleware - Invoking IdentityServer endpoint: IdentityServer4.Endpoints.AuthorizeEndpoint for /connect/authorize
+INFO  2019-07-18 10:14:09,804 [27   ] ntityServer4.Endpoints.AuthorizeEndpoint - ValidatedAuthorizeRequest
+{
+  "ClientId": "client",
+  "ClientName": "MVC Client",
+  "RedirectUri": "http://localhost:52103/signin-oidc",
+  "AllowedRedirectUris": [
+    "http://localhost:52103/signin-oidc"
+  ],
+  "SubjectId": "anonymous",
+  "ResponseType": "code id_token",
+  "ResponseMode": "form_post",
+  "GrantType": "hybrid",
+  "RequestedScopes": "openid profile",
+  "State": "CfDJ8ILGMZ762M9Mhr5iLffrhACAujQbnheuTkgNINDpb1ZGzEQ2cles0_jeeaO9UOv3CchBXW-tJzQ-uLFGmoHtyzq6E-P0TpqzUqj8rn8Jxm7rCsOgVpr293Lr9Yp_NcdiaIsRK_-nEDafZ27gDpXzmTB5rf-txNICIcW6OTNvBhebVEqWC-SOTSD53cjkD8lyXtoiHPhiljDhZowSX3ERq8qLi8ZaTBJ2USsXCqaZsgn2aK-WQAZQoaLTwn-JJfMH3OeS6GzWZEKr0tlecYIUiEIeRulOq4v7vz1iByVVVobpbuYeex8nUmxXfO4GWVmGQQ",
+  "Nonce": "636990128497833421.ZDYwYWE2M2MtMTZiMy00MzFmLWJkNWEtZDY1N2QyMGQ4ZjQ3YTA4MzNiMGQtNGJiMi00Y2Q1LWIwNzgtYjMxOTZlYmMwYTFm",
+  "Raw": {
+    "client_id": "client",
+    "redirect_uri": "http://localhost:52103/signin-oidc",
+    "response_type": "code id_token",
+    "scope": "openid profile",
+    "response_mode": "form_post",
+    "nonce": "636990128497833421.ZDYwYWE2M2MtMTZiMy00MzFmLWJkNWEtZDY1N2QyMGQ4ZjQ3YTA4MzNiMGQtNGJiMi00Y2Q1LWIwNzgtYjMxOTZlYmMwYTFm",
+    "state": "CfDJ8ILGMZ762M9Mhr5iLffrhACAujQbnheuTkgNINDpb1ZGzEQ2cles0_jeeaO9UOv3CchBXW-tJzQ-uLFGmoHtyzq6E-P0TpqzUqj8rn8Jxm7rCsOgVpr293Lr9Yp_NcdiaIsRK_-nEDafZ27gDpXzmTB5rf-txNICIcW6OTNvBhebVEqWC-SOTSD53cjkD8lyXtoiHPhiljDhZowSX3ERq8qLi8ZaTBJ2USsXCqaZsgn2aK-WQAZQoaLTwn-JJfMH3OeS6GzWZEKr0tlecYIUiEIeRulOq4v7vz1iByVVVobpbuYeex8nUmxXfO4GWVmGQQ",
+    "x-client-SKU": "ID_NETSTANDARD2_0",
+    "x-client-ver": "5.3.0.0"
+  }
+}
+INFO  2019-07-18 10:14:09,804 [27   ] ng.AuthorizeInteractionResponseGenerator - Showing login: User is not authenticated
+INFO  2019-07-18 10:14:09,805 [27   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 4.7729ms 302 
+INFO  2019-07-18 10:14:09,814 [27   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21022/Account/Login?ReturnUrl=%2Fconnect%2Fauthorize%2Fcallback%3Fclient_id%3Dclient%26redirect_uri%3Dhttp%253A%252F%252Flocalhost%253A52103%252Fsignin-oidc%26response_type%3Dcode%2520id_token%26scope%3Dopenid%2520profile%26response_mode%3Dform_post%26nonce%3D636990128497833421.ZDYwYWE2M2MtMTZiMy00MzFmLWJkNWEtZDY1N2QyMGQ4ZjQ3YTA4MzNiMGQtNGJiMi00Y2Q1LWIwNzgtYjMxOTZlYmMwYTFm%26state%3DCfDJ8ILGMZ762M9Mhr5iLffrhACAujQbnheuTkgNINDpb1ZGzEQ2cles0_jeeaO9UOv3CchBXW-tJzQ-uLFGmoHtyzq6E-P0TpqzUqj8rn8Jxm7rCsOgVpr293Lr9Yp_NcdiaIsRK_-nEDafZ27gDpXzmTB5rf-txNICIcW6OTNvBhebVEqWC-SOTSD53cjkD8lyXtoiHPhiljDhZowSX3ERq8qLi8ZaTBJ2USsXCqaZsgn2aK-WQAZQoaLTwn-JJfMH3OeS6GzWZEKr0tlecYIUiEIeRulOq4v7vz1iByVVVobpbuYeex8nUmxXfO4GWVmGQQ%26x-client-SKU%3DID_NETSTANDARD2_0%26x-client-ver%3D5.3.0.0  
+INFO  2019-07-18 10:14:09,821 [27   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "Login", controller = "Account", area = ""}. Executing action IdentityServer4.Quickstart.UI.AccountController.Login (MyCompany.IdentityServer.Web.Host)
+INFO  2019-07-18 10:14:09,823 [27   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method IdentityServer4.Quickstart.UI.AccountController.Login (MyCompany.IdentityServer.Web.Host) with arguments (/connect/authorize/callback?client_id=client&redirect_uri=http%3A%2F%2Flocalhost%3A52103%2Fsignin-oidc&response_type=code%20id_token&scope=openid%20profile&response_mode=form_post&nonce=636990128497833421.ZDYwYWE2M2MtMTZiMy00MzFmLWJkNWEtZDY1N2QyMGQ4ZjQ3YTA4MzNiMGQtNGJiMi00Y2Q1LWIwNzgtYjMxOTZlYmMwYTFm&state=CfDJ8ILGMZ762M9Mhr5iLffrhACAujQbnheuTkgNINDpb1ZGzEQ2cles0_jeeaO9UOv3CchBXW-tJzQ-uLFGmoHtyzq6E-P0TpqzUqj8rn8Jxm7rCsOgVpr293Lr9Yp_NcdiaIsRK_-nEDafZ27gDpXzmTB5rf-txNICIcW6OTNvBhebVEqWC-SOTSD53cjkD8lyXtoiHPhiljDhZowSX3ERq8qLi8ZaTBJ2USsXCqaZsgn2aK-WQAZQoaLTwn-JJfMH3OeS6GzWZEKr0tlecYIUiEIeRulOq4v7vz1iByVVVobpbuYeex8nUmxXfO4GWVmGQQ&x-client-SKU=ID_NETSTANDARD2_0&x-client-ver=5.3.0.0) - Validation state: Valid
+INFO  2019-07-18 10:14:09,823 [27   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method IdentityServer4.Quickstart.UI.AccountController.Login (MyCompany.IdentityServer.Web.Host), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.3306ms.
+INFO  2019-07-18 10:14:09,834 [27   ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executing ViewResult, running view Login.
+INFO  2019-07-18 10:14:09,837 [27   ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executed ViewResult - view Login executed in 6.2784ms.
+INFO  2019-07-18 10:14:09,837 [27   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action IdentityServer4.Quickstart.UI.AccountController.Login (MyCompany.IdentityServer.Web.Host) in 15.9123ms
+INFO  2019-07-18 10:14:09,837 [27   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 23.3215ms 200 text/html; charset=utf-8
+INFO  2019-07-18 10:14:09,862 [24   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21022/icon.png  
+INFO  2019-07-18 10:14:09,863 [24   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21022/lib/bootstrap/css/bootstrap.css  
+INFO  2019-07-18 10:14:09,863 [24   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21022/css/site.css  
+INFO  2019-07-18 10:14:09,864 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21022/lib/jquery/jquery.js  
+INFO  2019-07-18 10:14:09,867 [24   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/icon.png'. Physical path: 'E:\desktop\aspnet-core\src\MyCompany.IdentityServer.Web.Host\wwwroot\icon.png'
+INFO  2019-07-18 10:14:09,872 [5    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/css/site.css'. Physical path: 'E:\desktop\aspnet-core\src\MyCompany.IdentityServer.Web.Host\wwwroot\css\site.css'
+INFO  2019-07-18 10:14:09,872 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 8.2668ms 200 text/css
+INFO  2019-07-18 10:14:09,881 [24   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 5.8287ms 200 image/png
+INFO  2019-07-18 10:14:09,899 [31   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/bootstrap/css/bootstrap.css'. Physical path: 'E:\desktop\aspnet-core\src\MyCompany.IdentityServer.Web.Host\wwwroot\lib\bootstrap\css\bootstrap.css'
+INFO  2019-07-18 10:14:09,899 [31   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 36.186ms 200 text/css
+INFO  2019-07-18 10:14:09,928 [24   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/jquery/jquery.js'. Physical path: 'E:\desktop\aspnet-core\src\MyCompany.IdentityServer.Web.Host\wwwroot\lib\jquery\jquery.js'
+INFO  2019-07-18 10:14:09,929 [24   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 64.2314ms 200 application/javascript
+INFO  2019-07-18 10:14:09,958 [25   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21022/lib/bootstrap/js/bootstrap.js  
+INFO  2019-07-18 10:14:09,968 [25   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/bootstrap/js/bootstrap.js'. Physical path: 'E:\desktop\aspnet-core\src\MyCompany.IdentityServer.Web.Host\wwwroot\lib\bootstrap\js\bootstrap.js'
+INFO  2019-07-18 10:14:09,968 [25   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 12.5086ms 200 application/javascript
+INFO  2019-07-18 10:14:10,120 [28   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21022/favicon.ico  
+INFO  2019-07-18 10:14:10,121 [28   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/favicon.ico'. Physical path: 'E:\desktop\aspnet-core\src\MyCompany.IdentityServer.Web.Host\wwwroot\favicon.ico'
+INFO  2019-07-18 10:14:10,121 [28   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 1.0709ms 200 image/x-icon
+INFO  2019-07-18 10:14:13,462 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:21022/Account/Login?ReturnUrl=%2Fconnect%2Fauthorize%2Fcallback%3Fclient_id%3Dclient%26redirect_uri%3Dhttp%253A%252F%252Flocalhost%253A52103%252Fsignin-oidc%26response_type%3Dcode%2520id_token%26scope%3Dopenid%2520profile%26response_mode%3Dform_post%26nonce%3D636990128497833421.ZDYwYWE2M2MtMTZiMy00MzFmLWJkNWEtZDY1N2QyMGQ4ZjQ3YTA4MzNiMGQtNGJiMi00Y2Q1LWIwNzgtYjMxOTZlYmMwYTFm%26state%3DCfDJ8ILGMZ762M9Mhr5iLffrhACAujQbnheuTkgNINDpb1ZGzEQ2cles0_jeeaO9UOv3CchBXW-tJzQ-uLFGmoHtyzq6E-P0TpqzUqj8rn8Jxm7rCsOgVpr293Lr9Yp_NcdiaIsRK_-nEDafZ27gDpXzmTB5rf-txNICIcW6OTNvBhebVEqWC-SOTSD53cjkD8lyXtoiHPhiljDhZowSX3ERq8qLi8ZaTBJ2USsXCqaZsgn2aK-WQAZQoaLTwn-JJfMH3OeS6GzWZEKr0tlecYIUiEIeRulOq4v7vz1iByVVVobpbuYeex8nUmxXfO4GWVmGQQ%26x-client-SKU%3DID_NETSTANDARD2_0%26x-client-ver%3D5.3.0.0 application/x-www-form-urlencoded 999
+INFO  2019-07-18 10:14:13,462 [5    ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution failed.
+INFO  2019-07-18 10:14:13,462 [5    ] pNetCore.Cors.Infrastructure.CorsService - Request origin null does not have permission to access the resource.
+INFO  2019-07-18 10:14:13,471 [5    ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "Login", controller = "Account", area = ""}. Executing action IdentityServer4.Quickstart.UI.AccountController.Login (MyCompany.IdentityServer.Web.Host)
+INFO  2019-07-18 10:14:13,471 [5    ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution failed.
+INFO  2019-07-18 10:14:13,471 [5    ] pNetCore.Cors.Infrastructure.CorsService - Request origin null does not have permission to access the resource.
+INFO  2019-07-18 10:14:13,475 [5    ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method IdentityServer4.Quickstart.UI.AccountController.Login (MyCompany.IdentityServer.Web.Host) with arguments (IdentityServer4.Quickstart.UI.LoginInputModel, login) - Validation state: Valid
+INFO  2019-07-18 10:14:13,498 [28   ] tion.Cookies.CookieAuthenticationHandler - AuthenticationScheme: Identity.Application signed in.
+INFO  2019-07-18 10:14:13,503 [28   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method IdentityServer4.Quickstart.UI.AccountController.Login (MyCompany.IdentityServer.Web.Host), returned result Microsoft.AspNetCore.Mvc.RedirectResult in 27.6251ms.
+INFO  2019-07-18 10:14:13,510 [28   ] vc.Infrastructure.RedirectResultExecutor - Executing RedirectResult, redirecting to /connect/authorize/callback?client_id=client&redirect_uri=http%3A%2F%2Flocalhost%3A52103%2Fsignin-oidc&response_type=code%20id_token&scope=openid%20profile&response_mode=form_post&nonce=636990128497833421.ZDYwYWE2M2MtMTZiMy00MzFmLWJkNWEtZDY1N2QyMGQ4ZjQ3YTA4MzNiMGQtNGJiMi00Y2Q1LWIwNzgtYjMxOTZlYmMwYTFm&state=CfDJ8ILGMZ762M9Mhr5iLffrhACAujQbnheuTkgNINDpb1ZGzEQ2cles0_jeeaO9UOv3CchBXW-tJzQ-uLFGmoHtyzq6E-P0TpqzUqj8rn8Jxm7rCsOgVpr293Lr9Yp_NcdiaIsRK_-nEDafZ27gDpXzmTB5rf-txNICIcW6OTNvBhebVEqWC-SOTSD53cjkD8lyXtoiHPhiljDhZowSX3ERq8qLi8ZaTBJ2USsXCqaZsgn2aK-WQAZQoaLTwn-JJfMH3OeS6GzWZEKr0tlecYIUiEIeRulOq4v7vz1iByVVVobpbuYeex8nUmxXfO4GWVmGQQ&x-client-SKU=ID_NETSTANDARD2_0&x-client-ver=5.3.0.0.
+INFO  2019-07-18 10:14:13,510 [28   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action IdentityServer4.Quickstart.UI.AccountController.Login (MyCompany.IdentityServer.Web.Host) in 39.2862ms
+INFO  2019-07-18 10:14:13,510 [28   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 48.3209ms 302 
+INFO  2019-07-18 10:14:13,521 [28   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21022/connect/authorize/callback?client_id=client&redirect_uri=http%3A%2F%2Flocalhost%3A52103%2Fsignin-oidc&response_type=code%20id_token&scope=openid%20profile&response_mode=form_post&nonce=636990128497833421.ZDYwYWE2M2MtMTZiMy00MzFmLWJkNWEtZDY1N2QyMGQ4ZjQ3YTA4MzNiMGQtNGJiMi00Y2Q1LWIwNzgtYjMxOTZlYmMwYTFm&state=CfDJ8ILGMZ762M9Mhr5iLffrhACAujQbnheuTkgNINDpb1ZGzEQ2cles0_jeeaO9UOv3CchBXW-tJzQ-uLFGmoHtyzq6E-P0TpqzUqj8rn8Jxm7rCsOgVpr293Lr9Yp_NcdiaIsRK_-nEDafZ27gDpXzmTB5rf-txNICIcW6OTNvBhebVEqWC-SOTSD53cjkD8lyXtoiHPhiljDhZowSX3ERq8qLi8ZaTBJ2USsXCqaZsgn2aK-WQAZQoaLTwn-JJfMH3OeS6GzWZEKr0tlecYIUiEIeRulOq4v7vz1iByVVVobpbuYeex8nUmxXfO4GWVmGQQ&x-client-SKU=ID_NETSTANDARD2_0&x-client-ver=5.3.0.0  
+INFO  2019-07-18 10:14:13,528 [28   ] Server4.Hosting.IdentityServerMiddleware - Invoking IdentityServer endpoint: IdentityServer4.Endpoints.AuthorizeCallbackEndpoint for /connect/authorize/callback
+INFO  2019-07-18 10:14:13,529 [28   ] ver4.Endpoints.AuthorizeCallbackEndpoint - ValidatedAuthorizeRequest
+{
+  "ClientId": "client",
+  "ClientName": "MVC Client",
+  "RedirectUri": "http://localhost:52103/signin-oidc",
+  "AllowedRedirectUris": [
+    "http://localhost:52103/signin-oidc"
+  ],
+  "SubjectId": "1",
+  "ResponseType": "code id_token",
+  "ResponseMode": "form_post",
+  "GrantType": "hybrid",
+  "RequestedScopes": "openid profile",
+  "State": "CfDJ8ILGMZ762M9Mhr5iLffrhACAujQbnheuTkgNINDpb1ZGzEQ2cles0_jeeaO9UOv3CchBXW-tJzQ-uLFGmoHtyzq6E-P0TpqzUqj8rn8Jxm7rCsOgVpr293Lr9Yp_NcdiaIsRK_-nEDafZ27gDpXzmTB5rf-txNICIcW6OTNvBhebVEqWC-SOTSD53cjkD8lyXtoiHPhiljDhZowSX3ERq8qLi8ZaTBJ2USsXCqaZsgn2aK-WQAZQoaLTwn-JJfMH3OeS6GzWZEKr0tlecYIUiEIeRulOq4v7vz1iByVVVobpbuYeex8nUmxXfO4GWVmGQQ",
+  "Nonce": "636990128497833421.ZDYwYWE2M2MtMTZiMy00MzFmLWJkNWEtZDY1N2QyMGQ4ZjQ3YTA4MzNiMGQtNGJiMi00Y2Q1LWIwNzgtYjMxOTZlYmMwYTFm",
+  "SessionId": "7812e8de5a9914981edce89010d01b76",
+  "Raw": {
+    "client_id": "client",
+    "redirect_uri": "http://localhost:52103/signin-oidc",
+    "response_type": "code id_token",
+    "scope": "openid profile",
+    "response_mode": "form_post",
+    "nonce": "636990128497833421.ZDYwYWE2M2MtMTZiMy00MzFmLWJkNWEtZDY1N2QyMGQ4ZjQ3YTA4MzNiMGQtNGJiMi00Y2Q1LWIwNzgtYjMxOTZlYmMwYTFm",
+    "state": "CfDJ8ILGMZ762M9Mhr5iLffrhACAujQbnheuTkgNINDpb1ZGzEQ2cles0_jeeaO9UOv3CchBXW-tJzQ-uLFGmoHtyzq6E-P0TpqzUqj8rn8Jxm7rCsOgVpr293Lr9Yp_NcdiaIsRK_-nEDafZ27gDpXzmTB5rf-txNICIcW6OTNvBhebVEqWC-SOTSD53cjkD8lyXtoiHPhiljDhZowSX3ERq8qLi8ZaTBJ2USsXCqaZsgn2aK-WQAZQoaLTwn-JJfMH3OeS6GzWZEKr0tlecYIUiEIeRulOq4v7vz1iByVVVobpbuYeex8nUmxXfO4GWVmGQQ",
+    "x-client-SKU": "ID_NETSTANDARD2_0",
+    "x-client-ver": "5.3.0.0"
+  }
+}
+INFO  2019-07-18 10:14:13,554 [28   ] ver4.Endpoints.AuthorizeCallbackEndpoint - Authorize endpoint response
+{
+  "SubjectId": "1",
+  "ClientId": "client",
+  "RedirectUri": "http://localhost:52103/signin-oidc",
+  "State": "CfDJ8ILGMZ762M9Mhr5iLffrhACAujQbnheuTkgNINDpb1ZGzEQ2cles0_jeeaO9UOv3CchBXW-tJzQ-uLFGmoHtyzq6E-P0TpqzUqj8rn8Jxm7rCsOgVpr293Lr9Yp_NcdiaIsRK_-nEDafZ27gDpXzmTB5rf-txNICIcW6OTNvBhebVEqWC-SOTSD53cjkD8lyXtoiHPhiljDhZowSX3ERq8qLi8ZaTBJ2USsXCqaZsgn2aK-WQAZQoaLTwn-JJfMH3OeS6GzWZEKr0tlecYIUiEIeRulOq4v7vz1iByVVVobpbuYeex8nUmxXfO4GWVmGQQ",
+  "Scope": "openid profile"
+}
+INFO  2019-07-18 10:14:13,555 [28   ] tion.Cookies.CookieAuthenticationHandler - AuthenticationScheme: Identity.Application signed in.
+INFO  2019-07-18 10:14:13,556 [28   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 34.5537ms 200 text/html; charset=UTF-8
+INFO  2019-07-18 10:14:13,682 [27   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:21022/connect/token application/x-www-form-urlencoded 195
+INFO  2019-07-18 10:14:13,691 [27   ] Server4.Hosting.IdentityServerMiddleware - Invoking IdentityServer endpoint: IdentityServer4.Endpoints.TokenEndpoint for /connect/token
+INFO  2019-07-18 10:14:13,702 [27   ] Server4.Validation.TokenRequestValidator - Token request validation success
+{
+  "ClientId": "client",
+  "ClientName": "MVC Client",
+  "GrantType": "authorization_code",
+  "AuthorizationCode": "53acfb636d447b33e96250b0a7d915ae1880dae3cf9120525802fdb8d5fd279a",
+  "Raw": {
+    "client_id": "client",
+    "client_secret": "***REDACTED***",
+    "code": "53acfb636d447b33e96250b0a7d915ae1880dae3cf9120525802fdb8d5fd279a",
+    "grant_type": "authorization_code",
+    "redirect_uri": "http://localhost:52103/signin-oidc"
+  }
+}
+INFO  2019-07-18 10:14:13,736 [28   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 54.3051ms 200 application/json; charset=UTF-8
+INFO  2019-07-18 10:15:07,644 [39   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21022/.well-known/openid-configuration  
+INFO  2019-07-18 10:15:07,647 [39   ] Server4.Hosting.IdentityServerMiddleware - Invoking IdentityServer endpoint: IdentityServer4.Endpoints.DiscoveryEndpoint for /.well-known/openid-configuration
+INFO  2019-07-18 10:15:07,647 [39   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 3.4235ms 200 application/json; charset=UTF-8
+INFO  2019-07-18 10:15:07,836 [39   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21022/.well-known/openid-configuration/jwks  
+INFO  2019-07-18 10:15:07,840 [39   ] Server4.Hosting.IdentityServerMiddleware - Invoking IdentityServer endpoint: IdentityServer4.Endpoints.DiscoveryKeyEndpoint for /.well-known/openid-configuration/jwks
+INFO  2019-07-18 10:15:07,840 [39   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 4.532ms 200 application/jwk-set+json; charset=UTF-8
+INFO  2019-07-18 10:15:46,135 [42   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21022/resources  
+INFO  2019-07-18 10:15:46,147 [42   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 12.5191ms 404 
+INFO  2019-07-18 10:18:08,049 [46   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21022/.well-known/openid-configuration  
+INFO  2019-07-18 10:18:08,059 [46   ] Server4.Hosting.IdentityServerMiddleware - Invoking IdentityServer endpoint: IdentityServer4.Endpoints.DiscoveryEndpoint for /.well-known/openid-configuration
+INFO  2019-07-18 10:18:08,062 [46   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 13.1037ms 200 application/json; charset=UTF-8
+INFO  2019-07-18 10:18:08,131 [52   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21022/.well-known/openid-configuration/jwks  
+INFO  2019-07-18 10:18:08,134 [52   ] Server4.Hosting.IdentityServerMiddleware - Invoking IdentityServer endpoint: IdentityServer4.Endpoints.DiscoveryKeyEndpoint for /.well-known/openid-configuration/jwks
+INFO  2019-07-18 10:18:08,134 [52   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 2.5211ms 200 application/jwk-set+json; charset=UTF-8
+INFO  2019-07-18 10:18:08,165 [52   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21022/connect/authorize?client_id=client&redirect_uri=http%3A%2F%2Flocalhost%3A52103%2Fsignin-oidc&response_type=code%20id_token&scope=openid%20profile%20default-api%20offline_access&response_mode=form_post&nonce=636990130881500869.NzdmZTgyYzMtMjRmOC00ZDBjLTk5ZmEtN2U3OGQzOGYwMTZkZTZiYjhkNjEtY2Q5Yi00NjA1LTkzM2ItOTQ1NjBiNDdjYjQx&state=CfDJ8ILGMZ762M9Mhr5iLffrhAACf-539c5W0iw6pst5w-N0lMLbrOWcL3SADP0K7TBEaQ2vw-LVf-tU3shO29hkQXdJGSG1FrtKkN0DmbkK0FnLU1LVRXCqO6wODE-nvPCd7zMmv1QKLA05EafMyLlwNALElULIfSs3U6oHc7FiYbrrdrvDLNcDt-xW_vVjN2QinQ8YIVMG6Bo99dG2OV3FZKGvNi7qBTcMVXKhTeBjPO_5SAe_lFtqW4QxC2nCmQTHExY8rlx8WH_kDTBjhoM-cCzUnuEh3V22hXJ-i82nkrW9MbrFdoj-V7X2u5rYQV10qw&x-client-SKU=ID_NETSTANDARD2_0&x-client-ver=5.3.0.0  
+INFO  2019-07-18 10:18:08,168 [52   ] Server4.Hosting.IdentityServerMiddleware - Invoking IdentityServer endpoint: IdentityServer4.Endpoints.AuthorizeEndpoint for /connect/authorize
+ERROR 2019-07-18 10:18:08,173 [52   ] dentityServer4.Validation.ScopeValidator - offline_access is not allowed for this client: client
+ERROR 2019-07-18 10:18:08,175 [52   ] ntityServer4.Endpoints.AuthorizeEndpoint - Request validation failed
+INFO  2019-07-18 10:18:08,175 [52   ] ntityServer4.Endpoints.AuthorizeEndpoint - {
+  "ClientId": "client",
+  "ClientName": "MVC Client",
+  "RedirectUri": "http://localhost:52103/signin-oidc",
+  "AllowedRedirectUris": [
+    "http://localhost:52103/signin-oidc"
+  ],
+  "SubjectId": "anonymous",
+  "ResponseType": "code id_token",
+  "ResponseMode": "form_post",
+  "GrantType": "hybrid",
+  "RequestedScopes": "openid profile default-api offline_access",
+  "State": "CfDJ8ILGMZ762M9Mhr5iLffrhAACf-539c5W0iw6pst5w-N0lMLbrOWcL3SADP0K7TBEaQ2vw-LVf-tU3shO29hkQXdJGSG1FrtKkN0DmbkK0FnLU1LVRXCqO6wODE-nvPCd7zMmv1QKLA05EafMyLlwNALElULIfSs3U6oHc7FiYbrrdrvDLNcDt-xW_vVjN2QinQ8YIVMG6Bo99dG2OV3FZKGvNi7qBTcMVXKhTeBjPO_5SAe_lFtqW4QxC2nCmQTHExY8rlx8WH_kDTBjhoM-cCzUnuEh3V22hXJ-i82nkrW9MbrFdoj-V7X2u5rYQV10qw",
+  "Raw": {
+    "client_id": "client",
+    "redirect_uri": "http://localhost:52103/signin-oidc",
+    "response_type": "code id_token",
+    "scope": "openid profile default-api offline_access",
+    "response_mode": "form_post",
+    "nonce": "636990130881500869.NzdmZTgyYzMtMjRmOC00ZDBjLTk5ZmEtN2U3OGQzOGYwMTZkZTZiYjhkNjEtY2Q5Yi00NjA1LTkzM2ItOTQ1NjBiNDdjYjQx",
+    "state": "CfDJ8ILGMZ762M9Mhr5iLffrhAACf-539c5W0iw6pst5w-N0lMLbrOWcL3SADP0K7TBEaQ2vw-LVf-tU3shO29hkQXdJGSG1FrtKkN0DmbkK0FnLU1LVRXCqO6wODE-nvPCd7zMmv1QKLA05EafMyLlwNALElULIfSs3U6oHc7FiYbrrdrvDLNcDt-xW_vVjN2QinQ8YIVMG6Bo99dG2OV3FZKGvNi7qBTcMVXKhTeBjPO_5SAe_lFtqW4QxC2nCmQTHExY8rlx8WH_kDTBjhoM-cCzUnuEh3V22hXJ-i82nkrW9MbrFdoj-V7X2u5rYQV10qw",
+    "x-client-SKU": "ID_NETSTANDARD2_0",
+    "x-client-ver": "5.3.0.0"
+  }
+}
+INFO  2019-07-18 10:18:08,187 [52   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 21.9326ms 302 
+INFO  2019-07-18 10:18:08,192 [46   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21022/home/error?errorId=CfDJ8ILGMZ762M9Mhr5iLffrhADTCH0nVs0J_DLbyEvs0YmSW2DX6EZ4e1yqJBmuGSW6hbZIaHerA1CTL6Aew72vUi3VObbpZz-MkddW-nb_P6065WofZ4cDJlhul2mXIIKFiXHnIMAxrderqt1iE7fszZHLRWRfNou-fhyRGEcfpovrsn2qQyEprQWUU3b07tKleXjJxM-r2IBixzAQr68TtppoNdNe4_Kw2BtZ83-9Q38Bt2YVHGuyyA5cXReN63wivviLsyILQWTDW1ALvYqwGk1IKsFBmCykMlhSQubH-HQRRWfzcPVRNichgN3f9R1KwTxzrbE0UHpTOSHamd-9lTJMQjBKg-4lAqAfWXyol56MieKFX9qcpwoKiEWk_xm_TPczHlVOpnPNLngHtQEcTOhrDJCau4GJnu4WSk6fDFAoiX7SFtL_GNYGiG5IutZUpFg6DgWJk7CzxZQdsXvtRyu__vM8cgqpyHvgJ2eLFTGOL2BGcZPBJmAgb7rdR20MpM0XkB9_ZlaDmenLDu94Ozae-q-rmSVbXeGjFO-HRlsQYN_Et2_FcaeMeKlDwHtrUW53Yfn5wXidu5MMNFr2fhjcW7SP66IWQz9Ed8qVcU0VdtguIPv07uayIS5lOqxyhI2kNkkVU9fA441cB0kpEH5l2F1iUixYMuOwGokBhj4LNUa2B9bib4Adp1ruPWQuHQ9qRyQ_-VdX5T5zJZw0cXXaznACzpTFDyndrOtt1fQTEAFCWo35nvxddmV78sh5TUw-s3p8Osw7KnSS4DRa5NY6l9RIGaJYBYUfZB-uIYYYDO4JDWCECTqQzX525vNpHVavHQASA89eQJnGQDazbkpBThmsU9LwruK1BqCbCKuGulssSzeeHuNwBFjo3Rnnc8UtxYhODi7xbCaN7UBdDpzshPQdhVFt-Ha-03fz9ZWk40Vl2VfBPByNvdvYtMOK9Q  
+INFO  2019-07-18 10:18:08,198 [46   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "Error", controller = "Home", area = ""}. Executing action IdentityServer4.Quickstart.UI.HomeController.Error (MyCompany.IdentityServer.Web.Host)
+INFO  2019-07-18 10:18:08,199 [46   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method IdentityServer4.Quickstart.UI.HomeController.Error (MyCompany.IdentityServer.Web.Host) with arguments (CfDJ8ILGMZ762M9Mhr5iLffrhADTCH0nVs0J_DLbyEvs0YmSW2DX6EZ4e1yqJBmuGSW6hbZIaHerA1CTL6Aew72vUi3VObbpZz-MkddW-nb_P6065WofZ4cDJlhul2mXIIKFiXHnIMAxrderqt1iE7fszZHLRWRfNou-fhyRGEcfpovrsn2qQyEprQWUU3b07tKleXjJxM-r2IBixzAQr68TtppoNdNe4_Kw2BtZ83-9Q38Bt2YVHGuyyA5cXReN63wivviLsyILQWTDW1ALvYqwGk1IKsFBmCykMlhSQubH-HQRRWfzcPVRNichgN3f9R1KwTxzrbE0UHpTOSHamd-9lTJMQjBKg-4lAqAfWXyol56MieKFX9qcpwoKiEWk_xm_TPczHlVOpnPNLngHtQEcTOhrDJCau4GJnu4WSk6fDFAoiX7SFtL_GNYGiG5IutZUpFg6DgWJk7CzxZQdsXvtRyu__vM8cgqpyHvgJ2eLFTGOL2BGcZPBJmAgb7rdR20MpM0XkB9_ZlaDmenLDu94Ozae-q-rmSVbXeGjFO-HRlsQYN_Et2_FcaeMeKlDwHtrUW53Yfn5wXidu5MMNFr2fhjcW7SP66IWQz9Ed8qVcU0VdtguIPv07uayIS5lOqxyhI2kNkkVU9fA441cB0kpEH5l2F1iUixYMuOwGokBhj4LNUa2B9bib4Adp1ruPWQuHQ9qRyQ_-VdX5T5zJZw0cXXaznACzpTFDyndrOtt1fQTEAFCWo35nvxddmV78sh5TUw-s3p8Osw7KnSS4DRa5NY6l9RIGaJYBYUfZB-uIYYYDO4JDWCECTqQzX525vNpHVavHQASA89eQJnGQDazbkpBThmsU9LwruK1BqCbCKuGulssSzeeHuNwBFjo3Rnnc8UtxYhODi7xbCaN7UBdDpzshPQdhVFt-Ha-03fz9ZWk40Vl2VfBPByNvdvYtMOK9Q) - Validation state: Valid
+INFO  2019-07-18 10:18:08,214 [46   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method IdentityServer4.Quickstart.UI.HomeController.Error (MyCompany.IdentityServer.Web.Host), returned result Microsoft.AspNetCore.Mvc.ViewResult in 15.47ms.
+INFO  2019-07-18 10:18:08,222 [46   ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executing ViewResult, running view Error.
+INFO  2019-07-18 10:18:08,225 [46   ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executed ViewResult - view Error executed in 6.116ms.
+INFO  2019-07-18 10:18:08,225 [46   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action IdentityServer4.Quickstart.UI.HomeController.Error (MyCompany.IdentityServer.Web.Host) in 27.3041ms
+INFO  2019-07-18 10:18:08,225 [46   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 33.1434ms 200 text/html; charset=utf-8
+INFO  2019-07-18 10:18:08,239 [57   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21022/lib/bootstrap/css/bootstrap.css  
+INFO  2019-07-18 10:18:08,241 [47   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21022/icon.png  
+INFO  2019-07-18 10:18:08,242 [47   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/icon.png'. Physical path: 'E:\desktop\aspnet-core\src\MyCompany.IdentityServer.Web.Host\wwwroot\icon.png'
+INFO  2019-07-18 10:18:08,242 [47   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 1.1378ms 200 image/png
+INFO  2019-07-18 10:18:08,246 [47   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21022/css/site.css  
+INFO  2019-07-18 10:18:08,246 [57   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/bootstrap/css/bootstrap.css'. Physical path: 'E:\desktop\aspnet-core\src\MyCompany.IdentityServer.Web.Host\wwwroot\lib\bootstrap\css\bootstrap.css'
+INFO  2019-07-18 10:18:08,246 [57   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 6.9323ms 200 text/css
+INFO  2019-07-18 10:18:08,246 [57   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21022/lib/jquery/jquery.js  
+INFO  2019-07-18 10:18:08,246 [47   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/css/site.css'. Physical path: 'E:\desktop\aspnet-core\src\MyCompany.IdentityServer.Web.Host\wwwroot\css\site.css'
+INFO  2019-07-18 10:18:08,246 [47   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 0.3642ms 200 text/css
+INFO  2019-07-18 10:18:08,264 [58   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/jquery/jquery.js'. Physical path: 'E:\desktop\aspnet-core\src\MyCompany.IdentityServer.Web.Host\wwwroot\lib\jquery\jquery.js'
+INFO  2019-07-18 10:18:08,264 [58   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 18.3418ms 200 application/javascript
+INFO  2019-07-18 10:18:08,266 [47   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21022/lib/bootstrap/js/bootstrap.js  
+INFO  2019-07-18 10:18:08,269 [47   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/bootstrap/js/bootstrap.js'. Physical path: 'E:\desktop\aspnet-core\src\MyCompany.IdentityServer.Web.Host\wwwroot\lib\bootstrap\js\bootstrap.js'
+INFO  2019-07-18 10:18:08,269 [47   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 3.1141ms 200 application/javascript
+INFO  2019-07-18 10:18:08,382 [60   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21022/favicon.ico  
+INFO  2019-07-18 10:18:08,382 [60   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/favicon.ico'. Physical path: 'E:\desktop\aspnet-core\src\MyCompany.IdentityServer.Web.Host\wwwroot\favicon.ico'
+INFO  2019-07-18 10:18:08,382 [60   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 0.6194ms 200 image/x-icon
+INFO  2019-07-18 10:18:21,613 [60   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21022/.well-known/openid-configuration  
+INFO  2019-07-18 10:18:21,620 [60   ] Server4.Hosting.IdentityServerMiddleware - Invoking IdentityServer endpoint: IdentityServer4.Endpoints.DiscoveryEndpoint for /.well-known/openid-configuration
+INFO  2019-07-18 10:18:21,620 [60   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 7.2894ms 200 application/json; charset=UTF-8
+INFO  2019-07-18 10:18:21,687 [61   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21022/.well-known/openid-configuration/jwks  
+INFO  2019-07-18 10:18:21,690 [61   ] Server4.Hosting.IdentityServerMiddleware - Invoking IdentityServer endpoint: IdentityServer4.Endpoints.DiscoveryKeyEndpoint for /.well-known/openid-configuration/jwks
+INFO  2019-07-18 10:18:21,690 [61   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 2.7355ms 200 application/jwk-set+json; charset=UTF-8
+INFO  2019-07-18 10:18:21,735 [61   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21022/connect/authorize?client_id=client&redirect_uri=http%3A%2F%2Flocalhost%3A52103%2Fsignin-oidc&response_type=code%20id_token&scope=openid%20profile%20default-api&response_mode=form_post&nonce=636990131017075868.MWI0NjI3MWItNzBkNi00OThiLTliMTktYzlhYTFmYzZkYjY2ZGMzNmE5YmYtYzczNi00ZTU1LWI3OGUtYWRlODE4MTUyZDg4&state=CfDJ8ILGMZ762M9Mhr5iLffrhABSeeaJjahrkjYUMntH5t6WK17Ac29GjQXPTtkRfgthiuRnyivVVi8X_Ls5PUqLRN7AZ9-V8ljb99WK_ROAlkXg1Wz2YUWYxplGjDHJY6Wfe_n_PmRjv8BCMB6Prgm5KhXof9UIIUJtrygAFmfxhwBdQvZpxeGfnyxdWfmXeewZ01eghP3Wku6EixHWMPzx8Jaw6wujlKQ17LWe0cDq7nNt7DMRt0JuHRZIpBSRXM0f1QmwfEoFwII6ttaJw9kyaSQfjA75F7ujkbIVUZQu0vYWZ8HpXrsLmoPxLYxO6hm9yg&x-client-SKU=ID_NETSTANDARD2_0&x-client-ver=5.3.0.0  
+INFO  2019-07-18 10:18:21,740 [61   ] Server4.Hosting.IdentityServerMiddleware - Invoking IdentityServer endpoint: IdentityServer4.Endpoints.AuthorizeEndpoint for /connect/authorize
+INFO  2019-07-18 10:18:21,742 [61   ] ntityServer4.Endpoints.AuthorizeEndpoint - ValidatedAuthorizeRequest
+{
+  "ClientId": "client",
+  "ClientName": "MVC Client",
+  "RedirectUri": "http://localhost:52103/signin-oidc",
+  "AllowedRedirectUris": [
+    "http://localhost:52103/signin-oidc"
+  ],
+  "SubjectId": "anonymous",
+  "ResponseType": "code id_token",
+  "ResponseMode": "form_post",
+  "GrantType": "hybrid",
+  "RequestedScopes": "openid profile default-api",
+  "State": "CfDJ8ILGMZ762M9Mhr5iLffrhABSeeaJjahrkjYUMntH5t6WK17Ac29GjQXPTtkRfgthiuRnyivVVi8X_Ls5PUqLRN7AZ9-V8ljb99WK_ROAlkXg1Wz2YUWYxplGjDHJY6Wfe_n_PmRjv8BCMB6Prgm5KhXof9UIIUJtrygAFmfxhwBdQvZpxeGfnyxdWfmXeewZ01eghP3Wku6EixHWMPzx8Jaw6wujlKQ17LWe0cDq7nNt7DMRt0JuHRZIpBSRXM0f1QmwfEoFwII6ttaJw9kyaSQfjA75F7ujkbIVUZQu0vYWZ8HpXrsLmoPxLYxO6hm9yg",
+  "Nonce": "636990131017075868.MWI0NjI3MWItNzBkNi00OThiLTliMTktYzlhYTFmYzZkYjY2ZGMzNmE5YmYtYzczNi00ZTU1LWI3OGUtYWRlODE4MTUyZDg4",
+  "Raw": {
+    "client_id": "client",
+    "redirect_uri": "http://localhost:52103/signin-oidc",
+    "response_type": "code id_token",
+    "scope": "openid profile default-api",
+    "response_mode": "form_post",
+    "nonce": "636990131017075868.MWI0NjI3MWItNzBkNi00OThiLTliMTktYzlhYTFmYzZkYjY2ZGMzNmE5YmYtYzczNi00ZTU1LWI3OGUtYWRlODE4MTUyZDg4",
+    "state": "CfDJ8ILGMZ762M9Mhr5iLffrhABSeeaJjahrkjYUMntH5t6WK17Ac29GjQXPTtkRfgthiuRnyivVVi8X_Ls5PUqLRN7AZ9-V8ljb99WK_ROAlkXg1Wz2YUWYxplGjDHJY6Wfe_n_PmRjv8BCMB6Prgm5KhXof9UIIUJtrygAFmfxhwBdQvZpxeGfnyxdWfmXeewZ01eghP3Wku6EixHWMPzx8Jaw6wujlKQ17LWe0cDq7nNt7DMRt0JuHRZIpBSRXM0f1QmwfEoFwII6ttaJw9kyaSQfjA75F7ujkbIVUZQu0vYWZ8HpXrsLmoPxLYxO6hm9yg",
+    "x-client-SKU": "ID_NETSTANDARD2_0",
+    "x-client-ver": "5.3.0.0"
+  }
+}
+INFO  2019-07-18 10:18:21,742 [61   ] ng.AuthorizeInteractionResponseGenerator - Showing login: User is not authenticated
+INFO  2019-07-18 10:18:21,742 [61   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 6.5327ms 302 
+INFO  2019-07-18 10:18:21,749 [61   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21022/Account/Login?ReturnUrl=%2Fconnect%2Fauthorize%2Fcallback%3Fclient_id%3Dclient%26redirect_uri%3Dhttp%253A%252F%252Flocalhost%253A52103%252Fsignin-oidc%26response_type%3Dcode%2520id_token%26scope%3Dopenid%2520profile%2520default-api%26response_mode%3Dform_post%26nonce%3D636990131017075868.MWI0NjI3MWItNzBkNi00OThiLTliMTktYzlhYTFmYzZkYjY2ZGMzNmE5YmYtYzczNi00ZTU1LWI3OGUtYWRlODE4MTUyZDg4%26state%3DCfDJ8ILGMZ762M9Mhr5iLffrhABSeeaJjahrkjYUMntH5t6WK17Ac29GjQXPTtkRfgthiuRnyivVVi8X_Ls5PUqLRN7AZ9-V8ljb99WK_ROAlkXg1Wz2YUWYxplGjDHJY6Wfe_n_PmRjv8BCMB6Prgm5KhXof9UIIUJtrygAFmfxhwBdQvZpxeGfnyxdWfmXeewZ01eghP3Wku6EixHWMPzx8Jaw6wujlKQ17LWe0cDq7nNt7DMRt0JuHRZIpBSRXM0f1QmwfEoFwII6ttaJw9kyaSQfjA75F7ujkbIVUZQu0vYWZ8HpXrsLmoPxLYxO6hm9yg%26x-client-SKU%3DID_NETSTANDARD2_0%26x-client-ver%3D5.3.0.0  
+INFO  2019-07-18 10:18:21,752 [61   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "Login", controller = "Account", area = ""}. Executing action IdentityServer4.Quickstart.UI.AccountController.Login (MyCompany.IdentityServer.Web.Host)
+INFO  2019-07-18 10:18:21,753 [61   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method IdentityServer4.Quickstart.UI.AccountController.Login (MyCompany.IdentityServer.Web.Host) with arguments (/connect/authorize/callback?client_id=client&redirect_uri=http%3A%2F%2Flocalhost%3A52103%2Fsignin-oidc&response_type=code%20id_token&scope=openid%20profile%20default-api&response_mode=form_post&nonce=636990131017075868.MWI0NjI3MWItNzBkNi00OThiLTliMTktYzlhYTFmYzZkYjY2ZGMzNmE5YmYtYzczNi00ZTU1LWI3OGUtYWRlODE4MTUyZDg4&state=CfDJ8ILGMZ762M9Mhr5iLffrhABSeeaJjahrkjYUMntH5t6WK17Ac29GjQXPTtkRfgthiuRnyivVVi8X_Ls5PUqLRN7AZ9-V8ljb99WK_ROAlkXg1Wz2YUWYxplGjDHJY6Wfe_n_PmRjv8BCMB6Prgm5KhXof9UIIUJtrygAFmfxhwBdQvZpxeGfnyxdWfmXeewZ01eghP3Wku6EixHWMPzx8Jaw6wujlKQ17LWe0cDq7nNt7DMRt0JuHRZIpBSRXM0f1QmwfEoFwII6ttaJw9kyaSQfjA75F7ujkbIVUZQu0vYWZ8HpXrsLmoPxLYxO6hm9yg&x-client-SKU=ID_NETSTANDARD2_0&x-client-ver=5.3.0.0) - Validation state: Valid
+INFO  2019-07-18 10:18:21,754 [61   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method IdentityServer4.Quickstart.UI.AccountController.Login (MyCompany.IdentityServer.Web.Host), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.1843ms.
+INFO  2019-07-18 10:18:21,757 [61   ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executing ViewResult, running view Login.
+INFO  2019-07-18 10:18:21,758 [61   ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executed ViewResult - view Login executed in 0.8952ms.
+INFO  2019-07-18 10:18:21,758 [61   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action IdentityServer4.Quickstart.UI.AccountController.Login (MyCompany.IdentityServer.Web.Host) in 5.7873ms
+INFO  2019-07-18 10:18:21,758 [61   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 8.9402ms 200 text/html; charset=utf-8
+INFO  2019-07-18 10:18:29,021 [61   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:21022/Account/Login?ReturnUrl=%2Fconnect%2Fauthorize%2Fcallback%3Fclient_id%3Dclient%26redirect_uri%3Dhttp%253A%252F%252Flocalhost%253A52103%252Fsignin-oidc%26response_type%3Dcode%2520id_token%26scope%3Dopenid%2520profile%2520default-api%26response_mode%3Dform_post%26nonce%3D636990131017075868.MWI0NjI3MWItNzBkNi00OThiLTliMTktYzlhYTFmYzZkYjY2ZGMzNmE5YmYtYzczNi00ZTU1LWI3OGUtYWRlODE4MTUyZDg4%26state%3DCfDJ8ILGMZ762M9Mhr5iLffrhABSeeaJjahrkjYUMntH5t6WK17Ac29GjQXPTtkRfgthiuRnyivVVi8X_Ls5PUqLRN7AZ9-V8ljb99WK_ROAlkXg1Wz2YUWYxplGjDHJY6Wfe_n_PmRjv8BCMB6Prgm5KhXof9UIIUJtrygAFmfxhwBdQvZpxeGfnyxdWfmXeewZ01eghP3Wku6EixHWMPzx8Jaw6wujlKQ17LWe0cDq7nNt7DMRt0JuHRZIpBSRXM0f1QmwfEoFwII6ttaJw9kyaSQfjA75F7ujkbIVUZQu0vYWZ8HpXrsLmoPxLYxO6hm9yg%26x-client-SKU%3DID_NETSTANDARD2_0%26x-client-ver%3D5.3.0.0 application/x-www-form-urlencoded 1015
+INFO  2019-07-18 10:18:29,021 [61   ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution failed.
+INFO  2019-07-18 10:18:29,021 [61   ] pNetCore.Cors.Infrastructure.CorsService - Request origin null does not have permission to access the resource.
+INFO  2019-07-18 10:18:29,026 [61   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "Login", controller = "Account", area = ""}. Executing action IdentityServer4.Quickstart.UI.AccountController.Login (MyCompany.IdentityServer.Web.Host)
+INFO  2019-07-18 10:18:29,027 [61   ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution failed.
+INFO  2019-07-18 10:18:29,027 [61   ] pNetCore.Cors.Infrastructure.CorsService - Request origin null does not have permission to access the resource.
+INFO  2019-07-18 10:18:29,033 [61   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method IdentityServer4.Quickstart.UI.AccountController.Login (MyCompany.IdentityServer.Web.Host) with arguments (IdentityServer4.Quickstart.UI.LoginInputModel, login) - Validation state: Valid
+WARN  2019-07-18 10:18:29,045 [61   ] icrosoft.AspNetCore.Identity.UserManager - Invalid password for user 1.
+WARN  2019-07-18 10:18:29,045 [61   ] rosoft.AspNetCore.Identity.SignInManager - User 1 failed to provide the correct password.
+INFO  2019-07-18 10:18:29,181 [61   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method IdentityServer4.Quickstart.UI.AccountController.Login (MyCompany.IdentityServer.Web.Host), returned result Microsoft.AspNetCore.Mvc.ViewResult in 148.7541ms.
+INFO  2019-07-18 10:18:29,296 [61   ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executing ViewResult, running view Login.
+INFO  2019-07-18 10:18:29,309 [61   ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executed ViewResult - view Login executed in 12.735ms.
+INFO  2019-07-18 10:18:29,309 [61   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action IdentityServer4.Quickstart.UI.AccountController.Login (MyCompany.IdentityServer.Web.Host) in 282.2342ms
+INFO  2019-07-18 10:18:29,309 [61   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 288.2447ms 200 text/html; charset=utf-8
+INFO  2019-07-18 10:18:33,097 [61   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:21022/Account/Login?ReturnUrl=%2Fconnect%2Fauthorize%2Fcallback%3Fclient_id%3Dclient%26redirect_uri%3Dhttp%253A%252F%252Flocalhost%253A52103%252Fsignin-oidc%26response_type%3Dcode%2520id_token%26scope%3Dopenid%2520profile%2520default-api%26response_mode%3Dform_post%26nonce%3D636990131017075868.MWI0NjI3MWItNzBkNi00OThiLTliMTktYzlhYTFmYzZkYjY2ZGMzNmE5YmYtYzczNi00ZTU1LWI3OGUtYWRlODE4MTUyZDg4%26state%3DCfDJ8ILGMZ762M9Mhr5iLffrhABSeeaJjahrkjYUMntH5t6WK17Ac29GjQXPTtkRfgthiuRnyivVVi8X_Ls5PUqLRN7AZ9-V8ljb99WK_ROAlkXg1Wz2YUWYxplGjDHJY6Wfe_n_PmRjv8BCMB6Prgm5KhXof9UIIUJtrygAFmfxhwBdQvZpxeGfnyxdWfmXeewZ01eghP3Wku6EixHWMPzx8Jaw6wujlKQ17LWe0cDq7nNt7DMRt0JuHRZIpBSRXM0f1QmwfEoFwII6ttaJw9kyaSQfjA75F7ujkbIVUZQu0vYWZ8HpXrsLmoPxLYxO6hm9yg%26x-client-SKU%3DID_NETSTANDARD2_0%26x-client-ver%3D5.3.0.0 application/x-www-form-urlencoded 1015
+INFO  2019-07-18 10:18:33,097 [61   ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution failed.
+INFO  2019-07-18 10:18:33,097 [61   ] pNetCore.Cors.Infrastructure.CorsService - Request origin null does not have permission to access the resource.
+INFO  2019-07-18 10:18:33,100 [61   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "Login", controller = "Account", area = ""}. Executing action IdentityServer4.Quickstart.UI.AccountController.Login (MyCompany.IdentityServer.Web.Host)
+INFO  2019-07-18 10:18:33,100 [61   ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution failed.
+INFO  2019-07-18 10:18:33,100 [61   ] pNetCore.Cors.Infrastructure.CorsService - Request origin null does not have permission to access the resource.
+INFO  2019-07-18 10:18:33,102 [61   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method IdentityServer4.Quickstart.UI.AccountController.Login (MyCompany.IdentityServer.Web.Host) with arguments (IdentityServer4.Quickstart.UI.LoginInputModel, login) - Validation state: Valid
+INFO  2019-07-18 10:18:33,135 [61   ] tion.Cookies.CookieAuthenticationHandler - AuthenticationScheme: Identity.Application signed in.
+INFO  2019-07-18 10:18:33,135 [61   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method IdentityServer4.Quickstart.UI.AccountController.Login (MyCompany.IdentityServer.Web.Host), returned result Microsoft.AspNetCore.Mvc.RedirectResult in 33.0347ms.
+INFO  2019-07-18 10:18:33,141 [61   ] vc.Infrastructure.RedirectResultExecutor - Executing RedirectResult, redirecting to /connect/authorize/callback?client_id=client&redirect_uri=http%3A%2F%2Flocalhost%3A52103%2Fsignin-oidc&response_type=code%20id_token&scope=openid%20profile%20default-api&response_mode=form_post&nonce=636990131017075868.MWI0NjI3MWItNzBkNi00OThiLTliMTktYzlhYTFmYzZkYjY2ZGMzNmE5YmYtYzczNi00ZTU1LWI3OGUtYWRlODE4MTUyZDg4&state=CfDJ8ILGMZ762M9Mhr5iLffrhABSeeaJjahrkjYUMntH5t6WK17Ac29GjQXPTtkRfgthiuRnyivVVi8X_Ls5PUqLRN7AZ9-V8ljb99WK_ROAlkXg1Wz2YUWYxplGjDHJY6Wfe_n_PmRjv8BCMB6Prgm5KhXof9UIIUJtrygAFmfxhwBdQvZpxeGfnyxdWfmXeewZ01eghP3Wku6EixHWMPzx8Jaw6wujlKQ17LWe0cDq7nNt7DMRt0JuHRZIpBSRXM0f1QmwfEoFwII6ttaJw9kyaSQfjA75F7ujkbIVUZQu0vYWZ8HpXrsLmoPxLYxO6hm9yg&x-client-SKU=ID_NETSTANDARD2_0&x-client-ver=5.3.0.0.
+INFO  2019-07-18 10:18:33,141 [61   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action IdentityServer4.Quickstart.UI.AccountController.Login (MyCompany.IdentityServer.Web.Host) in 40.8241ms
+INFO  2019-07-18 10:18:33,141 [61   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 44.45ms 302 
+INFO  2019-07-18 10:18:33,158 [54   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21022/connect/authorize/callback?client_id=client&redirect_uri=http%3A%2F%2Flocalhost%3A52103%2Fsignin-oidc&response_type=code%20id_token&scope=openid%20profile%20default-api&response_mode=form_post&nonce=636990131017075868.MWI0NjI3MWItNzBkNi00OThiLTliMTktYzlhYTFmYzZkYjY2ZGMzNmE5YmYtYzczNi00ZTU1LWI3OGUtYWRlODE4MTUyZDg4&state=CfDJ8ILGMZ762M9Mhr5iLffrhABSeeaJjahrkjYUMntH5t6WK17Ac29GjQXPTtkRfgthiuRnyivVVi8X_Ls5PUqLRN7AZ9-V8ljb99WK_ROAlkXg1Wz2YUWYxplGjDHJY6Wfe_n_PmRjv8BCMB6Prgm5KhXof9UIIUJtrygAFmfxhwBdQvZpxeGfnyxdWfmXeewZ01eghP3Wku6EixHWMPzx8Jaw6wujlKQ17LWe0cDq7nNt7DMRt0JuHRZIpBSRXM0f1QmwfEoFwII6ttaJw9kyaSQfjA75F7ujkbIVUZQu0vYWZ8HpXrsLmoPxLYxO6hm9yg&x-client-SKU=ID_NETSTANDARD2_0&x-client-ver=5.3.0.0  
+INFO  2019-07-18 10:18:33,171 [54   ] Server4.Hosting.IdentityServerMiddleware - Invoking IdentityServer endpoint: IdentityServer4.Endpoints.AuthorizeCallbackEndpoint for /connect/authorize/callback
+INFO  2019-07-18 10:18:33,172 [54   ] ver4.Endpoints.AuthorizeCallbackEndpoint - ValidatedAuthorizeRequest
+{
+  "ClientId": "client",
+  "ClientName": "MVC Client",
+  "RedirectUri": "http://localhost:52103/signin-oidc",
+  "AllowedRedirectUris": [
+    "http://localhost:52103/signin-oidc"
+  ],
+  "SubjectId": "1",
+  "ResponseType": "code id_token",
+  "ResponseMode": "form_post",
+  "GrantType": "hybrid",
+  "RequestedScopes": "openid profile default-api",
+  "State": "CfDJ8ILGMZ762M9Mhr5iLffrhABSeeaJjahrkjYUMntH5t6WK17Ac29GjQXPTtkRfgthiuRnyivVVi8X_Ls5PUqLRN7AZ9-V8ljb99WK_ROAlkXg1Wz2YUWYxplGjDHJY6Wfe_n_PmRjv8BCMB6Prgm5KhXof9UIIUJtrygAFmfxhwBdQvZpxeGfnyxdWfmXeewZ01eghP3Wku6EixHWMPzx8Jaw6wujlKQ17LWe0cDq7nNt7DMRt0JuHRZIpBSRXM0f1QmwfEoFwII6ttaJw9kyaSQfjA75F7ujkbIVUZQu0vYWZ8HpXrsLmoPxLYxO6hm9yg",
+  "Nonce": "636990131017075868.MWI0NjI3MWItNzBkNi00OThiLTliMTktYzlhYTFmYzZkYjY2ZGMzNmE5YmYtYzczNi00ZTU1LWI3OGUtYWRlODE4MTUyZDg4",
+  "SessionId": "0ad4adb6ae27b2969ec97bdafbd5d933",
+  "Raw": {
+    "client_id": "client",
+    "redirect_uri": "http://localhost:52103/signin-oidc",
+    "response_type": "code id_token",
+    "scope": "openid profile default-api",
+    "response_mode": "form_post",
+    "nonce": "636990131017075868.MWI0NjI3MWItNzBkNi00OThiLTliMTktYzlhYTFmYzZkYjY2ZGMzNmE5YmYtYzczNi00ZTU1LWI3OGUtYWRlODE4MTUyZDg4",
+    "state": "CfDJ8ILGMZ762M9Mhr5iLffrhABSeeaJjahrkjYUMntH5t6WK17Ac29GjQXPTtkRfgthiuRnyivVVi8X_Ls5PUqLRN7AZ9-V8ljb99WK_ROAlkXg1Wz2YUWYxplGjDHJY6Wfe_n_PmRjv8BCMB6Prgm5KhXof9UIIUJtrygAFmfxhwBdQvZpxeGfnyxdWfmXeewZ01eghP3Wku6EixHWMPzx8Jaw6wujlKQ17LWe0cDq7nNt7DMRt0JuHRZIpBSRXM0f1QmwfEoFwII6ttaJw9kyaSQfjA75F7ujkbIVUZQu0vYWZ8HpXrsLmoPxLYxO6hm9yg",
+    "x-client-SKU": "ID_NETSTANDARD2_0",
+    "x-client-ver": "5.3.0.0"
+  }
+}
+INFO  2019-07-18 10:18:33,184 [46   ] ng.AuthorizeInteractionResponseGenerator - Showing consent: User has not yet consented
+INFO  2019-07-18 10:18:33,186 [46   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 28.0911ms 302 
+INFO  2019-07-18 10:18:33,191 [46   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21022/consent?returnUrl=%2Fconnect%2Fauthorize%2Fcallback%3Fclient_id%3Dclient%26redirect_uri%3Dhttp%253A%252F%252Flocalhost%253A52103%252Fsignin-oidc%26response_type%3Dcode%2520id_token%26scope%3Dopenid%2520profile%2520default-api%26response_mode%3Dform_post%26nonce%3D636990131017075868.MWI0NjI3MWItNzBkNi00OThiLTliMTktYzlhYTFmYzZkYjY2ZGMzNmE5YmYtYzczNi00ZTU1LWI3OGUtYWRlODE4MTUyZDg4%26state%3DCfDJ8ILGMZ762M9Mhr5iLffrhABSeeaJjahrkjYUMntH5t6WK17Ac29GjQXPTtkRfgthiuRnyivVVi8X_Ls5PUqLRN7AZ9-V8ljb99WK_ROAlkXg1Wz2YUWYxplGjDHJY6Wfe_n_PmRjv8BCMB6Prgm5KhXof9UIIUJtrygAFmfxhwBdQvZpxeGfnyxdWfmXeewZ01eghP3Wku6EixHWMPzx8Jaw6wujlKQ17LWe0cDq7nNt7DMRt0JuHRZIpBSRXM0f1QmwfEoFwII6ttaJw9kyaSQfjA75F7ujkbIVUZQu0vYWZ8HpXrsLmoPxLYxO6hm9yg%26x-client-SKU%3DID_NETSTANDARD2_0%26x-client-ver%3D5.3.0.0  
+INFO  2019-07-18 10:18:33,205 [46   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "Index", controller = "Consent", area = ""}. Executing action IdentityServer4.Quickstart.UI.ConsentController.Index (MyCompany.IdentityServer.Web.Host)
+INFO  2019-07-18 10:18:33,258 [46   ] uthorization.DefaultAuthorizationService - Authorization was successful.
+INFO  2019-07-18 10:18:33,263 [46   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method IdentityServer4.Quickstart.UI.ConsentController.Index (MyCompany.IdentityServer.Web.Host) with arguments (/connect/authorize/callback?client_id=client&redirect_uri=http%3A%2F%2Flocalhost%3A52103%2Fsignin-oidc&response_type=code%20id_token&scope=openid%20profile%20default-api&response_mode=form_post&nonce=636990131017075868.MWI0NjI3MWItNzBkNi00OThiLTliMTktYzlhYTFmYzZkYjY2ZGMzNmE5YmYtYzczNi00ZTU1LWI3OGUtYWRlODE4MTUyZDg4&state=CfDJ8ILGMZ762M9Mhr5iLffrhABSeeaJjahrkjYUMntH5t6WK17Ac29GjQXPTtkRfgthiuRnyivVVi8X_Ls5PUqLRN7AZ9-V8ljb99WK_ROAlkXg1Wz2YUWYxplGjDHJY6Wfe_n_PmRjv8BCMB6Prgm5KhXof9UIIUJtrygAFmfxhwBdQvZpxeGfnyxdWfmXeewZ01eghP3Wku6EixHWMPzx8Jaw6wujlKQ17LWe0cDq7nNt7DMRt0JuHRZIpBSRXM0f1QmwfEoFwII6ttaJw9kyaSQfjA75F7ujkbIVUZQu0vYWZ8HpXrsLmoPxLYxO6hm9yg&x-client-SKU=ID_NETSTANDARD2_0&x-client-ver=5.3.0.0) - Validation state: Valid
+INFO  2019-07-18 10:18:33,270 [46   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method IdentityServer4.Quickstart.UI.ConsentController.Index (MyCompany.IdentityServer.Web.Host), returned result Microsoft.AspNetCore.Mvc.ViewResult in 6.7255ms.
+INFO  2019-07-18 10:18:33,278 [46   ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executing ViewResult, running view Index.
+INFO  2019-07-18 10:18:33,309 [46   ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executed ViewResult - view Index executed in 34.5863ms.
+INFO  2019-07-18 10:18:33,309 [46   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action IdentityServer4.Quickstart.UI.ConsentController.Index (MyCompany.IdentityServer.Web.Host) in 103.5498ms
+INFO  2019-07-18 10:18:33,309 [46   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 118.042ms 200 text/html; charset=utf-8
+INFO  2019-07-18 10:18:33,346 [46   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21022/lib/bootstrap/fonts/glyphicons-halflings-regular.woff2  
+INFO  2019-07-18 10:18:33,346 [46   ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution failed.
+INFO  2019-07-18 10:18:33,346 [46   ] pNetCore.Cors.Infrastructure.CorsService - Request origin http://localhost:21022 does not have permission to access the resource.
+INFO  2019-07-18 10:18:33,347 [46   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/bootstrap/fonts/glyphicons-halflings-regular.woff2'. Physical path: 'E:\desktop\aspnet-core\src\MyCompany.IdentityServer.Web.Host\wwwroot\lib\bootstrap\fonts\glyphicons-halflings-regular.woff2'
+INFO  2019-07-18 10:18:33,347 [46   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 1.1397ms 200 font/woff2
+INFO  2019-07-18 10:18:34,642 [61   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:21022/consent application/x-www-form-urlencoded 1123
+INFO  2019-07-18 10:18:34,642 [61   ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution failed.
+INFO  2019-07-18 10:18:34,642 [61   ] pNetCore.Cors.Infrastructure.CorsService - Request origin null does not have permission to access the resource.
+INFO  2019-07-18 10:18:34,651 [61   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "Index", controller = "Consent", area = ""}. Executing action IdentityServer4.Quickstart.UI.ConsentController.Index (MyCompany.IdentityServer.Web.Host)
+INFO  2019-07-18 10:18:34,651 [61   ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution failed.
+INFO  2019-07-18 10:18:34,651 [61   ] pNetCore.Cors.Infrastructure.CorsService - Request origin null does not have permission to access the resource.
+INFO  2019-07-18 10:18:34,653 [61   ] uthorization.DefaultAuthorizationService - Authorization was successful.
+INFO  2019-07-18 10:18:34,676 [61   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method IdentityServer4.Quickstart.UI.ConsentController.Index (MyCompany.IdentityServer.Web.Host) with arguments (IdentityServer4.Quickstart.UI.ConsentInputModel) - Validation state: Valid
+INFO  2019-07-18 10:18:34,699 [61   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method IdentityServer4.Quickstart.UI.ConsentController.Index (MyCompany.IdentityServer.Web.Host), returned result Microsoft.AspNetCore.Mvc.RedirectResult in 22.8935ms.
+INFO  2019-07-18 10:18:34,703 [61   ] vc.Infrastructure.RedirectResultExecutor - Executing RedirectResult, redirecting to /connect/authorize/callback?client_id=client&redirect_uri=http%3A%2F%2Flocalhost%3A52103%2Fsignin-oidc&response_type=code%20id_token&scope=openid%20profile%20default-api&response_mode=form_post&nonce=636990131017075868.MWI0NjI3MWItNzBkNi00OThiLTliMTktYzlhYTFmYzZkYjY2ZGMzNmE5YmYtYzczNi00ZTU1LWI3OGUtYWRlODE4MTUyZDg4&state=CfDJ8ILGMZ762M9Mhr5iLffrhABSeeaJjahrkjYUMntH5t6WK17Ac29GjQXPTtkRfgthiuRnyivVVi8X_Ls5PUqLRN7AZ9-V8ljb99WK_ROAlkXg1Wz2YUWYxplGjDHJY6Wfe_n_PmRjv8BCMB6Prgm5KhXof9UIIUJtrygAFmfxhwBdQvZpxeGfnyxdWfmXeewZ01eghP3Wku6EixHWMPzx8Jaw6wujlKQ17LWe0cDq7nNt7DMRt0JuHRZIpBSRXM0f1QmwfEoFwII6ttaJw9kyaSQfjA75F7ujkbIVUZQu0vYWZ8HpXrsLmoPxLYxO6hm9yg&x-client-SKU=ID_NETSTANDARD2_0&x-client-ver=5.3.0.0.
+INFO  2019-07-18 10:18:34,703 [61   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action IdentityServer4.Quickstart.UI.ConsentController.Index (MyCompany.IdentityServer.Web.Host) in 51.6682ms
+INFO  2019-07-18 10:18:34,703 [61   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 61.4518ms 302 
+INFO  2019-07-18 10:18:34,708 [61   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21022/connect/authorize/callback?client_id=client&redirect_uri=http%3A%2F%2Flocalhost%3A52103%2Fsignin-oidc&response_type=code%20id_token&scope=openid%20profile%20default-api&response_mode=form_post&nonce=636990131017075868.MWI0NjI3MWItNzBkNi00OThiLTliMTktYzlhYTFmYzZkYjY2ZGMzNmE5YmYtYzczNi00ZTU1LWI3OGUtYWRlODE4MTUyZDg4&state=CfDJ8ILGMZ762M9Mhr5iLffrhABSeeaJjahrkjYUMntH5t6WK17Ac29GjQXPTtkRfgthiuRnyivVVi8X_Ls5PUqLRN7AZ9-V8ljb99WK_ROAlkXg1Wz2YUWYxplGjDHJY6Wfe_n_PmRjv8BCMB6Prgm5KhXof9UIIUJtrygAFmfxhwBdQvZpxeGfnyxdWfmXeewZ01eghP3Wku6EixHWMPzx8Jaw6wujlKQ17LWe0cDq7nNt7DMRt0JuHRZIpBSRXM0f1QmwfEoFwII6ttaJw9kyaSQfjA75F7ujkbIVUZQu0vYWZ8HpXrsLmoPxLYxO6hm9yg&x-client-SKU=ID_NETSTANDARD2_0&x-client-ver=5.3.0.0  
+INFO  2019-07-18 10:18:34,714 [61   ] Server4.Hosting.IdentityServerMiddleware - Invoking IdentityServer endpoint: IdentityServer4.Endpoints.AuthorizeCallbackEndpoint for /connect/authorize/callback
+INFO  2019-07-18 10:18:34,721 [61   ] ver4.Endpoints.AuthorizeCallbackEndpoint - ValidatedAuthorizeRequest
+{
+  "ClientId": "client",
+  "ClientName": "MVC Client",
+  "RedirectUri": "http://localhost:52103/signin-oidc",
+  "AllowedRedirectUris": [
+    "http://localhost:52103/signin-oidc"
+  ],
+  "SubjectId": "1",
+  "ResponseType": "code id_token",
+  "ResponseMode": "form_post",
+  "GrantType": "hybrid",
+  "RequestedScopes": "openid profile default-api",
+  "State": "CfDJ8ILGMZ762M9Mhr5iLffrhABSeeaJjahrkjYUMntH5t6WK17Ac29GjQXPTtkRfgthiuRnyivVVi8X_Ls5PUqLRN7AZ9-V8ljb99WK_ROAlkXg1Wz2YUWYxplGjDHJY6Wfe_n_PmRjv8BCMB6Prgm5KhXof9UIIUJtrygAFmfxhwBdQvZpxeGfnyxdWfmXeewZ01eghP3Wku6EixHWMPzx8Jaw6wujlKQ17LWe0cDq7nNt7DMRt0JuHRZIpBSRXM0f1QmwfEoFwII6ttaJw9kyaSQfjA75F7ujkbIVUZQu0vYWZ8HpXrsLmoPxLYxO6hm9yg",
+  "Nonce": "636990131017075868.MWI0NjI3MWItNzBkNi00OThiLTliMTktYzlhYTFmYzZkYjY2ZGMzNmE5YmYtYzczNi00ZTU1LWI3OGUtYWRlODE4MTUyZDg4",
+  "SessionId": "0ad4adb6ae27b2969ec97bdafbd5d933",
+  "Raw": {
+    "client_id": "client",
+    "redirect_uri": "http://localhost:52103/signin-oidc",
+    "response_type": "code id_token",
+    "scope": "openid profile default-api",
+    "response_mode": "form_post",
+    "nonce": "636990131017075868.MWI0NjI3MWItNzBkNi00OThiLTliMTktYzlhYTFmYzZkYjY2ZGMzNmE5YmYtYzczNi00ZTU1LWI3OGUtYWRlODE4MTUyZDg4",
+    "state": "CfDJ8ILGMZ762M9Mhr5iLffrhABSeeaJjahrkjYUMntH5t6WK17Ac29GjQXPTtkRfgthiuRnyivVVi8X_Ls5PUqLRN7AZ9-V8ljb99WK_ROAlkXg1Wz2YUWYxplGjDHJY6Wfe_n_PmRjv8BCMB6Prgm5KhXof9UIIUJtrygAFmfxhwBdQvZpxeGfnyxdWfmXeewZ01eghP3Wku6EixHWMPzx8Jaw6wujlKQ17LWe0cDq7nNt7DMRt0JuHRZIpBSRXM0f1QmwfEoFwII6ttaJw9kyaSQfjA75F7ujkbIVUZQu0vYWZ8HpXrsLmoPxLYxO6hm9yg",
+    "x-client-SKU": "ID_NETSTANDARD2_0",
+    "x-client-ver": "5.3.0.0"
+  }
+}
+INFO  2019-07-18 10:18:34,733 [54   ] ng.AuthorizeInteractionResponseGenerator - User consented to scopes: openid, profile, default-api
+INFO  2019-07-18 10:18:34,755 [62   ] ver4.Endpoints.AuthorizeCallbackEndpoint - Authorize endpoint response
+{
+  "SubjectId": "1",
+  "ClientId": "client",
+  "RedirectUri": "http://localhost:52103/signin-oidc",
+  "State": "CfDJ8ILGMZ762M9Mhr5iLffrhABSeeaJjahrkjYUMntH5t6WK17Ac29GjQXPTtkRfgthiuRnyivVVi8X_Ls5PUqLRN7AZ9-V8ljb99WK_ROAlkXg1Wz2YUWYxplGjDHJY6Wfe_n_PmRjv8BCMB6Prgm5KhXof9UIIUJtrygAFmfxhwBdQvZpxeGfnyxdWfmXeewZ01eghP3Wku6EixHWMPzx8Jaw6wujlKQ17LWe0cDq7nNt7DMRt0JuHRZIpBSRXM0f1QmwfEoFwII6ttaJw9kyaSQfjA75F7ujkbIVUZQu0vYWZ8HpXrsLmoPxLYxO6hm9yg",
+  "Scope": "openid profile default-api"
+}
+INFO  2019-07-18 10:18:34,756 [62   ] tion.Cookies.CookieAuthenticationHandler - AuthenticationScheme: Identity.Application signed in.
+INFO  2019-07-18 10:18:34,757 [62   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 48.5032ms 200 text/html; charset=UTF-8
+INFO  2019-07-18 10:18:34,873 [61   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:21022/connect/token application/x-www-form-urlencoded 195
+INFO  2019-07-18 10:18:34,884 [61   ] Server4.Hosting.IdentityServerMiddleware - Invoking IdentityServer endpoint: IdentityServer4.Endpoints.TokenEndpoint for /connect/token
+INFO  2019-07-18 10:18:34,897 [61   ] Server4.Validation.TokenRequestValidator - Token request validation success
+{
+  "ClientId": "client",
+  "ClientName": "MVC Client",
+  "GrantType": "authorization_code",
+  "AuthorizationCode": "1c18acba446aa0bf55a2b490773c8e903fa438c7af097e415f2b25b6cd05911a",
+  "Raw": {
+    "client_id": "client",
+    "client_secret": "***REDACTED***",
+    "code": "1c18acba446aa0bf55a2b490773c8e903fa438c7af097e415f2b25b6cd05911a",
+    "grant_type": "authorization_code",
+    "redirect_uri": "http://localhost:52103/signin-oidc"
+  }
+}
+INFO  2019-07-18 10:18:34,930 [46   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 57.5202ms 200 application/json; charset=UTF-8
+INFO  2019-07-18 10:18:34,943 [46   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21022/connect/userinfo  
+INFO  2019-07-18 10:18:35,015 [46   ] uthentication.JwtBearer.JwtBearerHandler - Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenSignatureKeyNotFoundException: IDX10501: Signature validation failed. Unable to match keys: 
+kid: 'fd93268c2b2851657364eac3c462e7a9', 
+token: '{"alg":"RS256","kid":"fd93268c2b2851657364eac3c462e7a9","typ":"JWT"}.{"nbf":1563416314,"exp":1563419914,"iss":"http://localhost:21022","aud":["http://localhost:21022/resources","default-api"],"client_id":"client","sub":"1","auth_time":1563416313,"idp":"local","scope":["openid","profile","default-api"],"amr":["pwd"]}'.
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateSignature(String token, TokenValidationParameters validationParameters) in C:\agent2\_work\56\s\src\System.IdentityModel.Tokens.Jwt\JwtSecurityTokenHandler.cs:line 968
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateToken(String token, TokenValidationParameters validationParameters, SecurityToken& validatedToken) in C:\agent2\_work\56\s\src\System.IdentityModel.Tokens.Jwt\JwtSecurityTokenHandler.cs:line 718
+   at Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler.HandleAuthenticateAsync()
+INFO  2019-07-18 10:18:35,017 [46   ] uthentication.JwtBearer.JwtBearerHandler - IdentityBearerIdentityServerAuthenticationJwt was not authenticated. Failure message: IDX10501: Signature validation failed. Unable to match keys: 
+kid: 'fd93268c2b2851657364eac3c462e7a9', 
+token: '{"alg":"RS256","kid":"fd93268c2b2851657364eac3c462e7a9","typ":"JWT"}.{"nbf":1563416314,"exp":1563419914,"iss":"http://localhost:21022","aud":["http://localhost:21022/resources","default-api"],"client_id":"client","sub":"1","auth_time":1563416313,"idp":"local","scope":["openid","profile","default-api"],"amr":["pwd"]}'.
+INFO  2019-07-18 10:18:35,017 [46   ] tion.IdentityServerAuthenticationHandler - IdentityBearer was not authenticated. Failure message: IDX10501: Signature validation failed. Unable to match keys: 
+kid: 'fd93268c2b2851657364eac3c462e7a9', 
+token: '{"alg":"RS256","kid":"fd93268c2b2851657364eac3c462e7a9","typ":"JWT"}.{"nbf":1563416314,"exp":1563419914,"iss":"http://localhost:21022","aud":["http://localhost:21022/resources","default-api"],"client_id":"client","sub":"1","auth_time":1563416313,"idp":"local","scope":["openid","profile","default-api"],"amr":["pwd"]}'.
+INFO  2019-07-18 10:18:35,021 [46   ] Server4.Hosting.IdentityServerMiddleware - Invoking IdentityServer endpoint: IdentityServer4.Endpoints.UserInfoEndpoint for /connect/userinfo
+INFO  2019-07-18 10:18:35,102 [59   ] sponseHandling.UserInfoResponseGenerator - Profile service returned the following claim types: sub preferred_username name
+INFO  2019-07-18 10:18:35,105 [59   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 162.1491ms 200 application/json; charset=UTF-8
+INFO  2019-07-18 10:18:44,517 [61   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21022/.well-known/openid-configuration  
+INFO  2019-07-18 10:18:44,520 [61   ] Server4.Hosting.IdentityServerMiddleware - Invoking IdentityServer endpoint: IdentityServer4.Endpoints.DiscoveryEndpoint for /.well-known/openid-configuration
+INFO  2019-07-18 10:18:44,520 [61   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 2.8487ms 200 application/json; charset=UTF-8
+INFO  2019-07-18 10:18:44,586 [46   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21022/.well-known/openid-configuration/jwks  
+INFO  2019-07-18 10:18:44,588 [46   ] Server4.Hosting.IdentityServerMiddleware - Invoking IdentityServer endpoint: IdentityServer4.Endpoints.DiscoveryKeyEndpoint for /.well-known/openid-configuration/jwks
+INFO  2019-07-18 10:18:44,589 [46   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 2.6694ms 200 application/jwk-set+json; charset=UTF-8
